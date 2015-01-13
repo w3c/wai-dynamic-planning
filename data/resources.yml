@@ -1,0 +1,13 @@
+links:
+  - title: Introduction to accessibility
+    url: #
+    desc: "Find out the basics about accessibility."
+  - title: WAI Guidelines and Techniques
+    url: #
+    desc: "List of web accessibility standards and guidelines, which are introduced in Essential Components of Web Accessibility."
+  - title: Web Accessibility and Older People
+    url: #
+    desc: Meeting the needs of ageing Web Users.
+  - title: Web Content Accessibility and Mobile Web
+    url: #
+    desc: Making a web site accessible both for people with disabilities and for mobile devices.
