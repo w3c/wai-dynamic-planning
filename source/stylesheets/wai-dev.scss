@@ -481,6 +481,62 @@ a {
 	}
 }
 
+.shelf {
+  &:after {
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 10%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 90%);
+    display: block;
+    clear: left;
+    margin-bottom: 1.5em;
+  }
+  &:last-of-type:after {
+    height: 0;
+    margin-bottom: 1em;
+  }
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  p:first-child {
+    margin-top: 0;
+  };
+  .description {
+    font-size: percentage(5/4);
+  }
+  .topics {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 1.5em;
+      li {
+        display: inline;
+        a {
+          border-bottom: none;
+          padding: 1px 3px;
+          &:hover, &focus {
+            background-color: darken(#F5F5F5, 20%);
+            border-radius: 2px;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+  @include mq($medium) {
+    .description {
+      @include column(4);
+    }
+    .tasks {
+      @include column(5);
+      @include push(4);
+    }
+    .topics {
+      @include column(3);
+      @include push(9);
+    }
+  }
+}
+
 .status {
 	padding: .25em;
 	h3, p {
@@ -950,7 +1006,6 @@ select {
 	}
 	.five6ths {
 		@include column(10);
-	}
 	}
 }
 
