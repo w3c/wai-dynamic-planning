@@ -10,7 +10,11 @@
 	      <% if current_page.data.status=="editors-draft" %>
 	        [EDITOR’S DRAFT]
 	      <% end %>
-	      <%= File.mtime(Dir.glob('source/' + current_page.path + '.erb.md')[0]).strftime("%d %B %Y") %>
+        <% if(Dir.glob('source/' + current_page.path + '.erb')) %>
+  	      <%= File.mtime(Dir.glob('source/' + current_page.path + '.erb')[0]).strftime("%d %B %Y") %>
+        <% elsif(Dir.glob('source/' + current_page.path + '.erb.md')) %>
+  	      <%= File.mtime(Dir.glob('source/' + current_page.path + '.erb.md')[0]).strftime("%d %B %Y") %>
+        <% end %>
 				</li>
 	      <%= partial "layouts/contributors" %>
 				<li>[<%= nav_link('Attributions', '/attributions.html', :relative => true) %>]</li>
