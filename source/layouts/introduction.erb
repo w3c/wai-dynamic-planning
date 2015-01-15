@@ -23,14 +23,16 @@
 	    <%= yield %>
 	  </div>
 
-		<div class="resources">
-			<h2>Resources</h2>
-			<ul>
-				<% data.resources.links.each do |f| %>
-					<li><a href="<%=f[:url]%>"><%=f[:title]%></a> &ndash; <%=f[:desc]%></li>
-				<% end %>
-			</ul>
-		</div>
+		<% if current_page.data.resources %>
+			<div class="resources">
+				<h2>Resources</h2>
+				<ul>
+					<% current_page.data.resources.each do |resource| %>
+						<li><%= link_to resource, data.resources.resources[resource][:url] %> &ndash; <%= data.resources.resources[resource][:desc] %></li>
+					<% end %>
+				</ul>
+			</div>
+		<% end %>
   </article>
 </main>
 <%= partial "layouts/footer" %>
