@@ -1,0 +1,36 @@
+---
+title: "Planning and implementation"
+nav_title: "Introduction"
+status: editors-draft
+layout: layout
+order: 1
+support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+---
+
+<% data.tasks.categories.each do |category,data| %>
+  <div class="shelf">
+    <h2><%= category %></h2>
+  
+    <div class="description">
+      <p>Accessibility benefits from broad backing and support. There may also be a need to educate staff about the benefits of accessibility.</p>
+    </div>
+
+    <div class="tasks">
+      <h3>What do you need to do?</h3>
+      <ul>
+        <% data.tasks.each do |task| %>
+          <li><a href="#"><%= task %></a></li>
+        <% end %>
+      </ul>
+    </div>
+
+    <div class="topics">
+      <h3>Key topics</h3>
+      <ul>
+        <% data.topics.each do |topic| %>
+          <li><a href="#"><%= topic %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+<% end %>
