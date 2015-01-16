@@ -482,15 +482,20 @@ a {
 }
 
 .shelf {
-  &:after {
+  margin-bottom: 1.5em;
+  @include mq($medium) {
+    @include column(9);
+    @include push(2);
+    clear: left;
+  }
+  &:before {
     content: "";
     height: 1px;
     background: linear-gradient(to right,  rgba(0,0,0,0) 10%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 90%);
     display: block;
-    clear: left;
     margin-bottom: 1.5em;
   }
-  &:last-of-type:after {
+  &:first-of-type:before {
     height: 0;
     margin-bottom: 1em;
   }
@@ -502,6 +507,21 @@ a {
   };
   .description {
     font-size: percentage(5/4);
+    margin-bottom: 1em;
+  }
+  .tasks {
+    ul {
+      padding-left: 0;
+      li {
+        padding-left: 0.5em;
+        a {
+          border-bottom: none;
+          &:hover, &:focus {
+      			border-bottom: 3px solid;
+          }
+        }
+      }
+    }
   }
   .topics {
     ul {
@@ -513,7 +533,7 @@ a {
         a {
           border-bottom: none;
           padding: 1px 3px;
-          &:hover, &focus {
+          &:hover, &:focus {
             background-color: darken(#F5F5F5, 20%);
             border-radius: 2px;
             color: #333;
@@ -523,16 +543,14 @@ a {
     }
   }
   @include mq($medium) {
-    .description {
-      @include column(4);
-    }
     .tasks {
-      @include column(5);
-      @include push(4);
+      @include column(7);
+      @include clearfix();
     }
     .topics {
-      @include column(3);
-      @include push(9);
+      @include column(4);
+      @include push(7);
+      @include clearfix();
     }
   }
 }
