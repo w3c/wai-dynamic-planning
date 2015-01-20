@@ -1,0 +1,64 @@
+---
+title: "Planning and implementation"
+nav_title: "Introduction"
+status: editors-draft
+layout: layout
+order: 1
+support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+---
+
+<div id="carousel">
+  <nav>
+    <ul>
+      <li><a href="#">Overview</li>
+      <% data.tasks.categories.each do |category,data| %>
+        <li><a href="#"><%= category %></a></li>
+      <% end %>
+    </ul>
+  </nav>
+
+  <article class="active slide current overview">
+    <h2>Overview</h2>
+
+    <div class="description">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="tasks">
+      <h3>Key tasks</h3>
+      <ul>
+        <% data.tasks.categories.each do |category,data| %>
+          <li><a href="#"><%= category %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </article>
+
+  <% data.tasks.categories.each do |category,data| %>
+    <article class="slide">
+      <h2><%= category %></h2>
+  
+      <div class="description">
+        <p>Accessibility benefits from broad backing and support. There may also be a need to educate staff about the benefits of accessibility.</p>
+      </div>
+
+      <div class="tasks">
+        <h3>What do you need to do?</h3>
+        <ul>
+          <% data.tasks.take(3).each do |task| %>
+            <li><a href="#"><%= task %></a></li>
+          <% end %>
+        </ul>
+      </div>
+
+      <div class="topics">
+        <h3>Key topics</h3>
+        <ul>
+          <% data.topics.each do |topic| %>
+            <li><a href="#"><%= topic %></a></li>
+          <% end %>
+        </ul>
+      </div>
+    </article>
+  <% end %>
+</div>
