@@ -10,9 +10,9 @@
 	      <% if current_page.data.status=="editors-draft" %>
 	        [EDITOR’S DRAFT]
 	      <% end %>
-        <% if(Dir.glob('source/' + current_page.path + '.erb')) %>
+        <% if(Dir.glob('source/' + current_page.path + '.erb').to_s == '') %>
   	      <%= File.mtime(Dir.glob('source/' + current_page.path + '.erb')[0]).strftime("%d %B %Y") %>
-        <% elsif(Dir.glob('source/' + current_page.path + '.erb.md')) %>
+        <% elsif(Dir.glob('source/' + current_page.path + '.erb.md').to_s == '') %>
   	      <%= File.mtime(Dir.glob('source/' + current_page.path + '.erb.md')[0]).strftime("%d %B %Y") %>
         <% end %>
 				</li>
