@@ -555,6 +555,60 @@ a {
   }
 }
 
+#carousel {
+  .slide {
+    section & {
+      position: relative;
+    }
+    background: darken(#f5f5f5, 10%);
+    padding: 1em 10em;
+    &.overview {
+      h2:before {
+        @extend .icon, .icon-list;
+    		content: "";
+    		display: inline-block;
+    		margin-right: 0.1em;
+      }
+    }
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    &.current {
+      display: block;
+      z-index: 500;
+    }
+  }
+  .controls {
+    list-style-type: none;
+    .btn-prev,
+    .btn-next {
+      position:absolute;
+      z-index: 700;
+      top: 50%;
+      margin-top: -2.5em;
+      border:0;
+      background: rgba(255,255,255,.6);
+      line-height: 1;
+      padding:2em .5em;
+      transition: padding .4s ease-out;
+      &:hover, &:focus {
+        padding-left: 2em;
+        padding-right:2em;
+      }
+    }
+
+    .btn-prev {
+      left:0;
+    }
+
+    .btn-next {
+      right:0;
+    }
+  }
+}
+
 .status {
 	padding: .25em;
 	h3, p {
