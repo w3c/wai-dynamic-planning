@@ -556,12 +556,52 @@ a {
 }
 
 #carousel {
+  position: relative;
+  top: -3em;
+  nav {
+    position: relative;
+    z-index: 1000;
+    text-align: center;
+    top: 3.5em;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        margin: 0 1em;
+        padding: 0;
+        display: inline;
+        a {
+          border-radius: 50%;
+          background: #ccc;
+          padding: 2em;
+          border: none;
+          background-size: 60% !important;
+        }
+        &.overview a {
+          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-list;
+        }
+        &.advocacy a {
+          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-megaphone;
+        }
+        &.organizational a {
+          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-map;
+        }
+        &.project a {
+          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-directions;
+        }
+        &.maintenance a {
+          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-tools;
+        }
+      }
+    }
+  }
   .slide {
     section & {
       position: relative;
     }
     background: darken(#f5f5f5, 10%);
-    padding: 1em 10em;
+    padding: 4em 10em 1em;
     &.overview {
       h2:before {
         @extend .icon, .icon-list;
@@ -1016,6 +1056,15 @@ select {
 	background-repeat:no-repeat;
 	background-position: center;
 	vertical-align: middle;
+}
+
+.icon-large {
+  height: 3em;
+  width: 3em;
+}
+
+.icon-with-invisible-text {
+  text-indent:-9999px;
 }
 
 .icon-with-visible-text {
