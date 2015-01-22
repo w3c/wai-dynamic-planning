@@ -44,10 +44,10 @@
 
       ctrls.className = 'controls';
       ctrls.innerHTML = '<li>' +
-      '<button type="button" class="btn-prev"><img src="img/icon/triangle-left.png" alt="Previous"></button>' +
+      '<button type="button" class="btn-prev"><%= image_tag 'icon/triangle-left.png', :alt => "Previous" %></button>' +
       '</li>' +
       '<li>' +
-      '<button type="button" class="btn-next"><img src="img/icon/triangle-right.png" alt="Next"></button>' +
+      '<button type="button" class="btn-next"><%= image_tag 'icon/triangle-right.png', :alt => "Next", :relative => false %></button>' +
       '</li>';
 
       ctrls.querySelector('.btn-prev')
