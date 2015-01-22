@@ -562,7 +562,7 @@ a {
     position: relative;
     z-index: 1000;
     text-align: center;
-    top: 3.5em;
+    top: 3em;
     ul {
       margin: 0;
       padding: 0;
@@ -573,25 +573,28 @@ a {
         display: inline;
         a {
           border-radius: 50%;
-          background: #ccc;
+          background-color: #ccc;
           padding: 2em;
           border: none;
           background-size: 60% !important;
-        }
-        &.overview a {
-          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-list;
-        }
-        &.advocacy a {
-          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-megaphone;
-        }
-        &.organizational a {
-          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-map;
-        }
-        &.project a {
-          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-directions;
-        }
-        &.maintenance a {
-          @extend .icon, .icon-large, .icon-with-invisible-text, .icon-tools;
+          &.overview {
+            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-list;
+          }
+          &.advocacy {
+            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-megaphone;
+          }
+          &.organizational {
+            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-map;
+          }
+          &.project {
+            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-directions;
+          }
+          &.maintenance {
+            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-tools;
+          }
+          &:hover, &:focus {
+            background-color: #eee;
+          }
         }
       }
     }

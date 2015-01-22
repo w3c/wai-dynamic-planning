@@ -7,36 +7,35 @@
     else
       el.className += ' ' + className;
   };
- 
+
+  function removeClass(el, className) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  }
+
+  function hasClass(el, className) {
+    if (el.classList) {
+      return el.classList.contains(className);
+    } else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+    }
+  }
+
+  function forEachElement(elements, fn) {
+    for (var i = 0; i < elements.length; i++)
+      fn(elements[i], i);
+  }
+
   var myCarousel = (function() {
     var carousel, slides, index, slidenav, settings, timer, setFocus, animationSuspended, announceSlide = false;
-
-    function forEachElement(elements, fn) {
-      for (var i = 0; i < elements.length; i++)
-        fn(elements[i], i);
-    }
-
-    function removeClass(el, className) {
-      if (el.classList) {
-        el.classList.remove(className);
-      } else {
-        el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-      }
-    }
-
-    function hasClass(el, className) {
-      if (el.classList) {
-        return el.classList.contains(className);
-      } else {
-        return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-      }
-    }
 
     function init(set) {
       settings = set;
       carousel = document.getElementById(settings.id);
       slides = carousel.querySelectorAll('.slide');
-      console.log(carousel);
      
       carousel.className = 'active carousel';
 
@@ -140,6 +139,17 @@
           startAnimation();
         }
       });
+
+      // Add event handlers to scroll the carousel from the navigation
+      if(settings.nav_id) {
+        var navigation = carousel.querySelectorAll('#' + settings.nav_id + ' a');
+        for (var i = 0; i < navigation.length; i++) {
+          navigation[i].addEventListener('click', function(x) {
+            announceSlide = true;
+            setSlides(x, false, 'prev');
+          }.bind(this, i));
+        }
+      }
 
       index = 0;
       setSlides(index);
@@ -262,6 +272,7 @@
   var c = new myCarousel();
   c.init({
     id: 'carousel',
+    nav_id: 'carousel-nav',
     slidenav: false,
     animate: false,
     startAnimated: false

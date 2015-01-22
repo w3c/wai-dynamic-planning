@@ -9,16 +9,16 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 
 <div id="carousel">
   <nav>
-    <ul>
-      <li class="overview"><a href="#">Overview</a></li>
+    <ul id="carousel-nav">
+      <li><a class="overview" href="#overview">Overview</a></li>
       <% data.tasks.categories.each do |category,data| %>
-        <li class="<%= data.shortname %>"><a href="#"><%= category %></a></li>
+        <li><a class="<%= data.shortname %>" href="#<%= data.shortname %>"><%= category %></a></li>
       <% end %>
     </ul>
   </nav>
 
   <article class="active slide current overview">
-    <h2>Overview</h2>
+    <h2 id="overview">Overview</h2>
 
     <div class="description">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -36,7 +36,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 
   <% data.tasks.categories.each do |category,data| %>
     <article class="slide">
-      <h2><%= category %></h2>
+      <h2 id="<%= data.shortname %>"><%= category %></h2>
   
       <div class="description">
         <p>Accessibility benefits from broad backing and support. There may also be a need to educate staff about the benefits of accessibility.</p>
