@@ -650,11 +650,15 @@ a {
 
     .btn-prev {
       left:0;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
       @extend .icon-triangle-left;
     }
 
     .btn-next {
       right:0;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
       @extend .icon-triangle-right;
     }
   }
