@@ -420,7 +420,8 @@ a {
 	}
 	.inner {
 		@include mq($big);
-		padding:0 !important;
+		padding: 0 !important;
+    margin: 0 -0.5%;
 	}
 	.annotation {
 		@include mq($medium) {
@@ -622,25 +623,29 @@ a {
       display: block;
       z-index: 500;
     }
+    .tasks {
+      margin-top: 1em;
+    }
   }
   .controls {
     list-style-type: none;
     .btn-prev,
     .btn-next {
-      position:absolute;
+      position: absolute;
       z-index: 700;
       top: 50%;
       margin-top: -2.5em;
       border:0;
-      background: rgba(255,255,255,.6);
+      background: rgba(255,255,255,0.4);
       line-height: 1;
-      padding:2em .5em;
+      padding: 2em 1em;
       transition: padding .4s ease-out;
       &:hover, &:focus {
         padding-left: 2em;
-        padding-right:2em;
+        padding-right: 2em;
       }
       @extend .icon, .icon-large, .icon-with-invisible-text;
+    	background-size: auto 80% !important;
     }
 
     .btn-prev {
