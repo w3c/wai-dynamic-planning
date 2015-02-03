@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var addclass = function(el, className) {
+  var addClass = function(el, className) {
     if (el.classList)
       el.classList.add(className);
     else
@@ -176,15 +176,24 @@
       }
 
       for (var i = slides.length - 1; i >= 0; i--) {
-        slides[i].className = "slide";
+        removeClass(slides[i], 'current');
+        removeClass(slides[i], 'next');
+        removeClass(slides[i], 'prev');
+        removeClass(slides[i], 'in-transition');
       }
 
-      slides[new_next].className = 'next slide' + ((transition == 'next') ? ' in-transition' : '');
+      addClass(slides[new_next], 'next');
+      if(transition == 'next') {
+        addClass(slides[new_next], 'in-transition');
+      }
       slides[new_next].setAttribute('aria-hidden', 'true');
-      slides[new_prev].className = 'prev slide' + ((transition == 'prev') ? ' in-transition' : '');
+      addClass(slides[new_prev], 'prev');
+      if(transition == 'prev') {
+        addClass(slides[new_prev], 'in-transition');
+      }
       slides[new_prev].setAttribute('aria-hidden', 'true');
 
-      slides[new_current].className = 'current slide';
+      addClass(slides[new_current], 'current');
       slides[new_current].removeAttribute('aria-hidden');
       if (announceSlide) {
         slides[new_current].setAttribute('aria-live', 'polite');
