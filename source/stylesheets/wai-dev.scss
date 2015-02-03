@@ -559,6 +559,9 @@ a {
 #carousel {
   position: relative;
   top: -3em;
+  ul li a.overview {
+    @extend .icon-list;
+  }
   nav {
     position: relative;
     z-index: 1000;
@@ -578,21 +581,7 @@ a {
           padding: 2em;
           border: none;
           background-size: 60% !important;
-          &.overview {
-            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-list;
-          }
-          &.advocacy {
-            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-megaphone;
-          }
-          &.organizational {
-            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-map;
-          }
-          &.project {
-            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-directions;
-          }
-          &.maintenance {
-            @extend .icon, .icon-large, .icon-with-invisible-text, .icon-tools;
-          }
+          @extend .icon, .icon-large, .icon-with-invisible-text;
           &:hover, &:focus {
             background-color: #eee;
           }
@@ -601,19 +590,16 @@ a {
     }
   }
   .slide {
+    &.overview {
+      ul {
+        column-count: 2;
+      }
+    }
     section & {
       position: relative;
     }
     background: darken(#f5f5f5, 10%);
     padding: 4em 10em 1em;
-    &.overview {
-      h2:before {
-        @extend .icon, .icon-list;
-    		content: "";
-    		display: inline-block;
-    		margin-right: 0.1em;
-      }
-    }
     display: none;
     position: absolute;
     top: 0;
@@ -625,6 +611,17 @@ a {
     }
     .tasks {
       margin-top: 1em;
+      ul {
+        list-style-type: none;
+        li {
+          font-size: 130%;
+          margin-bottom: 0.5em;
+          span {
+            @extend .icon, .icon-with-visible-text;
+            background-position: top center;
+          }
+        }
+      }
     }
   }
   .controls {
@@ -633,7 +630,7 @@ a {
     .btn-next {
       position: absolute;
       z-index: 700;
-      top: 50%;
+      top: 15em;
       margin-top: -2.5em;
       border:0;
       background: rgba(255,255,255,0.4);
@@ -647,14 +644,12 @@ a {
       @extend .icon, .icon-large, .icon-with-invisible-text;
     	background-size: auto 80% !important;
     }
-
     .btn-prev {
       left:0;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
       @extend .icon-triangle-left;
     }
-
     .btn-next {
       right:0;
       border-top-left-radius: 5px;

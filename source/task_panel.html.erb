@@ -12,7 +12,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
     <ul id="carousel-nav">
       <li><a class="overview" href="#overview">Overview</a></li>
       <% data.tasks.categories.each do |category,data| %>
-        <li><a class="<%= data.shortname %>" href="#<%= data.shortname %>"><%= category %></a></li>
+        <li><a class="<%= data.shortname %> icon-<%= data.icon %>" href="#<%= data.shortname %>"><%= category %></a></li>
       <% end %>
     </ul>
   </nav>
@@ -28,7 +28,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
       <h3>Key tasks</h3>
       <ul>
         <% data.tasks.categories.each do |category,data| %>
-          <li><a href="#"><%= category %></a></li>
+        <li><span class="icon-<%= data.icon %>"></span><a class="<%= data.shortname %>" href="#<%= data.shortname %>"><%= category %></a></li>
         <% end %>
       </ul>
     </div>
