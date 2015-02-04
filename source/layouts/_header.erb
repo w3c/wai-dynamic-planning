@@ -26,7 +26,12 @@
       <a href="http://w3.org/WAI/" class="wai"><%= image_tag 'wai.png', :alt => "Web Accessibility Initiative" %></a>
     </div>
     <div class="page-title">
-      <%= x_link_to('Web Accessibility Planning <span class="subheading">Lorem ipsum</span>', '/index.html') %>
+			<% if current_page.url == '/' %>
+        Web Accessibility Planning
+      <% else %>
+        <%= x_link_to('Web Accessibility Planning', '/index.html') %>
+        <span class="subheading"><%= current_page.data.nav_title %></span>
+      <% end %>
     </div>
   </header>
   <div class="<% if has_menu %>with-side-menu<% end %>">
