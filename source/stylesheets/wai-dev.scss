@@ -590,9 +590,23 @@ a {
     }
   }
   .slide {
+    .tasks {
+      margin-top: 1em;
+    }
     &.overview {
-      ul {
-        column-count: 2;
+      .tasks {
+        ul {
+          column-count: 2;
+          list-style-type: none;
+          li {
+            font-size: 130%;
+            margin-bottom: 0.5em;
+            span {
+              @extend .icon, .icon-with-visible-text;
+              background-position: top center;
+            }
+          }
+        }
       }
     }
     section & {
@@ -608,20 +622,6 @@ a {
     &.current {
       display: block;
       z-index: 500;
-    }
-    .tasks {
-      margin-top: 1em;
-      ul {
-        list-style-type: none;
-        li {
-          font-size: 130%;
-          margin-bottom: 0.5em;
-          span {
-            @extend .icon, .icon-with-visible-text;
-            background-position: top center;
-          }
-        }
-      }
     }
   }
   .controls {
