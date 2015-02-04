@@ -2,7 +2,7 @@
 title: "Planning and implementation"
 nav_title: "Introduction"
 status: editors-draft
-layout: layout
+layout: introduction
 order: 1
 support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
 ---
@@ -28,7 +28,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
       <h3>Key tasks</h3>
       <ul>
         <% data.tasks.categories.each do |category,data| %>
-        <li><span class="icon-<%= data.icon %>"></span><a class="<%= data.shortname %>" href="#<%= data.shortname %>"><%= category %></a></li>
+        <li><span class="icon-<%= data.icon %>"></span><a class="<%= data.shortname %>" href="/<%= data.shortname %>/"><%= category %></a></li>
         <% end %>
       </ul>
     </div>
@@ -36,7 +36,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 
   <% data.tasks.categories.each do |category,data| %>
     <article class="slide">
-      <h2 id="<%= data.shortname %>"><%= category %></h2>
+      <h2 id="<%= data.shortname %>"><a href="/<%= data.shortname %>/"><%= category %></h2>
   
       <div class="description">
         <p><%= data.desc %></p>
