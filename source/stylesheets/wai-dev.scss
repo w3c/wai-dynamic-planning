@@ -221,7 +221,6 @@ h4 {
 a {
 	color: #036;
 	.content & {
-		border-bottom: 1px solid;
 		text-decoration: none;
 		color: #036;
 		&:visited {
@@ -592,11 +591,18 @@ a {
   .slide {
     .tasks {
       margin-top: 1em;
+      ul {
+        column-count: 2;
+        column-gap: 5em;
+        li {
+          margin-bottom: 0.5em;
+          break-inside: avoid-column;
+        }
+      }
     }
     &.overview {
       .tasks {
         ul {
-          column-count: 2;
           list-style-type: none;
           li {
             font-size: 130%;
