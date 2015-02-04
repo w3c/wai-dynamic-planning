@@ -8,31 +8,14 @@
 	<% end %>
 	<% if current_page.data.status=="editors-draft" %>
 	<div class="status">
-	  <p><strong>Status (not ready for review):</strong> This is an in-progress, unapproved editor’s draft. Content may change at any time without notice.</p>
+	  <p><strong>Status (not ready for review):</strong> This is an in-progress, unapproved editor’s draft. It's not ready for detailed review.</p>
 	</div>
 	<% end %>
 
-  <article role="article">
-	  <header class="heading">
-	    <h1>
-	      <%= current_page.data.title %>
-	    </h1>
-	  </header>
-
+  <section role="region">
 	  <div class="inner ">
 	    <%= yield %>
 	  </div>
-
-		<% if current_page.data.resources %>
-			<div class="resources">
-				<h2>Resources</h2>
-				<ul>
-					<% current_page.data.resources.each do |resource| %>
-						<li><%= link_to resource, data.resources.resources[resource][:url] %> &ndash; <%= data.resources.resources[resource][:desc] %></li>
-					<% end %>
-				</ul>
-			</div>
-		<% end %>
-  </article>
+  </section>
 </main>
 <%= partial "layouts/footer" %>
