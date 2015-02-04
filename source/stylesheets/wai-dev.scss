@@ -420,7 +420,6 @@ a {
 	.inner {
 		@include mq($big);
 		padding: 0 !important;
-    margin: 0 -0.5%;
 	}
 	.annotation {
 		@include mq($medium) {
@@ -466,19 +465,12 @@ a {
 	}
 }
 
-.introduction .content {
-	.inner {
-		@include mq($medium) {
-			@include column(8);
-			column-count: 2;
-		}
-	}
-	.resources {
-		@include mq($medium) {
-			@include column(4);
-			@include push(8);
-		}
-	}
+.introduction {
+  .content {
+    .inner {
+      margin: 0 -0.5%;
+    }
+  }
 }
 
 .shelf {
@@ -667,6 +659,7 @@ a {
 
 .status {
 	padding: .25em;
+  margin-bottom: 1em;
 	h3, p {
 		display:inline;
 		color: inherit;
