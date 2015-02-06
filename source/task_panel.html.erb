@@ -10,7 +10,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 <div id="carousel">
   <nav>
     <ul id="carousel-nav">
-      <li><a class="overview" href="#overview">Overview</a></li>
+      <li><a class="overview current" href="#overview">Overview</a></li>
       <% data.tasks.categories.each do |category,data| %>
         <li><a class="<%= data.shortname %> icon-<%= data.icon %>" href="#<%= data.shortname %>"><%= category %></a></li>
       <% end %>

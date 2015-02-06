@@ -573,6 +573,9 @@ a {
           border: none;
           background-size: 60% !important;
           @extend .icon, .icon-large, .icon-with-invisible-text;
+          &.current {
+            background-color: darken(#ccc, 20%);;
+          }
           &:hover, &:focus {
             background-color: #eee;
           }

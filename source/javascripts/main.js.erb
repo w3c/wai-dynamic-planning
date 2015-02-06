@@ -30,12 +30,13 @@
   }
 
   var myCarousel = (function() {
-    var carousel, slides, index, slidenav, settings, timer, setFocus, animationSuspended, announceSlide = false;
+    var carousel, slides, slideNav, index, settings, setFocus, announceSlide = false;
 
     function init(set) {
       settings = set;
       carousel = document.getElementById(settings.id);
       slides = carousel.querySelectorAll('.slide');
+      slideNav = carousel.querySelectorAll('#' + settings.nav_id + ' a');
      
       carousel.className = 'active carousel';
 
@@ -62,52 +63,6 @@
 
       carousel.appendChild(ctrls);
 
-      if (settings.slidenav || settings.animate) {
-        slidenav = document.createElement('ul');
-
-        slidenav.className = 'slidenav';
-
-        if (settings.animate) {
-          var li = document.createElement('li');
-
-          if (settings.startAnimated) {
-            li.innerHTML = '<button data-action="stop"><span class="visuallyhidden">Stop Animation </span>￭</button>';
-          } else {
-            li.innerHTML = '<button data-action="start"><span class="visuallyhidden">Start Animation </span>▶</button>';
-          }
-
-          slidenav.appendChild(li);
-        }
-
-        if (settings.slidenav) {
-          forEachElement(slides, function(el, i){
-            var li = document.createElement('li');
-            var klass = (i===0) ? 'class="current" ' : '';
-            var kurrent = (i===0) ? ' <span class="visuallyhidden">(Current Slide)</span>' : '';
-
-            li.innerHTML = '<button '+ klass +'data-slide="' + i + '"><span class="visuallyhidden">News</span> ' + (i+1) + kurrent + '</button>';
-            slidenav.appendChild(li);
-          });
-        }
-
-        slidenav.addEventListener('click', function(event) {
-          var button = event.target;
-          if (button.localName == 'button') {
-            if (button.getAttribute('data-slide')) {
-              stopAnimation();
-              setSlides(button.getAttribute('data-slide'), true);
-            } else if (button.getAttribute('data-action') == "stop") {
-              stopAnimation();
-            } else if (button.getAttribute('data-action') == "start") {
-              startAnimation();
-            }
-          }
-        }, true);
-
-        carousel.className = 'active carousel with-slidenav';
-        carousel.appendChild(slidenav);
-      }
-
       slides[0].parentNode.addEventListener('transitionend', function (event) {
         var slide = event.target;
         removeClass(slide, 'in-transition');
@@ -119,24 +74,6 @@
             slide.focus();
             setFocus = false;
           }
-        }
-      });
-
-      carousel.addEventListener('mouseenter', suspendAnimation);
-      carousel.addEventListener('mouseleave', function(event) {
-        if (animationSuspended) {
-          startAnimation();
-        }
-      });
-
-      carousel.addEventListener('focusin', function(event) {
-        if (!hasClass(event.target, 'slide')) {
-          suspendAnimation();
-        }
-      });
-      carousel.addEventListener('focusout', function(event) {
-        if (!hasClass(event.target, 'slide') && animationSuspended) {
-          startAnimation();
         }
       });
 
@@ -153,10 +90,6 @@
 
       index = 0;
       setSlides(index);
-
-      if (settings.startAnimated) {
-        timer = setTimeout(nextSlide, 5000);
-      }
     }
 
     function setSlides(new_current, setFocusHere, transition) {
@@ -175,6 +108,15 @@
         new_prev = length-1;
       }
 
+      // Remove classes from the navigation
+      for(var i = 0; i < slideNav.length; i++) {
+        removeClass(slideNav[i], 'current');
+        if(new_current === i) {
+          addClass(slideNav[i], 'current');
+        }
+      }
+    
+      // Remove classes from the slides
       for (var i = slides.length - 1; i >= 0; i--) {
         removeClass(slides[i], 'current');
         removeClass(slides[i], 'next');
@@ -223,11 +165,6 @@
       }
 
       setSlides(new_current, false, 'prev');
-
-      if (settings.animate) {
-        timer = setTimeout(nextSlide, 5000);
-      }
-
     }
 
     function prevSlide() {
@@ -239,33 +176,6 @@
       }
 
       setSlides(new_current, false, 'next');
-
-    }
-
-    function stopAnimation() {
-      clearTimeout(timer);
-      settings.animate = false;
-      animationSuspended = false;
-      _this = carousel.querySelector('[data-action]');
-      _this.innerHTML = '<span class="visuallyhidden">Start Animation </span>▶';
-      _this.setAttribute('data-action', 'start');
-    }
-
-    function startAnimation() {
-      settings.animate = true;
-      animationSuspended = false;
-      timer = setTimeout(nextSlide, 5000);
-      _this = carousel.querySelector('[data-action]');
-      _this.innerHTML = '<span class="visuallyhidden">Stop Animation </span>￭';
-      _this.setAttribute('data-action', 'stop');
-    }
-
-    function suspendAnimation() {
-      if(settings.animate) {
-        clearTimeout(timer);
-        settings.animate = false;
-        animationSuspended = true;
-      }
     }
 
     return {
@@ -273,8 +183,6 @@
       next:nextSlide,
       prev:prevSlide,
       goto:setSlides,
-      stop:stopAnimation,
-      start:startAnimation
     };
   });
 
@@ -282,8 +190,5 @@
   c.init({
     id: 'carousel',
     nav_id: 'carousel-nav',
-    slidenav: false,
-    animate: false,
-    startAnimated: false
   });
 }());
