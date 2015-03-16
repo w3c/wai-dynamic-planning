@@ -1,6 +1,5 @@
 ---
 title: Attributions
-layout: overview
 order: 1
 ---
 
