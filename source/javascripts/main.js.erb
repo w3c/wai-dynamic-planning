@@ -62,7 +62,7 @@
 
         if(i==0) {
           addclass(tabLinks[id], 'selected');
-          tabLinks[id].innerHTML = '<span>current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
           tabLinks[id].setAttribute('aria-selected', 'true');
         } else {
           tabLinks[id].setAttribute('aria-selected', 'false');
@@ -78,13 +78,13 @@
       for(var id in tabLinks) {
         if(id == newid) {
           addclass(tabLinks[id], 'selected');
-          tabLinks[id].innerHTML = '<span>current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
           tabLinks[id].setAttribute('aria-selected', 'true');
           removeclass(tabPanels[id], 'hidden');
           tabPanels[id].focus();
         } else {
           removeclass(tabLinks[id], 'selected');
-          if(currentInfo = tabLinks[id].querySelector('span')) {
+          if(currentInfo = tabLinks[id].querySelector('.info')) {
             tabLinks[id].removeChild(currentInfo);
           }
           tabLinks[id].setAttribute('aria-selected', 'false');

@@ -69,9 +69,12 @@ section {
       }
       &.selected {
         background: darken($w3c_grey, 10%);
-        span {
+        .info {
       		@extend .visuallyhidden;
         }
+      }
+      .icon {
+        margin-right: 0.5em;
       }
     }
   }
