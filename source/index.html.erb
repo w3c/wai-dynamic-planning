@@ -13,25 +13,27 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 </div>
 
 <ul id="tabs" class="tabs">
-  <% data.tasks.categories.each do |category,data| %>
-    <li><a href="#<%= data.shortname %>"><%= category %></a></li>
+  <% data.categories.each do |category,category_data| %>
+    <li><a href="#<%= category_data.shortname %>"><%= category %></a></li>
   <% end %>
 </ul>
 
 <div class="tabpanels">
-  <% data.tasks.categories.each do |category,data| %>
-    <article id="<%= data.shortname %>" class="tab">
-      <h2><a href="/<%= data.shortname %>/"><%= category %></a></h2>
+  <% data.categories.each do |category,category_data| %>
+    <article id="<%= category_data.shortname %>" class="tab">
+      <h2><a href="/<%= category_data.shortname %>/"><%= category %></a></h2>
 
       <div class="description">
-        <p><%= data.desc %></p>
+        <p><%= category_data.desc %></p>
       </div>
 
       <div class="tasks">
         <h3>What do you need to do?</h3>
         <ul>
-          <% data.tasks.take(6).each do |task| %>
-            <li><a href="#"><%= task %></a></li>
+          <% category_data.tasks.take(6).each do |task| %>
+            <li><a href="#"><%= task %></a>
+              <% if data.tasks.include?(task) %><p><%= data.tasks[task].desc %></p><% end %>
+            </li>
           <% end %>
         </ul>
       </div>

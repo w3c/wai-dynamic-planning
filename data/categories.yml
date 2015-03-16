@@ -1,0 +1,85 @@
+Initiating:
+  shortname: initiating
+  icon: rocket
+  desc: As with any program of work, starting with accessibility involves developing clear goals and solid management support, both administratively and financially. Raising team awareness of the goals and accessibility in general may also be important at this stage. 
+  resources:
+    - Preparing Introduction to accessibility training
+    - Create an accessibility business case
+    - Determine an accessibility goal
+  tasks:
+    - Introduction to accessibility
+    - Identification of accessibility goals and responsibilities
+    - Prepare an accessibility business case
+    - Obtaining support for accessibility activities
+    - Communicate accessibility aims and value to wider organization
+    - Developing accessibility policy
+  topics:
+    - business case
+    - communication
+    - user stories
+    - legal issues
+Planning:
+  shortname: planning
+  icon: map
+  desc: Regardless of the scope of work, ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Assessing the current situation is important to determine the scale of work required and allow achievable milestones to be set. 
+  resources:
+    - Roles that impact on accessibility
+    - Building an accessibility team
+    - Embedding accessibility into project management processes
+    - Developing organizational policy on accessibility
+    - Accessibility in the procurement process
+    - Accessibility training resources
+  tasks:
+    - Recruiting to improve accessibility
+    - Procuring accessible content
+    - Review design and marketing resources
+    - Review technical libraries and tools
+    - Consider when to evaluate accessibility
+  topics:
+    - business case
+    - roles
+    - project process
+    - procurement
+    - training
+Implementation:
+  shortname: implementation
+  icon: directions
+  desc: There are key opportunities to incorporate accessibility in any web project, from personnel and training to evaluation and prioritization. By weaving accessibility throughout the project, the overall quality of final outcome improves without significantly impacting on budget or timescales. 
+  resources:
+    - Integrating accessibility into a project plan
+    - Accessibility evaluation
+    - Quick start guides for different project roles
+    - Selecting the right content management platform
+    - Accessibility in agile projects
+  tasks:
+    - Integrate accessibility broader policies
+    - Develop team structure and expertise
+    - Evaluation regime and process
+    - Prioritization of identified issues
+    - Sharing experience and knowledge
+  topics:
+    - content management
+    - design
+    - development
+    - quality assurance
+    - agile
+    - training
+Monitoring:
+  shortname: moinitoring
+  icon: tools
+  desc: Regular reviews of content, organizational processes, and resources will help ensure that accessibility remains a priority and issues are identified. Developing a management reporting process will help ensure that it is clear where activity is required for follow-up work. 
+  resources:
+    - Accessibility metrics as part of business reviews
+    - Monitoring accessibility
+    - Sharing accessibility knowledge
+  tasks:
+    - Regular review activities; code, personnel, policies, resources
+    - Developing reporting templates and standard metrics
+    - Identification of areas for improvement
+    - Feedback mechanisms and user support
+    - Reporting activities
+  topics:
+    - metrics
+    - reporting
+    - knowledge sharing
+    - monitoring
