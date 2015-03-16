@@ -16,10 +16,10 @@
   &bull; WAI Web Accessibility Planning
   </title>
   <meta name="viewport" content="width=device-width">
-  <%= stylesheet_link_tag "wai-dev" %>
+  <%= stylesheet_link_tag "main" %>
   <%= javascript_include_tag "modernizr" %>
 </head>
-<body class="texts <%= current_page.data.layout %>">
+<body class="texts <%= current_page.data.layout %>  <%= current_page.data.status %>">
   <header role="banner">
     <div class="w3c-wai-header">
       <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>
@@ -35,4 +35,4 @@
     </div>
   </header>
   <div class="<% if has_menu %>with-side-menu<% end %>">
-    <a href="#nav" class="btn btn-jump" role="navigation">Jump to the navigation</a>
+    <%= partial "layouts/status" %>

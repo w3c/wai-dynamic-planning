@@ -1,194 +1,105 @@
 (function () {
   'use strict';
 
-  var addClass = function(el, className) {
-    if (el.classList)
-      el.classList.add(className);
-    else
-      el.className += ' ' + className;
-  };
+	var addclass = function(el, className) {
+		if (el.classList)
+			el.classList.add(className);
+		else
+			el.className += ' ' + className;
+	}
 
-  function removeClass(el, className) {
-    if (el.classList) {
-      el.classList.remove(className);
-    } else {
-      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-    }
+	var removeclass = function(el, className) {
+		if (el.classList)
+			el.classList.remove(className);
+		else
+			el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+	}
+
+	var hasclass = function(el, className) {
+		if (el.classList)
+			return el.classList.contains(className);
+		else
+			return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+	}
+  
+  var getHash = function( url ) {
+    var hashPos = url.lastIndexOf ( '#' );
+    return url.substring( hashPos + 1 );
   }
 
-  function hasClass(el, className) {
-    if (el.classList) {
-      return el.classList.contains(className);
-    } else {
-      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-    }
-  }
-
-  function forEachElement(elements, fn) {
+  var forEachElement = function(elements, fn) {
     for (var i = 0; i < elements.length; i++)
       fn(elements[i], i);
   }
 
-  var myCarousel = (function() {
-    var carousel, slides, slideNav, index, settings, setFocus, announceSlide = false;
-
+  var Tabs = (function() {
+    var tabLinks = new Array();
+    var tabPanels = new Array();
+    var settings = 'false';
+    
     function init(set) {
       settings = set;
-      carousel = document.getElementById(settings.id);
-      slides = carousel.querySelectorAll('.slide');
-      slideNav = carousel.querySelectorAll('#' + settings.nav_id + ' a');
-     
-      carousel.className = 'active carousel';
-
-      var ctrls = document.createElement('ul');
-
-      ctrls.className = 'controls';
-      ctrls.innerHTML = '<li>' +
-      '<button type="button" class="btn-prev">Previous</button>' +
-      '</li>' +
-      '<li>' +
-      '<button type="button" class="btn-next">Next</button>' +
-      '</li>';
-
-      ctrls.querySelector('.btn-prev')
-      .addEventListener('click', function () {
-        announceSlide = true;
-        prevSlide();
-      });
-      ctrls.querySelector('.btn-next')
-      .addEventListener('click', function () {
-        announceSlide = true;
-        nextSlide();
-      });
-
-      carousel.appendChild(ctrls);
-
-      slides[0].parentNode.addEventListener('transitionend', function (event) {
-        var slide = event.target;
-        removeClass(slide, 'in-transition');
-        if (hasClass(slide, 'current'))  {
-          slide.removeAttribute('aria-live');
-          announceSlide = false;
-          if(setFocus) {
-            slide.setAttribute('tabindex', '-1');
-            slide.focus();
-            setFocus = false;
-          }
-        }
-      });
-
-      // Add event handlers to scroll the carousel from the navigation
-      if(settings.nav_id) {
-        var navigation = carousel.querySelectorAll('#' + settings.nav_id + ' a');
-        for (var i = 0; i < navigation.length; i++) {
-          navigation[i].addEventListener('click', function(x) {
-            announceSlide = true;
-            setSlides(x, false, 'prev');
-          }.bind(this, i));
-        }
+      var tabset = document.getElementById(settings.id).querySelectorAll('a');
+      for(var i=0; i < tabset.length; i++) {
+        var id = getHash(tabset[i].getAttribute('href'));
+        tabLinks[id] = tabset[i];
+        tabPanels[id] = document.getElementById(id);
       }
+      
+      var i = 0;
+      for(var id in tabLinks) {
+        tabLinks[id].setAttribute('aria-controls', id);
+        tabLinks[id].setAttribute('role', 'tab');
+        tabLinks[id].setAttribute('id', 'tab-' + id);
+        tabLinks[id].addEventListener('click', function(e){
+          e.preventDefault();
+          showPanel(this);
+        });
 
-      index = 0;
-      setSlides(index);
+        tabPanels[id].setAttribute('role', 'tabpanel');
+        tabPanels[id].setAttribute('aria-labelledby', 'tab-' + id);
+        tabPanels[id].setAttribute('tabindex', '-1');
+
+        if(i==0) {
+          addclass(tabLinks[id], 'selected');
+          tabLinks[id].innerHTML = '<span>current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].setAttribute('aria-selected', 'true');
+        } else {
+          tabLinks[id].setAttribute('aria-selected', 'false');
+          addclass(tabPanels[id], 'hidden');
+        }
+        i++
+      }
     }
-
-    function setSlides(new_current, setFocusHere, transition) {
-      setFocus = typeof setFocusHere !== 'undefined' ? setFocusHere : false;
-      transition = typeof transition !== 'undefined' ? transition : 'none';
-
-      new_current = parseFloat(new_current);
-
-      var length = slides.length;
-      var new_next = new_current+1;
-      var new_prev = new_current-1;
-
-      if(new_next === length) {
-        new_next = 0;
-      } else if(new_prev < 0) {
-        new_prev = length-1;
-      }
-
-      // Remove classes from the navigation
-      for(var i = 0; i < slideNav.length; i++) {
-        removeClass(slideNav[i], 'current');
-        if(new_current === i) {
-          addClass(slideNav[i], 'current');
-        }
-      }
     
-      // Remove classes from the slides
-      for (var i = slides.length - 1; i >= 0; i--) {
-        removeClass(slides[i], 'current');
-        removeClass(slides[i], 'next');
-        removeClass(slides[i], 'prev');
-        removeClass(slides[i], 'in-transition');
-      }
-
-      addClass(slides[new_next], 'next');
-      if(transition == 'next') {
-        addClass(slides[new_next], 'in-transition');
-      }
-      slides[new_next].setAttribute('aria-hidden', 'true');
-      addClass(slides[new_prev], 'prev');
-      if(transition == 'prev') {
-        addClass(slides[new_prev], 'in-transition');
-      }
-      slides[new_prev].setAttribute('aria-hidden', 'true');
-
-      addClass(slides[new_current], 'current');
-      slides[new_current].removeAttribute('aria-hidden');
-      if (announceSlide) {
-        slides[new_current].setAttribute('aria-live', 'polite');
-      }
-
-      if(settings.slidenav) {
-        var buttons = carousel.querySelectorAll('.slidenav button[data-slide]');
-        for (var j = buttons.length - 1; j >= 0; j--) {
-          buttons[j].className = '';
-          buttons[j].innerHTML = '<span class="visuallyhidden">News</span> ' + (j+1);
+    function showPanel(el) {
+      var newid = el.getAttribute('aria-controls');
+      var currentInfo = null;
+      for(var id in tabLinks) {
+        if(id == newid) {
+          addclass(tabLinks[id], 'selected');
+          tabLinks[id].innerHTML = '<span>current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].setAttribute('aria-selected', 'true');
+          removeclass(tabPanels[id], 'hidden');
+          tabPanels[id].focus();
+        } else {
+          removeclass(tabLinks[id], 'selected');
+          if(currentInfo = tabLinks[id].querySelector('span')) {
+            tabLinks[id].removeChild(currentInfo);
+          }
+          tabLinks[id].setAttribute('aria-selected', 'false');
+          addclass(tabPanels[id], 'hidden');
         }
-        buttons[new_current].className = "current";
-        buttons[new_current].innerHTML = '<span class="visuallyhidden">News</span> ' + (new_current+1) + ' <span class="visuallyhidden">(Current Slide)</span>';
       }
-
-      index = new_current;
-
     }
-
-    function nextSlide() {
-
-      var length = slides.length,
-      new_current = index + 1;
-
-      if(new_current === length) {
-        new_current = 0;
-      }
-
-      setSlides(new_current, false, 'prev');
-    }
-
-    function prevSlide() {
-      var length = slides.length,
-      new_current = index - 1;
-
-      if(new_current < 0) {
-        new_current = length-1;
-      }
-
-      setSlides(new_current, false, 'next');
-    }
-
+    
     return {
-      init:init,
-      next:nextSlide,
-      prev:prevSlide,
-      goto:setSlides,
-    };
+      init: init
+    }
   });
 
-  var c = new myCarousel();
-  c.init({
-    id: 'carousel',
-    nav_id: 'carousel-nav',
+  var tabs = new Tabs();
+  tabs.init({
+    id: 'tabs'
   });
 }());

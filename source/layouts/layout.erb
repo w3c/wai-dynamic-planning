@@ -1,27 +1,11 @@
 <%= partial "layouts/header", :locals => { :has_menu => false } %>
-<main role="main" class="content <%= current_page.data.status %>">
 
-	<% if current_page.data.status=="draft" %>
-	<div class="status">
-	  <p><strong>Status:</strong> This is an in-progress, unapproved draft.</p>
-	</div>
-	<% end %>
-	<% if current_page.data.status=="editors-draft" %>
-	<div class="status">
-	  <p><strong>Status (not ready for review):</strong> This is an in-progress, unapproved editor’s draft. It's not ready for detailed review.</p>
-	</div>
-	<% end %>
-
+<main role="main" class="content">
   <section role="region">
-	  <header class="heading">
-	    <h1>
-	      <%= current_page.data.title %>
-	    </h1>
-	  </header>
-
-	  <div class="inner">
+	  <div class="inner ">
 	    <%= yield %>
 	  </div>
   </section>
 </main>
+
 <%= partial "layouts/footer" %>

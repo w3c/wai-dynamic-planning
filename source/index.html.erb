@@ -1,0 +1,40 @@
+---
+title: "Planning and implementation"
+nav_title: "Introduction"
+status: editors-draft
+order: 1
+support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+---
+
+<div class="introduction">
+  <div class="inner">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+<ul id="tabs" class="tabs">
+  <% data.tasks.categories.each do |category,data| %>
+    <li><a href="#<%= data.shortname %>"><%= category %></a></li>
+  <% end %>
+</ul>
+
+<div class="tabpanels">
+  <% data.tasks.categories.each do |category,data| %>
+    <article id="<%= data.shortname %>" class="tab">
+      <h2><a href="/<%= data.shortname %>/"><%= category %></a></h2>
+
+      <div class="description">
+        <p><%= data.desc %></p>
+      </div>
+
+      <div class="tasks">
+        <h3>What do you need to do?</h3>
+        <ul>
+          <% data.tasks.take(6).each do |task| %>
+            <li><a href="#"><%= task %></a></li>
+          <% end %>
+        </ul>
+      </div>
+    </article>
+  <% end %>
+</div>

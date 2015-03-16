@@ -1,0 +1,123 @@
+@-ms-viewport { width: device-width; } @-o-viewport { width: device-width; } @viewport { width: device-width; }
+
+// MQ-Variables
+
+$small:  25em; //* 400px */
+$medium: 43em; //* 700px */
+$big:    56em; //* 900px */
+$large:  81em; //* 1300px */
+
+// Grid systems variable
+
+$total_columns:     12;         //              //
+$total_width:       100%;      // px|100%      // px = fixed, 100% = fluid
+$gutter_width:      2%;         // px|%         // px = fixed, % = fluid
+$container_margin:  0.5%;         // auto|px|%    //
+
+@import "compass/css3";
+@import "helpers";
+@import "normalize";
+@import "script";
+@import "grid";
+@import "wai_style";
+
+section {
+  .introduction {
+    margin: 0 auto;
+    @include mq($small) {
+      width: $small;
+    }
+    @include mq($medium) {
+      width: $medium;
+    }
+    .inner {
+      font-size: 140%;
+    }
+  }
+}
+
+.tabs {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  @include mq($small) {
+    width: $small;
+    display: none;
+  }
+  @include mq($medium) {
+    width: $medium;
+    display: flex;
+  }
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    a {
+      display: inline-block;
+      padding: 0.5em 2em;
+      color: $w3c_text;
+      background: darken($w3c_grey, 20%);
+      border-radius: 10px 10px 0 0;
+      &:hover, &:focus {
+        background: lighten($w3c_grey, 5%);
+        border-bottom: none;
+      }
+      &:visited {
+        color: $w3c_text;
+      }
+      &.selected {
+        background: darken($w3c_grey, 10%);
+        span {
+      		@extend .visuallyhidden;
+        }
+      }
+    }
+  }
+}
+
+.tabpanels {
+  background: darken($w3c_grey, 10%);
+  padding: 1em 0;
+  ul li a.overview {
+    @extend .icon-home3;
+  }
+  .tab {
+    margin: 0 auto;
+    outline: none;
+    @include mq($small) {
+      width: $small;
+    }
+    @include mq($medium) {
+      width: $medium;
+    }
+
+    @include mq($small) {
+      margin-bottom: 2em;
+    }
+    @include mq($medium) {
+      &.hidden {
+        display: none;
+      }
+    }
+
+    .tasks {
+      @include mq($medium) {
+        ul {
+          column-count: 2;
+          column-gap: 5em;
+          li {
+            margin-bottom: 0.5em;
+            break-inside: avoid-column;
+          }
+        }
+      }
+    }
+
+    &.current {
+      display: block;
+      z-index: 500;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 categories:
-  Advocacy and buy-in:
-    shortname: advocacy
-    icon: megaphone
+  Starting Out:
+    shortname: starting
+    icon: rocket
     desc: Accessibility benefits from clear and achievable goals that have broad organizational backing and support. Ongoing communication of the benefits of accessibility plays an important part in ensuring awareness.
     resources:
       - Preparing Introduction to accessibility training
@@ -19,8 +19,8 @@ categories:
       - communication
       - user stories
       - legal issues
-  Organizational accessibility:
-    shortname: organizational
+  Planning:
+    shortname: planning
     icon: map
     desc: Bringing about broad change to an organization will help improve the accessibility of any web projects.
     resources:
@@ -42,7 +42,7 @@ categories:
       - project process
       - procurement
       - training
-  Running a project:
+  Implementation:
     shortname: project
     icon: directions
     desc: Including accessibility early in the project process helps reduce risk and generally improves the accessibility of the final product.
@@ -68,7 +68,7 @@ categories:
       - quality assurance
       - agile
       - training
-  Maintenance and long-term:
+  Monitor and Improve:
     shortname: maintenance
     icon: tools
     desc: Regular reviews of content and processes will help identify and address issues. Changing best practice and policies can also be identified and incorporated into organizational processes.
