@@ -7,12 +7,12 @@ Initiating:
     - Create an accessibility business case
     - Determine an accessibility goal
   tasks:
-    - Introduction to accessibility
-    - Identification of accessibility goals and responsibilities
+    - Understand accessibility
+    - Identify of accessibility goals and responsibilities
     - Prepare an accessibility business case
-    - Obtaining support for accessibility activities
+    - Obtain support for accessibility activities
     - Communicate accessibility aims and value to wider organization
-    - Developing accessibility policy
+    - Develop accessibility policy  topics:
   topics:
     - business case
     - communication
@@ -30,8 +30,8 @@ Planning:
     - Accessibility in the procurement process
     - Accessibility training resources
   tasks:
-    - Recruiting to improve accessibility
-    - Procuring accessible content
+    - Recruit to improve accessibility
+    - Procure accessible content
     - Review design and marketing resources
     - Review technical libraries and tools
     - Consider when to evaluate accessibility
@@ -55,8 +55,8 @@ Implementation:
     - Integrate accessibility broader policies
     - Develop team structure and expertise
     - Evaluation regime and process
-    - Prioritization of identified issues
-    - Sharing experience and knowledge
+    - Prioritize identified issues
+    - Share experience and knowledge
   topics:
     - content management
     - design
@@ -74,10 +74,10 @@ Monitoring:
     - Sharing accessibility knowledge
   tasks:
     - Regular review activities; code, personnel, policies, resources
-    - Developing reporting templates and standard metrics
-    - Identification of areas for improvement
-    - Feedback mechanisms and user support
-    - Reporting activities
+    - Develop reporting templates and standard metrics
+    - Identify areas for improvement
+    - Develop feedback mechanisms and user support
+    - Report to stakeholders and management
   topics:
     - metrics
     - reporting
