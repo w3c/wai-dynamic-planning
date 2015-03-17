@@ -2,7 +2,7 @@
 <nav>
   <ul>
     <li><a class="overview" href="#overview">Overview</a></li>
-    <% data.tasks.categories.each do |category,data| %>
+    <% data.categories.each do |category,data| %>
       <li><a class="<%= data.shortname %> icon-<%= data.icon %>" href="#<%= data.shortname %>"><%= category %></a></li>
     <% end %>
   </ul>
