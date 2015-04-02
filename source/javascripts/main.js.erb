@@ -112,4 +112,18 @@
     tabs.init({
         id: 'tabs'
     });
+
+    // Provide left slide out menu functionality
+    menu = document.querySelectorAll('a.view-menu');
+    menu[0].addEventListener('click', function () {
+        var elements = document.querySelectorAll('body, #sitenav'), i, moveValue;
+        for (i = 0; i < elements.length; i += 1) {
+            moveValue = elements[i].style.right === '20em' ? '0em' : '20em';
+            Velocity(elements[i], {
+                right: moveValue
+            }, {
+                duration: 300
+            });
+        }
+    });
 }());

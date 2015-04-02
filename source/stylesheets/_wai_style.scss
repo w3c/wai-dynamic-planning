@@ -115,6 +115,25 @@ header[role=banner] {
 			display: inline-block;
 			&:hover, &:focus {text-decoration: underline;}
 	}
+    .view-menu {
+        @extend .icon, .icon-with-invisible-text, .icon-list;
+        content: '';
+        font-size: 200%;
+        vertical-align: top !important;
+        margin-top: -5px;
+    }
+    #sitenav {
+        margin-right: -20em;
+        width: 20em;
+        right: 0;
+        top: 0;
+        background: #222;
+        color: #fff;
+        position: fixed;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 1000;
+    }
 }
 
 // Main
