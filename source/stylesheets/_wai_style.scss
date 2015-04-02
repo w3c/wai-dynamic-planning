@@ -682,6 +682,28 @@ figure {
     }
 }
 
+.contribute {
+    border: 1px solid #666 !important;
+    border-radius: .5em;
+    padding: 1em;
+    margin: 2em auto;
+    width: 50%;
+    .heading {
+        font-weight: bold;
+        font-size: 1em;
+        margin: 0 !important;
+        padding: 0 !important;
+        + p {
+            margin-top: 0.5em;
+        }
+    }
+    .editpage {
+        text-align: center;
+        margin-top: 1em;
+        padding: .5em 0 0;
+        border-top: 1px solid #ccc;
+    }
+}
 // Table
 table {
     &.changes {
