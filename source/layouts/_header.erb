@@ -29,12 +29,14 @@
       <%= partial "layouts/sitenav" %>
     </div>
     <div class="page-title">
-			<% if current_page.url == '/' %>
-        Web Accessibility Planning
-      <% else %>
-        <%= x_link_to('Web Accessibility Planning', '/index.html') %>
-        <span class="subheading"><%= current_page.data.nav_title %></span>
-      <% end %>
+      <p>
+  			<% if current_page.url == '/' %>
+          Web Accessibility Planning
+        <% else %>
+          <%= x_link_to('Web Accessibility Planning', '/index.html') %>
+          <span class="subheading"><%= current_page.data.nav_title %></span>
+        <% end %>
+      </p>
     </div>
   </header>
   <div class="<% if has_menu %>with-side-menu<% end %>">
