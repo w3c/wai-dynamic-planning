@@ -1,0 +1,27 @@
+---
+title: Introduction
+nav_title: Introduction
+status: editors-draft
+order: 1
+support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+---
+
+<div class="introduction">
+  <div class="inner">
+    <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. As with other important aspects of website development, such as performance, accessibility is best approached as an integral and ongoing activity.</p>
+  </div>
+</div>
+
+<div class="categories">
+  <% data.content.each do |category,category_data| %>
+    <article id="<%= category_data.shortname %>" class="tab">
+      <h2><a href="/<%= category_data.shortname %>/"><%= category %></a></h2>
+
+      <div class="description">
+        <p><%= category_data.desc %></p>
+      </div>
+      
+      <p><a href="/<%= category_data.shortname %>/">Find out more<span class="nodecoration"> ►</span></a></p>
+    </article>
+  <% end %>
+</div>
