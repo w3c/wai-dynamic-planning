@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>
-  <%= current_page.data.title %>
+  <% if title %>
+    <%= title %>
+  <% end  %>
   <% if current_page.data.order == 1 %>
     <% if current_page.data.guide_title %>
-      <%= " &bull; " + current_page.data.guide_title %>
+      &bull; <%= current_page.data.guide_title %> &bull;
     <% end %>
   <% else %>
     <% if current_page.parent and current_page.parent.data.guide_title %>
-      <%= " &bull; " + current_page.parent.data.guide_title %>
+      &bull; <%= current_page.parent.data.guide_title %> &bull; 
     <% end %>
   <% end %>
-  &bull; WAI Web Accessibility Planning
+  &bull; Web Accessibility Roadmap
   </title>
   <meta name="viewport" content="width=device-width">
   <%= stylesheet_link_tag "main" %>
@@ -31,11 +33,11 @@
     <div class="page-title">
       <p>
   			<% if current_page.url == '/' %>
-          Web Accessibility Planning
+          Web Accessibility Roadmap
         <% else %>
-          <%= x_link_to('Web Accessibility Planning', '/index.html') %>
-          <span class="subheading"><%= current_page.data.nav_title %></span>
+          <%= x_link_to('Web Accessibility Roadmap', '/index.html') %>
         <% end %>
+        <span class="subheading">Practical Guidance for Planning, Managing, and Implementing Web Accessibility</span>
       </p>
     </div>
   </header>
