@@ -14,25 +14,18 @@ $total_width:       100%;      // px|100%      // px = fixed, 100% = fluid
 $gutter_width:      2%;         // px|%         // px = fixed, % = fluid
 $container_margin:  0.5%;         // auto|px|%    //
 
-@import "compass/css3";
-@import "helpers";
-@import "normalize";
-@import "script";
-@import "grid";
 @import "wai_style";
 
 section {
+  margin: 0 auto;
+  @include mq($small) {
+    width: $small;
+  }
+  @include mq($medium) {
+    width: $medium;
+  }
   .introduction {
-    margin: 0 auto;
-    @include mq($small) {
-      width: $small;
-    }
-    @include mq($medium) {
-      width: $medium;
-    }
-    .inner {
-      font-size: 140%;
-    }
+    font-size: 140%;
   }
 }
 
@@ -121,6 +114,23 @@ section {
     &.current {
       display: block;
       z-index: 500;
+    }
+  }
+}
+
+.categories, .activities {
+  position: relative;
+  margin: 0 auto;
+  @include mq($small) {
+    width: $small;
+  }
+  @include mq($medium) {
+    width: $medium;
+    column-count: 2;
+    column-gap: 4em;
+    article {
+      margin-bottom: 2em;
+      display: inline-block;
     }
   }
 }

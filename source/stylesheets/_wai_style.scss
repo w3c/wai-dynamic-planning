@@ -17,13 +17,17 @@
 @import "normalize";
 @import "script";
 @import "grid";
+@import "icons";
+
 // W3C Colours
 $w3c_background: #f5f5f5;
 $w3c_foreground: #333333;
 $w3c_paleblue: #f1f7fb;
 $w3c_blue: #005A9C;
+$w3c_purple: #003366;
 $w3c_grey: #f5f5f5;
 $w3c_text: #333333;
+
 // Font definitions
 @include font-face("Vollkorn",
 font-files("vollkorn/vollkorn-regular.woff"),
@@ -33,7 +37,7 @@ font-files("vollkorn/vollkorn-regular.woff"),
 @include font-face("Vollkorn", font-files("vollkorn/vollkorn-bolditalic.woff"), "vollkorn/vollkorn-bolditalic.eot", bold, italic);*/
 
 .font-primary {
-  font-family: "Trebuchet MS", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: "Vollkorn", "Trebuchet MS", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 }
 
 .font-secondary {
@@ -158,9 +162,6 @@ header[role=banner] {
   a {
     text-decoration: none;
     display: inline-block;
-    &:hover, &:focus {
-      text-decoration: underline;
-    }
   }
   .page-title p {
     font-size: 1.75em;
@@ -170,7 +171,7 @@ header[role=banner] {
     .subheading {
       padding: .25em 0 0;
       display: block;
-      font-size: .5em;
+      font-size: 55%;
       @extend .font-primary;
     }
     a {
@@ -181,7 +182,7 @@ header[role=banner] {
       }
     }
   }
-  .view-menu {
+  #show-sitenav {
     @extend .icon, .icon-with-invisible-text, .icon-list;
     content: '';
     font-size: 200%;
@@ -193,12 +194,47 @@ header[role=banner] {
     width: 20em;
     right: 0;
     top: 0;
-    background: #222;
-    color: #fff;
+    background: $w3c_foreground;
+    color: $w3c_background;
     position: fixed;
     height: 100%;
     overflow-y: auto;
     z-index: 1000;
+    box-shadow: -2px 0 10px rgba(51, 51, 51, 0.8);
+    .close {
+    }
+    a {
+      color: $w3c_background;
+      &:hover, &:focus {
+        text-decoration: underline;
+        color: lighten($w3c_blue, 30%);
+      }
+    }
+    nav {
+      margin: 1em;
+      .nav-discover {
+          background: lighten($w3c_foreground, 10%);
+          border: 1px solid darken($w3c_background, 10%);
+          font-style: italic;
+          padding: 0.5em 1em;
+          margin: 0.5em 1em;
+          p {
+            margin-bottom: 0;
+          }
+      }
+      .translations {
+        margin: 0.5em 1em;
+      }
+    }
+    #close-sitenav {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      @extend .icon, .icon-with-invisible-text, .icon-cross-pale;
+      &:hover, &:focus {
+        @extend .icon-cross;
+      }
+    }
   }
 }
 
@@ -254,7 +290,7 @@ h3 {
   .subheading {
     display: block;
     @extend .font-primary;
-    font-size: 0.55em;
+    font-size: 55%;
     margin: 0.25em;
   }
   * > &:first-child {
@@ -267,10 +303,10 @@ h4 {
 }
 
 a {
-  color: #036;
+  color: $w3c_purple;
   .content & {
     text-decoration: none;
-    color: #036;
+    color: $w3c_purple;
     &:visited {
       color: lighten(#535, 10%);
     }
@@ -282,7 +318,7 @@ a {
   }
   &:hover,
   &:focus {
-    color: #005A9C;
+    color: $w3c_blue;
     cursor: pointer;
     .content & {
       border-bottom: 2px solid;
@@ -571,7 +607,7 @@ figure {
   &.sample {
     @extend .box-primary;
     figcaption {
-      color: #036;
+      color: $w3c_purple;
     }
     .box-content {
       font-size: .9em;
@@ -672,7 +708,7 @@ figure {
 }
 
 .box-primary {
-  border-color: #036;
+  border-color: $w3c_purple;
 }
 
 .box-secondary {
@@ -686,7 +722,7 @@ figure {
   font-size: 0.75em;
   @extend .font-primary;
   .box-primary & {
-    color: #036;
+    color: $w3c_purple;
   }
   .box-secondary & {}
 }
@@ -857,16 +893,16 @@ select {
     style: solid;
     radius: .25em;
   }
-  &:hover {
+  &:hover, &:focus {
     color: #333;
   }
 }
 
 .btn-primary {
   @extend .btn;
-  background: linear-gradient(to bottom, lighten(#036, 10%), #036);
+  background: linear-gradient(to bottom, lighten($w3c_purple, 10%), $w3c_purple);
   color: #fff;
-  border-color: darken(#036, 10%);
+  border-color: darken($w3c_purple, 10%);
   &:hover, &:focus {
     color: #fff;
     text-decoration: underline;
@@ -933,39 +969,7 @@ select {
   line-height: 1;
   vertical-align: middle;
 }
-/* ====== ICONS   ======== EDIT ABOVE! ======== */
 
-.icon {
-  display: inline-block;
-  height: 1em;
-  width: 1em;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  vertical-align: middle;
-}
-
-.icon-large {
-  height: 3em;
-  width: 3em;
-}
-
-.icon-with-invisible-text {
-  text-indent: -9999px;
-}
-
-.icon-with-visible-text {
-  margin-right: .25em;
-}
-
-.icon-with-visible-text-before {
-  margin-left: .25em;
-}
-
-@import 'icons-png';
-.svg {
-  @import 'icons-svg';
-}
 /* ====== HELPERS ======== EDIT ABOVE! ======== */
 
 // Grid System
