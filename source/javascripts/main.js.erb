@@ -1,131 +1,132 @@
 (function () {
-    'use strict';
+  'use strict';
 
-    var Tabs, tabs, menu;
+  var Tabs, tabs, showSitenav, closeSitenav;
 
-    function addclass(el, className) {
-        if (el.classList) {
-            el.classList.add(className);
+  function addclass(el, className) {
+    if (el.classList) {
+      el.classList.add(className);
+    } else {
+      el.className += ' ' + className;
+    }
+  }
+
+  function removeclass(el, className) {
+    if (el.classList) {
+      el.classList.remove(className);
+    } else {
+      el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+    }
+  }
+
+  function hasclass(el, className) {
+    if (el.classList) {
+      return el.classList.contains(className);
+    } else {
+      return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
+    }
+  }
+
+  function getHash(url) {
+    var hashPos = url.lastIndexOf('#');
+    return url.substring(hashPos + 1);
+  }
+
+  function forEachElement(elements, fn) {
+    var i;
+    for (i = 0; i < elements.length; i += 1) {
+      fn(elements[i], i);
+    }
+  }
+
+  Tabs = (function () {
+    var tabLinks = [],
+    tabPanels = [],
+    settings = 'false';
+
+    function showPanel(el) {
+      var newid = el.getAttribute('aria-controls'),
+      currentInfo = null,
+      id;
+      for (id in tabLinks) {
+        if (id === newid) {
+          addclass(tabLinks[id], 'selected');
+          tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].setAttribute('aria-selected', 'true');
+          removeclass(tabPanels[id], 'hidden');
+          tabPanels[id].focus();
         } else {
-            el.className += ' ' + className;
+          removeclass(tabLinks[id], 'selected');
+          if ((currentInfo = tabLinks[id].querySelector('.info')) !== null) {
+            tabLinks[id].removeChild(currentInfo);
+          }
+          tabLinks[id].setAttribute('aria-selected', 'false');
+          addclass(tabPanels[id], 'hidden');
         }
+      }
     }
 
-    function removeclass(el, className) {
-        if (el.classList) {
-            el.classList.remove(className);
+    function init(set) {
+      settings = set;
+      var tabset = document.getElementById(settings.id).querySelectorAll('a'),
+      i,
+      id;
+      for (i = 0; i < tabset.length; i += 1) {
+        id = getHash(tabset[i].getAttribute('href'));
+        tabLinks[id] = tabset[i];
+        tabPanels[id] = document.getElementById(id);
+      }
+
+      i = 0;
+      for (id in tabLinks) {
+        tabLinks[id].setAttribute('aria-controls', id);
+        tabLinks[id].setAttribute('role', 'tab');
+        tabLinks[id].setAttribute('id', 'tab-' + id);
+        tabLinks[id].addEventListener('click', function (e) {
+          e.preventDefault();
+          showPanel(this);
+        });
+
+        tabPanels[id].setAttribute('role', 'tabpanel');
+        tabPanels[id].setAttribute('aria-labelledby', 'tab-' + id);
+        tabPanels[id].setAttribute('tabindex', '-1');
+
+        if (i === 0) {
+          addclass(tabLinks[id], 'selected');
+          tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
+          tabLinks[id].setAttribute('aria-selected', 'true');
         } else {
-            el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+          tabLinks[id].setAttribute('aria-selected', 'false');
+          addclass(tabPanels[id], 'hidden');
         }
+        i += 1;
+      }
     }
 
-    function hasclass(el, className) {
-        if (el.classList) {
-            return el.classList.contains(className);
-        } else {
-            return new RegExp('(^| )' + className + '( |$)', 'gi').test(el.className);
-        }
-    }
+    return {
+      init: init
+    };
+  });
 
-    function getHash(url) {
-        var hashPos = url.lastIndexOf('#');
-        return url.substring(hashPos + 1);
-    }
-
-    function forEachElement(elements, fn) {
-        var i;
-        for (i = 0; i < elements.length; i += 1) {
-            fn(elements[i], i);
-        }
-    }
-
-    Tabs = (function () {
-        var tabLinks = [],
-            tabPanels = [],
-            settings = 'false';
-
-        function showPanel(el) {
-            var newid = el.getAttribute('aria-controls'),
-                currentInfo = null,
-                id;
-            for (id in tabLinks) {
-                if (id === newid) {
-                    addclass(tabLinks[id], 'selected');
-                    tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
-                    tabLinks[id].setAttribute('aria-selected', 'true');
-                    removeclass(tabPanels[id], 'hidden');
-                    tabPanels[id].focus();
-                } else {
-                    removeclass(tabLinks[id], 'selected');
-                    if ((currentInfo = tabLinks[id].querySelector('.info')) !== null) {
-                        tabLinks[id].removeChild(currentInfo);
-                    }
-                    tabLinks[id].setAttribute('aria-selected', 'false');
-                    addclass(tabPanels[id], 'hidden');
-                }
-            }
-        }
-
-        function init(set) {
-            settings = set;
-            var tabset = document.getElementById(settings.id).querySelectorAll('a'),
-                i,
-                id;
-            for (i = 0; i < tabset.length; i += 1) {
-                id = getHash(tabset[i].getAttribute('href'));
-                tabLinks[id] = tabset[i];
-                tabPanels[id] = document.getElementById(id);
-            }
-
-            i = 0;
-            for (id in tabLinks) {
-                tabLinks[id].setAttribute('aria-controls', id);
-                tabLinks[id].setAttribute('role', 'tab');
-                tabLinks[id].setAttribute('id', 'tab-' + id);
-                tabLinks[id].addEventListener('click', function (e) {
-                    e.preventDefault();
-                    showPanel(this);
-                });
-
-                tabPanels[id].setAttribute('role', 'tabpanel');
-                tabPanels[id].setAttribute('aria-labelledby', 'tab-' + id);
-                tabPanels[id].setAttribute('tabindex', '-1');
-
-                if (i === 0) {
-                    addclass(tabLinks[id], 'selected');
-                    tabLinks[id].innerHTML = '<span class="info">current tab: </span>' + tabLinks[id].innerHTML;
-                    tabLinks[id].setAttribute('aria-selected', 'true');
-                } else {
-                    tabLinks[id].setAttribute('aria-selected', 'false');
-                    addclass(tabPanels[id], 'hidden');
-                }
-                i += 1;
-            }
-        }
-
-        return {
-            init: init
-        };
-    });
-
-    tabs = new Tabs();
+  tabs = new Tabs();
+  if(document.getElementById('tabs')) {
     tabs.init({
-        id: 'tabs'
+      id: 'tabs'
     });
+  }
 
-  // Provide left slide out menu functionality
-  menu = document.querySelectorAll('a.view-menu');
-  if(menu !== null) {
-    menu[0].addEventListener('click', function () {
-      var body = document.querySelector('body'),
-          sitenav = document.getElementById('sitenav'),
-          i, elements;
-      elements = [body, sitenav];
-
+  // Provide left slide out sitenav functionality
+  // TODO: Make this a little bit more clean and efficient
+  showSitenav = document.getElementById('show-sitenav');
+  if(showSitenav !== null) {
+    var body = document.querySelector('body'),
+        sitenav = document.getElementById('sitenav'),
+        elements, i;
+    elements = [body, sitenav];
+    showSitenav.addEventListener('click', function () {
       if(sitenav.style.display === 'none') {
         sitenav.style.display = 'block';
         for(i in elements) {
-          console.log(elements[i]);
           Velocity(elements[i], {
             right: '20em'
           }, {
@@ -134,7 +135,6 @@
         }
       } else {
         for(i in elements) {
-          console.log(elements[i]);
           Velocity(elements[i], {
             right: '0em'
           }, {
@@ -144,6 +144,20 @@
             }
           });
         }
+      }
+    });
+    
+    closeSitenav = document.getElementById('close-sitenav');
+    closeSitenav.addEventListener('click', function () {
+      for(i in elements) {
+        Velocity(elements[i], {
+          right: '0em'
+        }, {
+          duration: 300,
+          complete: function() {
+            sitenav.style.display = 'none';
+          }
+        });
       }
     });
   }
