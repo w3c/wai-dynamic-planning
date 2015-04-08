@@ -90,6 +90,15 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# Build core pages from the content yaml file
+data.content.each do |category,category_data|
+  proxy "/#{category_data.shortname}/index.html", "templates/category.html", :locals => { :title => category, :category_data => category_data }, :ignore => true
+  
+  category_data.activities.each do |activity,activity_data|
+    proxy "/#{category_data.shortname}/#{activity_data.shortname}.html", "templates/activity.html", :locals => { :title => activity, :activity_data => activity_data, :category_title => category, :category_data => category_data }, :ignore => true
+  end
+end
+
 activate :deploy do |deploy|
   deploy.method = :git
   # Optional Settings
