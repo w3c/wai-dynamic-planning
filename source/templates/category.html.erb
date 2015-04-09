@@ -12,13 +12,13 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 <div class="activities">
   <% category_data.activities.each do |activity,activity_data| %>
     <article id="<%= activity_data.shortname %>" class="tab">
-      <h3><a href="/<%= activity_data.shortname %>/"><%= activity %></a></h3>
+      <h3><a href="<%= activity_data.shortname %>.html"><%= activity %></a></h3>
 
       <div class="description">
         <p><%= activity_data.desc %></p>
       </div>
       
-      <p><a href="/<%= activity_data.shortname %>/">Find out more<span class="nodecoration"> ►</span></a></p>
+      <p><a href="<%= activity_data.shortname %>.html">Find out more<span class="nodecoration"> ►</span></a></p>
     </article>
   <% end %>
 </div>
