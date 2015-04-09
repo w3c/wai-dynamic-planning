@@ -15,7 +15,7 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 <div class="categories">
   <% data.content.each do |category,category_data| %>
     <article id="<%= category_data.shortname %>" class="tab">
-      <h2><a href="/<%= category_data.shortname %>/"><%= category %></a></h2>
+      <h2><span class="icon icon-<%= category_data.icon %>"></span><a href="/<%= category_data.shortname %>/"><%= category %></a></h2>
 
       <div class="description">
         <p><%= category_data.desc %></p>
