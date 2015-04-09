@@ -16,16 +16,35 @@ $container_margin:  0.5%;         // auto|px|%    //
 
 @import "wai_style";
 
-section {
-  margin: 0 auto;
-  @include mq($small) {
-    width: $small;
+.withtabs {
+  section {
+    .introduction {
+      margin: 0 auto;
+      @include mq($small) {
+        width: $small;
+      }
+      @include mq($medium) {
+        width: $medium;
+      }
+      .inner {
+        font-size: 140%;
+      }
+    }
   }
-  @include mq($medium) {
-    width: $medium;
-  }
-  .introduction {
-    font-size: 140%;
+}
+
+.layout {
+  section {
+    margin: 0 auto;
+    @include mq($small) {
+      width: $small;
+    }
+    @include mq($medium) {
+      width: $medium;
+    }
+    .introduction {
+      font-size: 140%;
+    }
   }
 }
 
