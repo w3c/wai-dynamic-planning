@@ -1,8 +1,8 @@
 ---
-title: "Planning and implementation"
-nav_title: "Introduction"
+title: Web Accessibility Roadmap
+nav_title: Introduction
 status: editors-draft
-order: 1
+template: withtabs
 support: <strong>Developed with support</strong> from the <a href="http://www.w3.org/WAI/DEV/">WAI-DEV</a> project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
 ---
 
@@ -33,9 +33,9 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
       <div class="tasks">
         <h3>Activities to consider</h3>
         <ul>
-          <% category_data.activities.take(6).each do |task| %>
-            <li><a href="#"><%= task %></a>
-              <% if data.tasks.include?(task) %><p><%= data.tasks[task].desc %></p><% end %>
+          <% category_data.activities.take(6).each do |activity,activity_data| %>
+            <li><a href="#"><%= activity %></a>
+              <p><%= activity_data.desc %></p>
             </li>
           <% end %>
         </ul>
