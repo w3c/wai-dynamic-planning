@@ -133,4 +133,23 @@ section {
       display: inline-block;
     }
   }
+  h2 {
+    span {
+      height: 1.1em;
+      width: 1.1em;
+      margin: -0.2em 0.2em 0 0;
+    }
+  }
+}
+
+.category {
+  .content {
+    h2 {
+      span {
+        height: 1.1em;
+        width: 1.1em;
+        margin: -0.2em 0.2em 0 0;
+      }
+    }
+  }
 }
