@@ -8,20 +8,21 @@ support: <strong>Developed with support</strong> from the <a href="http://www.w3
 
 <div class="introduction">
   <div class="inner">
-    <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. As with other important aspects of website development, such as performance, accessibility is best approached as an integral and ongoing activity.</p>
+    <p>A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. This resource explores activities that are important to help you implement or improve accessibility within your organization or project.</p>
+    <p>Activities are grouped according to when in a project or program they might be considered. Each activity provides information on what is required and points to related resources that explore the activity further.</p>
   </div>
 </div>
 
 <div class="categories">
   <% data.content.each do |category,category_data| %>
     <article id="<%= category_data.shortname %>" class="tab">
-      <h2><span class="icon icon-<%= category_data.icon %>"></span><a href="/<%= category_data.shortname %>/"><%= category %></a></h2>
+      <h2><span class="icon icon-<%= category_data.icon %>"></span><a href="<%= category_data.shortname %>/"><%= category %></a></h2>
 
       <div class="description">
         <p><%= category_data.desc %></p>
       </div>
       
-      <p><a href="/<%= category_data.shortname %>/">Find out more<span class="nodecoration"> ►</span></a></p>
+      <p><a href="<%= category_data.shortname %>/">Find out more<span class="nodecoration"> ►</span></a></p>
     </article>
   <% end %>
 </div>
