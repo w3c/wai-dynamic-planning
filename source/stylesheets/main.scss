@@ -145,11 +145,12 @@ $container_margin:  0.5%;         // auto|px|%    //
   }
   @include mq($medium) {
     width: $medium;
-    column-count: 2;
-    column-gap: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     article {
       margin-bottom: 2em;
-      display: inline-block;
+      width: 45%;
     }
   }
   h2 {
