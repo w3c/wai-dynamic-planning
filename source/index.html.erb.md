@@ -4,6 +4,7 @@ status: editors-draft
 layout: layout
 ---
 
+{:.introduction}
 A successful plan for web accessibility addresses many areas of your organization and projects: training, quality assurance, recruiting, purchasing, marketing, content development, visual design, and more. This resource explores activities that are important to help you implement or improve accessibility within your organization or project.
 
 Activities are grouped according to when in a project or program they might be considered. Each activity provides information on what is required and points to related resources that explore the activity further.

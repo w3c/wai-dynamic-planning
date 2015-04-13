@@ -16,124 +16,16 @@ $container_margin:  0.5%;         // auto|px|%    //
 
 @import "wai_style";
 
-.withtabs {
-  section {
-    .introduction {
-      margin: 0 auto;
-      @include mq($small) {
-        width: $small;
-      }
-      @include mq($medium) {
-        width: $medium;
-      }
-      .inner {
-        font-size: 140%;
-      }
-    }
-  }
-}
-
-.layout {
-  section {
-    margin: 0 auto;
-    @include mq($small) {
-      width: $small;
-    }
-    @include mq($medium) {
-      width: $medium;
-    }
-    .introduction {
-      font-size: 110%;
-    }
-  }
-}
-
-.tabs {
-  position: relative;
+section {
   margin: 0 auto;
-  padding: 0;
   @include mq($small) {
     width: $small;
-    display: none;
   }
   @include mq($medium) {
     width: $medium;
-    display: flex;
   }
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  li {
-    margin: 0;
-    padding: 0;
-    display: inline;
-    a {
-      display: inline-block;
-      padding: 0.5em 2em;
-      color: $w3c_text;
-      background: darken($w3c_grey, 20%);
-      border-radius: 10px 10px 0 0;
-      &:hover, &:focus {
-        background: lighten($w3c_grey, 5%);
-        border-bottom: none;
-      }
-      &:visited {
-        color: $w3c_text;
-      }
-      &.selected {
-        background: darken($w3c_grey, 10%);
-        .info {
-      		@extend .visuallyhidden;
-        }
-      }
-      .icon {
-        margin-right: 0.5em;
-      }
-    }
-  }
-}
-
-.tabpanels {
-  background: darken($w3c_grey, 10%);
-  padding: 1em 0;
-  ul li a.overview {
-    @extend .icon-home3;
-  }
-  .tab {
-    margin: 0 auto;
-    outline: none;
-    @include mq($small) {
-      width: $small;
-    }
-    @include mq($medium) {
-      width: $medium;
-    }
-
-    @include mq($small) {
-      margin-bottom: 2em;
-    }
-    @include mq($medium) {
-      &.hidden {
-        display: none;
-      }
-    }
-
-    .tasks {
-      @include mq($medium) {
-        ul {
-          column-count: 2;
-          column-gap: 5em;
-          li {
-            margin-bottom: 0.5em;
-            break-inside: avoid-column;
-          }
-        }
-      }
-    }
-
-    &.current {
-      display: block;
-      z-index: 500;
-    }
+  .introduction {
+    font-size: 120%;
   }
 }
 
@@ -151,25 +43,6 @@ $container_margin:  0.5%;         // auto|px|%    //
     article {
       margin-bottom: 2em;
       width: 45%;
-    }
-  }
-  h2 {
-    span {
-      height: 1.1em;
-      width: 1.1em;
-      margin: -0.2em 0.2em 0 0;
-    }
-  }
-}
-
-.category {
-  .content {
-    h2 {
-      span {
-        height: 1.1em;
-        width: 1.1em;
-        margin: -0.2em 0.2em 0 0;
-      }
     }
   }
 }
