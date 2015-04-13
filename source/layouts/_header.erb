@@ -2,27 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>
-  <% if title %>
-    <%= title %>
-  <% end  %>
-  <% if current_page.data.order == 1 %>
-    <% if current_page.data.guide_title %>
-      &bull; <%= current_page.data.guide_title %> &bull;
-    <% end %>
-  <% else %>
-    <% if current_page.parent and current_page.parent.data.guide_title %>
-      &bull; <%= current_page.parent.data.guide_title %> &bull; 
-    <% end %>
-  <% end %>
-  &bull; Web Accessibility Roadmap
-  </title>
+  <title><%= current_page.data.title %> &bull; Web Accessibility Roadmap</title>
   <meta name="viewport" content="width=device-width">
   <%= stylesheet_link_tag "main" %>
   <%= javascript_include_tag "modernizr" %>
   <%= javascript_include_tag "velocity" %>
 </head>
-<body class="texts <%= current_page.data.layout %> <%= current_page.data.template %> <%= current_page.data.status %>">
+<body class="<%= page_classes %> <%= current_page.data.layout %> <%= current_page.data.status %>">
   <header role="banner">
     <div class="w3c-wai-header">
       <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>

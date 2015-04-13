@@ -61,6 +61,24 @@ helpers do
       link_to('<span class="count"></span><span class="txt">' + link_text + '</span>', url, options)
     end
   end
+  
+  def block_start(block_name = "")
+    '<div class="' + block_name + '">'
+  end
+  def block_end
+    '</div>'
+  end
+
+  def article_start(article_id = "")
+    '<article id="' + article_id + '">'
+  end
+  def article_end
+    '</article>'
+  end
+  
+  def find_out_more(url)
+    '<p><a href="' + url + '">Find out more<span class="nodecoration"> ►</span></a></p>'
+  end
 end
 
 set :markdown_engine, :kramdown
@@ -88,15 +106,6 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-end
-
-# Build core pages from the content yaml file
-data.content.each do |category,category_data|
-  proxy "#{category_data.shortname}/index.html", "templates/category.html", :locals => { :title => category, :category_data => category_data }, :ignore => true
-  
-  category_data.activities.each do |activity,activity_data|
-    proxy "#{category_data.shortname}/#{activity_data.shortname}.html", "templates/activity.html", :locals => { :title => activity, :activity_data => activity_data, :category_title => category, :category_data => category_data }, :ignore => true
-  end
 end
 
 activate :deploy do |deploy|
