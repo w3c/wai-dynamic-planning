@@ -54,3 +54,30 @@ h2.icon {
   padding-bottom: 0.25em;
   margin-bottom: 0.5em;
 }
+
+.activity {
+  .inner {
+    position: relative;
+    @include mq($medium) {
+      width: $medium/1.618;
+    }
+    aside {
+      li {
+        p:first-child {
+          margin-bottom: 0;
+        }
+        @include mq($medium) {
+          font-size: 90%;
+        }
+      }
+    }
+    #support_material {
+      @include mq($medium) {
+        position: absolute;
+        width: $medium - ($medium/1.618) - 1em;
+        right: -($medium - ($medium/1.618)) - 1em;
+        top: 0;
+      }
+    }
+  }
+}
