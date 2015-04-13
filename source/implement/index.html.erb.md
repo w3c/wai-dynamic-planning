@@ -6,6 +6,7 @@ layout: layout
 
 ## Implement
 
+{:.introduction}
 There are key opportunities to incorporate accessibility in any web project, from personnel and training to evaluation and prioritization. By weaving accessibility throughout the project, the overall quality of final outcome improves without significantly impacting on budget or timescales.
 
 {::nomarkdown}

@@ -6,6 +6,7 @@ layout: layout
 
 ## Plan
 
+{:.introduction}
 Regardless of the scope of work, ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Assessing the current situation is important to determine the scale of work required and allow achievable milestones to be set.
 
 {::nomarkdown}

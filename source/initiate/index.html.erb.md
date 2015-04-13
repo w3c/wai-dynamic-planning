@@ -6,6 +6,7 @@ layout: layout
 
 ## Initiate
 
+{:.introduction}
 Starting any program of work involves developing clear goals and solid management support, both administratively and financially. Like quality, accessibility is more a feature of web deliverables than a deliverable in itself. This means that the environment in which projects are developed needs careful thought to ensure that accessibility is well-supported.
 
 {::nomarkdown}

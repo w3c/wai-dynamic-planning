@@ -6,6 +6,7 @@ layout: layout
 
 ## Monitor
 
+{:.introduction}
 Keeping momentum helps with the accessibility maintenance for completed projects and builds on completed work for new projects. Regular reviews of content, organizational processes, and resources will help ensure that accessibility remains a priority and issues are identified. Developing a management reporting process will help ensure that it is clear where activity is required for follow-up work.
 
 {::nomarkdown}
