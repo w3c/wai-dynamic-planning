@@ -9,7 +9,8 @@
   <%= javascript_include_tag "velocity" %>
 </head>
 <body class="<%= page_classes %> <%= current_page.data.layout %> <%= current_page.data.status %>">
-  <header role="banner">
+    <%= partial "layouts/status" %>
+    <header role="banner">
     <div class="w3c-wai-header">
       <a href="http://w3.org/"><%= image_tag 'w3c.png', :alt => "W3C", :width => "90" %></a>
       <a href="http://w3.org/WAI/" class="wai"><%= image_tag 'wai.png', :alt => "Web Accessibility Initiative" %></a>
@@ -28,4 +29,3 @@
     </div>
   </header>
   <div>
-    <%= partial "layouts/status" %>
