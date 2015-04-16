@@ -18,6 +18,7 @@
 @import "script";
 @import "grid";
 @import "icons";
+@import "permalink";
 
 // W3C Colours
 $w3c_background: #f5f5f5;
@@ -957,17 +958,6 @@ select {
       left: 0;
     }
   }
-}
-
-.permalink {
-  @extend .font-primary;
-  @extend .btn-small;
-  color: #666;
-  float: right;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 1;
-  vertical-align: middle;
 }
 
 /* ====== HELPERS ======== EDIT ABOVE! ======== */
