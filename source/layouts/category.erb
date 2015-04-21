@@ -1,33 +1,22 @@
-<%= partial "layouts/header" %>
-
-<main role="main" class="content">
-  <section role="region">
-    <header>
-      <h1><%= current_page.data.title %></h1>
-    </header>
+<% wrap_layout :layout do %>
+  <h2 class="attach_permalink"><%= current_page.data.title %></h2>
+  <div class="inner">
+    <%= yield %>
     
-	  <div class="inner">
-	    <%= yield %>
-      
-      <div id="support_material">
-        <% if content_for?(:resources) %>
-        <aside id="resources">
-          <h3>Key Resources</h3>
-          <%= yield_content :resources %>
-        </aside>
-        <% end %>
+    <div id="support_material">
+      <% if content_for?(:resources) %>
+      <aside id="resources">
+        <h3>Key Resources</h3>
+        <%= yield_content :resources %>
+      </aside>
+      <% end %>
 
-        <% if content_for?(:related) %>
-        <aside id="related">
-          <h3>Related Activities</h3>
-          <%= yield_content :related %>
-        </aside>
-        <% end %>
-      </div>
-	  </div>
-  </section>
-</main>
-
-<%= partial "layouts/contribute" %>
-
-<%= partial "layouts/footer" %>
+      <% if content_for?(:related) %>
+      <aside id="related">
+        <h3>Related Activities</h3>
+        <%= yield_content :related %>
+      </aside>
+      <% end %>
+    </div>
+  </div>
+<% end %>

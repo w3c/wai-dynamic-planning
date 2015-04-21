@@ -1,36 +1,25 @@
-<%= partial "layouts/header" %>
+<% wrap_layout :layout do %>
+  <h2 class="attach_permalink"><%= current_page.data.title %></h2>
+  <div class="inner">
+    <div class="yield">
+      <%= yield %>
+      <%= link_to('Return to ' + current_page.data.parent, 'index.html') %>
+    </div>
+  
+    <div class="support_material">
+      <% if content_for?(:resources) %>
+      <aside id="resources">
+        <h3>Key Resources</h3>
+        <%= yield_content :resources %>
+      </aside>
+      <% end %>
 
-<main role="main" class="content">
-  <section role="region">
-    <header>
-      <h1><a href="index.html"><%= current_page.data.parent %></a></h1>
-      <h2 class="attach_permalink"><%= current_page.data.title %></h2>
-    </header>
-    
-	  <div class="inner">
-      <div class="yield">
-  	    <%= yield %>
-      </div>
-      
-      <div class="support_material">
-        <% if content_for?(:resources) %>
-        <aside id="resources">
-          <h3>Key Resources</h3>
-          <%= yield_content :resources %>
-        </aside>
-        <% end %>
-
-        <% if content_for?(:related) %>
-        <aside id="related">
-          <h3>Related Activities</h3>
-          <%= yield_content :related %>
-        </aside>
-        <% end %>
-      </div>
-	  </div>
-  </section>
-</main>
-
-<%= partial "layouts/contribute" %>
-
-<%= partial "layouts/footer" %>
+      <% if content_for?(:related) %>
+      <aside id="related">
+        <h3>Related Activities</h3>
+        <%= yield_content :related %>
+      </aside>
+      <% end %>
+    </div>
+  </div>
+<% end %>
