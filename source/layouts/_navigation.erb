@@ -1,9 +1,9 @@
-<h2>Planning</h2>
-<nav>
+<nav id="primary">
   <ul>
-    <li><a class="overview" href="#overview">Overview</a></li>
-    <% data.content.each do |category,data| %>
-      <li><a class="<%= data.shortname %> icon-<%= data.icon %>" href="#<%= data.shortname %>"><%= category %></a></li>
-    <% end %>
+    <li><%= nav_link('Home', '/index.html', { class: 'home' }) %></li>
+    <li><%= nav_link('Initiate', '/initiate/index.html', { class: 'initiate' }) %></li>
+    <li><%= nav_link('Plan', '/plan/index.html', { class: 'plan' }) %></li>
+    <li><%= nav_link('Implement', '/implement/index.html', { class: 'implement' }) %></li>
+    <li><%= nav_link('Monitor', '/monitor/index.html', { class: 'monitor' }) %></li>
   </ul>
 </nav>
