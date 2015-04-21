@@ -3,16 +3,13 @@
 <main role="main" class="content">
   <section role="region">
     <header>
-      <h1><a href="index.html"><%= current_page.data.parent %></a></h1>
-      <h2 class="attach_permalink"><%= current_page.data.title %></h2>
+      <h1><%= current_page.data.title %></h1>
     </header>
     
 	  <div class="inner">
-      <div class="yield">
-  	    <%= yield %>
-      </div>
+	    <%= yield %>
       
-      <div class="support_material">
+      <div id="support_material">
         <% if content_for?(:resources) %>
         <aside id="resources">
           <h3>Key Resources</h3>

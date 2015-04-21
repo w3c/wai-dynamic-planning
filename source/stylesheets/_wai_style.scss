@@ -180,6 +180,7 @@ header[role=banner] {
       text-decoration: none;
       &:hover, &:focus {
         text-decoration: underline;
+    		color: $w3c_blue;
       }
     }
   }

@@ -1,10 +1,8 @@
 ---
 title: Initiate
 status: editors-draft
-layout: layout
+layout: category
 ---
-
-## Initiate
 
 {:.introduction}
 Starting any program of work involves developing clear goals and solid management support, both administratively and financially. Like quality, accessibility is more a feature of web deliverables than a deliverable in itself. This means that the environment in which projects are developed needs careful thought to ensure that accessibility is well-supported.
@@ -58,7 +56,7 @@ A business case will help communicate why accessibility is important and program
 <%= article_start %>
 {:/}
 
-### [Prepare an accessibility business case](obtain_support.html)
+### [Obtain support for accessibility activities](obtain_support.html)
 
 Management support is vital to ensure that resources are available and accessibility is prioritized.
 
