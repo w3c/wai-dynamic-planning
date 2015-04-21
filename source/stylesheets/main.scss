@@ -59,7 +59,7 @@ h2.icon {
   .inner {
     position: relative;
     @include mq($medium) {
-      width: $medium/1.618;
+      display: flex;
     }
     aside {
       li {
@@ -71,12 +71,15 @@ h2.icon {
         }
       }
     }
-    #support_material {
+    .yield {
       @include mq($medium) {
-        position: absolute;
+        width: $medium/1.618;
+        padding-right: 2em;
+      }
+    }
+    .support_material {
+      @include mq($medium) {
         width: $medium - ($medium/1.618) - 1em;
-        right: -($medium - ($medium/1.618)) - 1em;
-        top: 0;
       }
     }
   }
