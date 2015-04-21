@@ -16,6 +16,10 @@ $container_margin:  0.5%;         // auto|px|%    //
 
 @import "wai_style";
 
+#primary {
+  display: none;
+}
+
 section {
   margin: 0 auto;
   @include mq($small) {
@@ -80,6 +84,126 @@ h2.icon {
     .support_material {
       @include mq($medium) {
         width: $medium - ($medium/1.618) - 1em;
+      }
+    }
+  }
+}
+
+.option1 {
+  main {
+    margin: 0 auto;
+    @include mq($small) {
+      width: $small;
+    }
+    @include mq($medium) {
+      width: $medium;
+    }
+  }
+  #primary {
+    display: block;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    @extend .font-secondary;
+    @include mq($medium) {
+      float: left;
+    }
+    span {
+      display: inline-block;
+      width: 100%;
+    }
+    ul {
+      @include mq($small) {
+        width: $small - 2em;
+      }
+      @include mq($medium) {
+        width: 9em;
+      }
+      list-style-type: none;
+      margin: 0;
+      padding: 1em 0 0 0;
+      li {
+        font-size: 150%;
+        @include mq($small) {
+          padding: 0;
+        }
+        @include mq($medium) {
+          padding: 0.25em 0;
+        }
+        position: relative;
+        a {
+          display: inline-block;
+          width: 100%;
+          color: $w3c_blue;
+          padding: 0.1em 1em;
+          @include mq($medium) {
+            padding-right: 0;
+            right: 1em;
+          }
+          position: relative;
+          &:visited {
+            color: $w3c_blue;
+          }
+          &:focus, &:hover {
+            background: darken($w3c_background, 20%);
+            color: $w3c_foreground;
+            border-bottom: none;
+          }
+        }
+        .current, .in_section {
+          padding: 0.1em 1em;
+          @include mq($medium) {
+            padding-right: 0;
+            right: 1em;
+          }
+          background: darken($w3c_background, 20%);
+          color: $w3c_foreground;
+          border-bottom: none;
+          position: relative;
+          display: inline-block;
+          width: 100%;
+        }
+        .in_section {
+          &:after {
+            @include mq($medium) {
+              content: '';
+              position: absolute;
+              top: 0.35em;
+              right: -3px;
+              width: 0; 
+              height: 0; 
+              border-top: 0.45em solid transparent;
+              border-bottom: 0.45em solid transparent;
+              border-right: 0.5em solid $w3c_background;
+            }
+          }
+        }
+      }
+    }
+  }
+  section {
+    @include mq($medium) {
+      box-shadow: -10px 0 3px 10px $w3c_background inset, 0 0 3px 0 $w3c_foreground inset;
+      padding: 1em 0 1em 2em;
+      margin: 0 0 0 9em;
+      width: 80%
+    }
+  }
+  
+  .categories, .activities {
+    @include mq($medium) {
+      article {
+        display: flex;
+        width: auto;
+        margin-bottom: 1em;
+      }
+      h2 {
+        width: 6.5em;
+      }
+      h3 {
+        width: 10em;
+      }
+      p {
+        width: $medium - 20em;
       }
     }
   }
