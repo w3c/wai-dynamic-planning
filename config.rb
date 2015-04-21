@@ -54,11 +54,24 @@ helpers do
 
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
-    if url == '/' + current_page.path
-      options[:class] << " current"
-      '<span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>' + link_text + '</span></span>'
+    
+    option = /^\/option(\d)/.match('/' + current_page.path)
+    if option
+      url = '/option' + option[1] + url
+    end
+
+    is_home = /^#{url}$/.match('/' + current_page.path) and /^(\/option\d)?\/index.html$/.match(url)
+    section = /(\/option\d)?\/([^\.\/]*)/.match('/' + current_page.path)
+    in_section = /\/#{section[2]}\//.match(url)
+    if in_section or is_home
+      options[:class] << ' in_section'
+    end
+
+    if /^#{url}$/.match('/' + current_page.path)
+      options[:class] << ' current'
+      '<span class="' + options[:class] + '"><span class="visuallyhidden">Current: </span>' + link_text + '</span>'
     else
-      link_to('<span class="count"></span><span class="txt">' + link_text + '</span>', url, options)
+      link_to(link_text, url, options)
     end
   end
   
