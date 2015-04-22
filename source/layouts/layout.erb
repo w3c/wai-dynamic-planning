@@ -2,9 +2,11 @@
 
 <main role="main" class="content">
   <%= partial "layouts/navigation" %>
-  <section role="region">
-    <%= yield %>
-  </section>
+  <div class="wrap">
+    <section role="region">
+      <%= yield %>
+    </section>
+  </div>
 </main>
 
 <%= partial "layouts/contribute" %>
