@@ -19,7 +19,6 @@ There are key opportunities to incorporate accessibility in any web project, fro
 Enthusiasm and inspiration may be suitable qualities for accessibility champions. For developers, designers, and content creators knowledge and experience are more important. 
 
 {::nomarkdown}
-<%= find_out_more('assign_roles.html') %>
 <%= article_end %>
 
 <%= article_start %>
@@ -30,7 +29,6 @@ Enthusiasm and inspiration may be suitable qualities for accessibility champions
 Accessibility awareness training helps all project staff. Staff, such as developers and content managers, can have focused training that addresses their specific role.
 
 {::nomarkdown}
-<%= find_out_more('training.html') %>
 <%= article_end %>
 
 <%= article_start %>
@@ -41,7 +39,6 @@ Accessibility awareness training helps all project staff. Staff, such as develop
 External experience can help to bolster team knowledge and support urgent goals. Longer term recruitment can focus on candidates with demonstrable accessibility experience.
 
 {::nomarkdown}
-<%= find_out_more('recruitment.html') %>
 <%= article_end %>
 
 <%= article_start %>
@@ -52,9 +49,7 @@ External experience can help to bolster team knowledge and support urgent goals.
 Aim to carry out a consistent evaluation at key stages throughout the project, rather than just at the end. 
 
 {::nomarkdown}
-<%= find_out_more('evaluation.html') %>
 <%= article_end %>
-
 <%= article_start %>
 {:/}
 
@@ -63,9 +58,7 @@ Aim to carry out a consistent evaluation at key stages throughout the project, r
 Prioritizing any known issues well help target limited resources for maximum effect before milestones are reached. 
 
 {::nomarkdown}
-<%= find_out_more('prioritization.html') %>
 <%= article_end %>
-
 <%= article_start %>
 {:/}
 
@@ -74,9 +67,7 @@ Prioritizing any known issues well help target limited resources for maximum eff
 Sharing knowledge and solutions will increase project team experience and help pass this experience on to other project teams.
 
 {::nomarkdown}
-<%= find_out_more('knowledge_sharing.html') %>
 <%= article_end %>
-
 <%= article_start %>
 {:/}
 
@@ -86,8 +77,6 @@ Assessing vendors and third-party products will help ensure project deliverables
 
 
 {::nomarkdown}
-<%= find_out_more('procurement.html') %>
 <%= article_end %>
-
 <%= block_end %>
 {:/}
