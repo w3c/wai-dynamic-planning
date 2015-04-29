@@ -3,6 +3,12 @@ title: Obtain support for accessibility activities
 parent: Initiate
 status: editors-draft
 layout: activity
+prev:
+  url: business_case.html
+  title: Prepare an accessibility business case
+next:
+  url: communicate.html
+  title: Communicate accessibility aims and value to wider organization
 ---
 
 {:.introduction}

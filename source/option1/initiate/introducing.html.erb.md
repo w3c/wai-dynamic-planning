@@ -3,6 +3,9 @@ title: Introducing accessibility
 parent: Initiate
 status: editors-draft
 layout: activity
+next:
+  url: identify_goals.html
+  title: Identifying accessibility goals
 ---
 
 {:.introduction}

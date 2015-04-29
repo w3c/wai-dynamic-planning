@@ -3,6 +3,12 @@ title: Reviewing the current situation
 parent: Initiate
 status: editors-draft
 layout: activity
+prev:
+  url: introducing.html
+  title: Introducing accessibility
+next:
+  url: identify_goals.html
+  title: Identifying accessibility goals
 ---
 
 {:.introduction}

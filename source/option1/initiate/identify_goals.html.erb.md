@@ -3,6 +3,12 @@ title: Identify accessibility goals
 parent: Initiate
 status: editors-draft
 layout: activity
+prev:
+  url: review_situation.html
+  title: Reviewing the current situation
+next:
+  url: business_case.html
+  title: Prepare an accessibility business case
 ---
 
 {:.introduction}

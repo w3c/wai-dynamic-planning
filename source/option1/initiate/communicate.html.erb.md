@@ -3,6 +3,9 @@ title: Communicate accessibility aims and value to wider organization
 parent: Initiate
 status: editors-draft
 layout: activity
+prev:
+  url: obtain_support.html
+  title: Obtain support for accessibility activities
 ---
 
 {:.introduction}
