@@ -102,7 +102,7 @@ h2.icon {
   #primary {
     display: block;
     margin-bottom: 1em;
-    margin-top: 2.5em;
+    margin-top: 1em;
     @extend .font-secondary;
     @include mq($medium) {
       float: left;
@@ -234,6 +234,14 @@ h2.icon {
   }
   #primary {
     display: block;
+    @include mq($small) {
+      margin: 1em auto;
+      width: $small;
+    }
+    @include mq($medium) {
+      margin: 0;
+      width: 100%;
+    }
     @extend .font-secondary;
     span {
       display: inline-block;
@@ -242,6 +250,7 @@ h2.icon {
     ul {
       margin: 0;
       padding: 1em 0 0 0;
+      list-style-type: none;
       @include mq($small) {
         width: $small - 2em;
       }
@@ -252,7 +261,6 @@ h2.icon {
         margin-left: auto;
         margin-right: auto;
       }
-      list-style-type: none;
       li {
         font-size: 150%;
         @include mq($small) {
@@ -267,12 +275,24 @@ h2.icon {
           display: inline-block;
           width: 100%;
           color: $w3c_blue;
+          @include mq($small) {
+            padding: 0.1em 1em;
+          }
+          @include mq($medium) {
+            padding: 0;
+          }
           &:visited {
             color: $w3c_blue;
           }
           &:focus, &:hover {
-            color: $w3c_foreground;
             border-bottom: none;
+            color: $w3c_foreground;
+            @include mq($small) {
+              background: darken($w3c_background, 20%);
+            }
+            @include mq($medium) {
+              background: none;
+            }
           }
         }
         .current, .in_section {
@@ -282,7 +302,15 @@ h2.icon {
           width: 100%;
         }
         .in_section {
+          @include mq($small) {
+            padding: 0.1em 1em;
+            background: darken($w3c_background, 20%);
+            position: relative;
+          }
           @include mq($medium) {
+            padding: 0;
+            background: none;
+            position: static;
             &:before, &:after {
               border-left: 0.3em solid transparent;
               border-right: 0.3em solid transparent;
@@ -316,7 +344,7 @@ h2.icon {
         width: 8em;
       }
       h3 {
-        width: 13em;
+        width: 12em;
       }
       p {
         width: $medium - 16em;
