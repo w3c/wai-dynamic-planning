@@ -7,13 +7,6 @@ $medium: 43em; //* 700px */
 $big:    56em; //* 900px */
 $large:  81em; //* 1300px */
 
-// Grid systems variable
-
-$total_columns:     12;         //              //
-$total_width:       100%;      // px|100%      // px = fixed, 100% = fluid
-$gutter_width:      2%;         // px|%         // px = fixed, % = fluid
-$container_margin:  0.5%;         // auto|px|%    //
-
 @import "wai_style";
 
 #primary {

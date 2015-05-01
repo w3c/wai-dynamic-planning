@@ -75,6 +75,29 @@ helpers do
     end
   end
   
+  def is_current(url)
+    url == '/' + current_page.path
+  end
+  
+  def existing_nav_link(link_text, url, options = {})
+    options[:class] ||= ""
+    
+    if is_current(url)
+      '<span class="label"><span id="current-icon">»</span>' + link_text + '</span>'
+    else
+      link_to(link_text, url, options)
+    end
+  end
+  
+  def list_nav_link(link_text, url, options = {})
+    if is_current(url)
+      '<li id="current-node" class="current-nav">' + '<span class="label"><span id="current-icon">»</span>' + link_text + '</span></li>'
+    else
+      '<li>' + link_to(link_text, url, options) + '</li>'
+    end
+  end
+  
+  
   def block_start(block_name = "")
     '<div class="' + block_name + '">'
   end

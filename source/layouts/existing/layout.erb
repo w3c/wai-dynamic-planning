@@ -1,0 +1,12 @@
+<%= partial "layouts/existing/header" %>
+
+<main id="main" role="main" class="content">
+  <%= partial "layouts/navigation" %>
+  <div class="wrap">
+    <section role="region">
+      <%= yield %>
+    </section>
+  </div>
+</main>
+
+<%= partial "layouts/existing/footer" %>

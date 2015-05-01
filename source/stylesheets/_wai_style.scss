@@ -16,7 +16,6 @@
 @import "helpers";
 @import "normalize";
 @import "script";
-@import "grid";
 @import "icons";
 @import "permalink";
 
@@ -244,7 +243,6 @@ header[role=banner] {
 main {
   display: block;
   clear: both;
-  @include container();
 }
 
 // Footer
@@ -476,7 +474,6 @@ a {
 
 .content {
   clear: both;
-  @include container-full();
   margin: 0 0.5% 1em;
   width: 99%;
   h2 {
@@ -962,56 +959,6 @@ select {
 }
 
 /* ====== HELPERS ======== EDIT ABOVE! ======== */
-
-// Grid System
-// Column wrapper
-.grid {
-  @include container();
-}
-
-.column {
-  @include column(12);
-}
-
-@include mq($medium) {
-  .onehalf {
-    @include column(6);
-  }
-  .one3rd {
-    @include column(4);
-  }
-  .two3rds {
-    @include column(8);
-  }
-  .one4th {
-    @include column(3);
-  }
-  .two4ths {
-    @extend .onehalf;
-  }
-  .three4ths {
-    @include column(9);
-  }
-  .one6th {
-    @include column(2);
-  }
-  .two6ths {
-    @extend .one3rd;
-  }
-  .three6ths {
-    @extend .onehalf;
-  }
-  .four6ths {
-    @extend .two3rds;
-  }
-  .five6ths {
-    @include column(10);
-  }
-}
-
-.last {
-  @include column_omega();
-}
 
 // Flush right
 .flush.right {
