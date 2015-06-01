@@ -1,4 +1,9 @@
-<% wrap_layout :layout do %>
+<%= partial "layouts/header" %>
+
+<main id="main" role="main" class="content">
+  <%= partial "layouts/navigation" %>
+  <div class="wrap">
+    <section role="region">
   <h2 class="attach_permalink"><%= current_page.data.title %></h2>
   <div class="inner">
     <div class="yield">
@@ -29,4 +34,9 @@
       <% end %>
     </div>
   </div>
-<% end %>
+    </section>
+  </div>
+  <%= partial "layouts/contribute" %>
+</main>
+
+<%= partial "layouts/footer" %>

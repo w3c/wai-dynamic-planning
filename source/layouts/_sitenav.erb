@@ -1,21 +1,48 @@
-<div id="sitenav" style="display: none">
-  <nav role="navigation" aria-label="Site Navigation" id="nav">
-    <a href="/WAI/">Web Accessibility Initiative Home</a>
-    <ul>
-      <li><a href="/WAI/gettingstarted/Overview.html">Getting Started</a></li>
-      <li><a href="/WAI/users/Overview.html">Designing for Inclusion</a></li>
-      <li><a href="/WAI/guid-tech.html">Guidelines & Techniques</a></li>
-      <li><a href="/WAI/managing.html">Planning & Implementing</a></li>
-      <li><a href="/WAI/eval/Overview.html">Evaluating Accessibility</a></li>
-      <li><a href="/WAI/train.html">Presentations & Tutorials</a></li>
-      <li><a href="/WAI/about-links.html">Getting Involved with WAI</a></li>
-    </ul>
-    <div class="nav-discover">
-       <p><a shape="rect" href="http://www.w3.org/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a></p>
-    </div>
-    <p class="translations">
-      <a shape="rect" href="http://www.w3.org/WAI/wai-translations"><img alt="Characters from different languages" src="http://www.w3.org/WAI/images/translations-med-1"> Translations</a>
-    </p>
-  </nav>
-  <a id="close-sitenav" href="#show-sitenav">Hide main navigation</a>
-</div>
+<nav id="nav">
+	<h2>Site Navigation</h2>
+	<p id="w3cnav"><a href="/">W3C Home</a></p>
+	<p id="subhomenav"><a href="/WAI/">Web Accessibility Initiative (WAI) Home</a></p>
+	<ol id="nav1" type="A">
+		<li><a href="gettingstarted/Overview.html">Getting Started</a></li>
+		<li><a href="users/Overview">Designing for Inclusion</a></li>
+		<li><a href="guid-tech">Guidelines &amp; Techniques</a></li>
+		<li class="current-nav "><a href="../managing">Planning &amp; Implementing</a>
+			<ul>
+				<li class="current-nav nav-head">Policy Resources
+					<ol>
+						<li><a href="Policy/harmon">Standards Harmonization</a></li>
+						<li><a href="Policy/Overview">International Policies</a></li>
+						<li><a href="impl/pol">Organizational Policies</a></li>
+					</ol>
+				</li>
+				<li class="nav-head">Managing Accessibility
+					<ol>
+						<li><a href="impl/Overview">Strategic Planning</a></li>
+						<li><a href="impl/improving">Improving Existing Sites</a></li>
+						<li><a href="users/involving">Involving Users in Web Projects</a></li>
+						<li><a href="impl/software">Selecting Authoring Tools</a></li>
+					</ol>
+				</li>
+        <li<% if is_current('index.html') %> id="current-node"<% end %> class="current-nav"><%= nav_link('Planning Roadmap', 'index.html') %>
+          <ol>
+            <%= list_nav_link('Initiate', '/option3/initiate/index.html') %>
+            <%= list_nav_link('Plan', '/option3/plan/index.html') %>
+            <%= list_nav_link('Implement', '/option3/implement/index.html') %>
+            <%= list_nav_link('Monitor', '/option3/monitor/index.html') %>
+          </ol>
+      </li>
+			</ul>
+		</li>
+		<li><a href="eval/Overview">Evaluating Accessibility</a></li>
+		<li><a href="train">Tutorials &amp; Presentations</a></li>
+		<li><a href="about-links">Getting Involved with WAI</a></li>
+	</ol>
+	
+	<div id="nav-static">
+		<div class="nav-discover">
+			<p><a href="http://www.w3.org/WAI/yourWAI"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a></p>
+		</div>
+			
+		<p class="translations"><a href="http://www.w3.org/WAI/wai-translations"><img src="http://www.w3.org/WAI/images/translations-med-1" alt="characters from different languages" /> Translations</a></p>
+	</div>
+</nav>

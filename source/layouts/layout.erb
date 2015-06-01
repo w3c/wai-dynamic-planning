@@ -1,14 +1,13 @@
 <%= partial "layouts/header" %>
 
-<main role="main" class="content">
+<main id="main" role="main" class="content">
   <%= partial "layouts/navigation" %>
   <div class="wrap">
     <section role="region">
       <%= yield %>
     </section>
   </div>
+  <%= partial "layouts/contribute" %>
 </main>
-
-<%= partial "layouts/contribute" %>
 
 <%= partial "layouts/footer" %>
