@@ -8,8 +8,8 @@ layout: category
 Regardless of the scope of work, ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Assessing the current situation is important to determine the scale of work required and allow achievable milestones to be set.
 
 {::nomarkdown}
-<%= block_start('activities') %>
-<%= article_start %>
+<%= block 'activities' %>
+<%= article %>
 {:/}
 
 ### [Develop accessibility policy](develop_policy.html)
@@ -17,9 +17,8 @@ Regardless of the scope of work, ensuring that processes, frameworks, and resour
 An accessibility policy will document the goals, scope, and responsibilities important to accessibility.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Identifying important roles](identify_roles.html)
@@ -27,9 +26,8 @@ An accessibility policy will document the goals, scope, and responsibilities imp
 Knowing who is responsible for what will help ensure that accessibility questions reach the right people and that issues are dealt with appropriately.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Reviewing current websites](review_website.html)
@@ -37,9 +35,8 @@ Knowing who is responsible for what will help ensure that accessibility question
 Understanding the current state of website accessibility will help in understanding both the scale of the task and what work might be necessary.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Review design and marketing resources](review_design_assets.html)
@@ -47,9 +44,8 @@ Understanding the current state of website accessibility will help in understand
 Checking design resources, such as brand or design guidelines, for accessibility issues and removing them can help reduce instances of some accessibility barriers. This will also help cultivate the idea that accessibility is for more than just developers. 
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Review technical libraries and tools](review_technical_assets.html)
@@ -57,9 +53,8 @@ Checking design resources, such as brand or design guidelines, for accessibility
 Ensuring shared technical resources, such as widget libraries, are accessible can make a big difference with a little effort.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Integrate accessibility into wider policies](policy_integration.html)
@@ -67,9 +62,8 @@ Ensuring shared technical resources, such as widget libraries, are accessible ca
 Some policies and processes, such as those related to procurement, recruitment, or risk management, can impact on accessibility and can be modified to incorporate goals.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Assign budget](budget.html)
@@ -77,8 +71,8 @@ Some policies and processes, such as those related to procurement, recruitment, 
 Understanding what additional costs may be required for accessibility, for example for policy reviews, training, audits, and testing with users, is essential for cost control.
 
 {::nomarkdown}
-<%= article_end %>
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Develop milestones or roadmap](develop_roadmap.html)
@@ -86,8 +80,8 @@ Understanding what additional costs may be required for accessibility, for examp
 Ensuring that there are clear milestones or planned phases for accessibility activity will help focus attention.
 
 {::nomarkdown}
-<%= article_end %>
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Develop reporting templates and standard metrics](reporting_templates_and_metrics.html)
@@ -95,8 +89,8 @@ Ensuring that there are clear milestones or planned phases for accessibility act
 Creating a standard approach to reporting accessibility findings will help communicate the current state. This can include key metrics, such as, number of Level A failures, that are to be captured.
 
 {::nomarkdown}
-<%= article_end %>
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ### [Feedback loops for stakeholders](stakeholder_feedback.html)
@@ -104,6 +98,6 @@ Creating a standard approach to reporting accessibility findings will help commu
 Long-term support is helped by ensuring regular report and feedback points to management and stakeholders.
 
 {::nomarkdown}
-<%= article_end %>
-<%= block_end %>
+<%= article :end %>
+<%= block :end %>
 {:/}

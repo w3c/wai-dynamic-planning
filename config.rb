@@ -50,16 +50,6 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def x_link_to(link_text, url, options = {})
-    options[:class] ||= ""
-    if url == '/' + current_page.path
-      options[:class] << " current"
-      '<span class="current-a">' + link_text + '</span>'
-    else
-      link_to(link_text, url, options)
-    end
-  end
-
   def nav_link(link_text, url, options = {})
     options[:class] ||= ""
     
@@ -99,16 +89,6 @@ helpers do
     current_page.path == url
   end
   
-  def existing_nav_link(link_text, url, options = {})
-    options[:class] ||= ""
-    
-    if is_current?(url)
-      '<span class="label"><span id="current-icon">»</span>' + link_text + '</span>'
-    else
-      link_to(link_text, url, options)
-    end
-  end
-  
   def list_nav_link(link_text, url, options = {})
     if is_current?(url)
       '<li id="current-node" class="current-nav">' + '<span class="label"><span id="current-icon">»</span>' + link_text + '</span></li>'
@@ -117,22 +97,24 @@ helpers do
     end
   end
   
-  def block_start(block_name = "")
-    '<div class="' + block_name + '">'
-  end
-  def block_end
-    '</div>'
+  def block(start_end = :start)
+    if start_end == :end
+      "</div>"
+    elsif start_end.is_a? String
+      "<div class=\"#{start_end}\">"
+    else
+      "<div>"
+    end
   end
 
-  def article_start(article_id = "")
-    '<article id="' + article_id + '">'
-  end
-  def article_end
-    '</article>'
-  end
-  
-  def find_out_more(url)
-    '<p><a href="' + url + '">Find out more<span class="nodecoration"> ►</span></a></p>'
+  def article(start_end = :start)
+    if start_end == :end
+      "</article>"
+    elsif start_end.is_a? String
+      "<article class=\"#{start_end}\">"
+    else
+      "<article>"
+    end
   end
 end
 

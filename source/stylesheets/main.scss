@@ -36,6 +36,12 @@ $wai_grey: #333333;
 	font-family: Georgia, Times, "Times New Roman", serif;
 }
 
+h1 {
+  i {
+    margin-right: 0.5em;
+  }
+}
+
 .right-inset {
   background-color: $wai_bg;
   padding: 1em 0;
@@ -84,11 +90,17 @@ $wai_grey: #333333;
         }
       }
     }
+    i {
+      margin-right: 0.5em;
+    }
     a {
       text-decoration: none;
       color: $wai_link_active !important;
       &:hover, &:focus {
         text-decoration: underline;
+      }
+      i {
+        text-decoration: none;
       }
     }
     svg {

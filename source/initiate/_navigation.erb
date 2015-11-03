@@ -1,6 +1,6 @@
 <nav class="section">
   <h2>Section Navigation</h2>
-  <p><%= link_to data.structure.initiate.label, "/initiate/index.html" %></p>
+  <p><%= link_to "<i class='fa fa-#{data.structure.initiate.icon}'></i>#{data.structure.initiate.label}", "/initiate/index.html" %></p>
   <ul>
     <% data.structure.initiate.activities.each do |tag, activity| %>
       <% if is_current? "initiate/#{tag}.html" %>

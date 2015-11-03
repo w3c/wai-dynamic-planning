@@ -10,8 +10,8 @@ A successful plan for web accessibility addresses many areas of your organizatio
 Activities are grouped according to when in a project or program they might be considered. Each activity provides information on what is required and points to related resources that explore the activity further.
 
 {::nomarkdown}
-<%= block_start('categories') %>
-<%= article_start('initiate') %>
+<%= block 'categories' %>
+<%= article %>
 {:/}
 
 ## [Initiate](initiate/)
@@ -20,9 +20,8 @@ Activities are grouped according to when in a project or program they might be c
 Starting any program of work involves developing clear goals and solid management support, both administratively and financially. Like quality, accessibility is more a feature of web deliverables than a deliverable in itself. This means that the environment in which projects are developed needs careful thought to ensure that accessibility is well-supported.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ## [Plan](plan/)
@@ -31,9 +30,8 @@ Starting any program of work involves developing clear goals and solid managemen
 Regardless of the scope of work, ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Assessing the current situation is important to determine the scale of work required and allow achievable milestones to be set.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ## [Implement](implement/)
@@ -42,9 +40,8 @@ Regardless of the scope of work, ensuring that processes, frameworks, and resour
 There are key opportunities to incorporate accessibility in any web project, from personnel and training to evaluation and prioritization. By weaving accessibility throughout the project, the overall quality of final outcome improves without significantly impacting on budget or timescales.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= article_start %>
+<%= article :end %>
+<%= article %>
 {:/}
 
 ## [Monitor](monitor)
@@ -53,7 +50,6 @@ There are key opportunities to incorporate accessibility in any web project, fro
 Keeping momentum helps with the accessibility maintenance for completed projects and builds on completed work for new projects. Regular reviews of content, organizational processes, and resources will help ensure that accessibility remains a priority and issues are identified. Developing a management reporting process will help ensure that it is clear where activity is required for follow-up work.
 
 {::nomarkdown}
-<%= article_end %>
-
-<%= block_end %>
+<%= article :end %>
+<%= block :end %>
 {:/}

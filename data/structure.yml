@@ -42,7 +42,7 @@ plan:
 
 implement:
   label: Implement
-  icon: directions
+  icon: cogs
   activities:
     assign_roles:
       label: Assigning people to roles
@@ -61,7 +61,7 @@ implement:
 
 monitor:
   label: Monitor
-  icon: tools
+  icon: tachometer
   activities:
     asset_reviews:
       label: Regular reviews of policies, procedures, and resources

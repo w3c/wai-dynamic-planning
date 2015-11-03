@@ -3,7 +3,7 @@
 <main id="main" role="main">
   <%= partial "layouts/status" %>
 
-  <h1 id="skip"><%= current_page.data.title %></h1>
+  <h1 id="skip"><i class="fa fa-<%= data.structure[current_page.url.gsub('/', '')].icon %>"></i><%= current_page.data.title %></h1>
 
   <div class="right-inset">
     <%= partial "layouts/sectionnav" %>
