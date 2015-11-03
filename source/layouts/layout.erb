@@ -1,11 +1,12 @@
 <%= partial "layouts/header" %>
 
-<main id="main" role="main" class="content">
-  <%= partial "layouts/navigation" %>
-  <div class="wrap">
-    <section role="region">
-      <%= yield %>
-    </section>
+<main id="main" role="main">
+  <%= partial "layouts/status" %>
+
+  <h1 id="skip"><%= current_page.data.title %></h1>
+
+  <div class="inner">
+    <%= yield %>
   </div>
   <%= partial "layouts/contribute" %>
 </main>

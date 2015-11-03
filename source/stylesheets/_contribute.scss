@@ -1,0 +1,36 @@
+.contribute {
+  box-sizing: border-box;
+  border: 1px solid #666 !important;
+  background-color: darken($wai_bg, 1%);
+  border-radius: .5em;
+  padding: 1em;
+  margin: 1em auto;
+  width: 90%;
+  .heading {
+    @extend .font-secondary;
+    color: #333333 !important;
+    border-bottom: none !important;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 !important;
+    padding: 0 !important;
+    + p {
+      margin-top: 0.5em;
+    }
+  }
+  .buttons {
+    text-align: center;
+    margin-top: 1em;
+    padding: .5em 0 0;
+    border-top: 1px solid #ccc;
+    line-height: 300%;
+  }
+  .index & {
+    margin-top: 8em;
+  }
+}
+@include mq($medium) {
+  .contribute {
+    width: 65%;
+  }
+}

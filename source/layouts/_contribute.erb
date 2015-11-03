@@ -1,9 +1,12 @@
+<% if current_page.data.no_contributions != true %>
 <aside class="side-box contribute" role="complementary">
-  <h2 class="heading">We welcome your ideas</h2>
-  <p>Please send any ideas, suggestions, or comments to the <a href="mailto:wai-eo-editors@w3.org?subject=[Planning%20Feedback]">(publicly-archived) mailing list wai-eo-editors@w3.org</a>. You can also contribute to the <a href="https://github.com/w3c/wai-dynamic-planning" rel="nofollow">code directly on Github</a>.</p>
+  <h2 class="heading">Help improve this page</h2>
+  <p>Please share your ideas, suggestions, or comments via email to the publicly-archived list <a href="mailto:<%= site['email'] %>?subject=%5b<%= site['title'].gsub(' ', '%20') %>%20Input%20%3a%20<%= current_page.data.title.gsub(' ', '%20') %>%5d"><%= site['email'] %></a> or via GitHub.</p>
 
-	<div class="editpage">
-  	<a class="btn" href="https://github.com/w3c/wai-dynamic-planning/blob/master/source/<%= current_page.path %>.erb.md">Fork &amp; edit this page on Github</a>
+	<div class="buttons">
+  	<a class="btn" title="Publicly archived list" href="mailto:<%= site['email'] %>?subject=%5b<%= site['title'].gsub(' ', '%20') %>%20Input%20%3a%20<%= current_page.data.title.gsub(' ', '%20') %>%5d">E-mail</a>
+    <a class="btn" href="https://github.com/w3c/<%= site['github'] %>/blob/master/source/<%= current_page.data.path %>">Fork &amp; edit on GitHub</a>
+  	<a class="btn" href="https://github.com/w3c/<%= site['github'] %>/issues/new">New GitHub Issue</a>
 	</div>
-
 </aside>
+<% end %>

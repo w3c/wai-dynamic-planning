@@ -1,31 +1,16 @@
 <%= partial "layouts/header" %>
 
-<main id="main" role="main" class="content">
-  <%= partial "layouts/navigation" %>
-  <div class="wrap">
-    <section role="region">
+<main id="main" role="main">
+  <%= partial "layouts/status" %>
 
-  <h2 class="attach_permalink"><%= current_page.data.title %></h2>
+  <h1 id="skip"><%= current_page.data.title %></h1>
+
+  <div class="right-inset">
+    <%= partial "layouts/sectionnav" %>
+  </div>
+  
   <div class="inner">
     <%= yield %>
-    
-    <div id="support_material">
-      <% if content_for?(:resources) %>
-      <aside id="resources">
-        <h3>Key Resources</h3>
-        <%= yield_content :resources %>
-      </aside>
-      <% end %>
-
-      <% if content_for?(:related) %>
-      <aside id="related">
-        <h3>Related Activities</h3>
-        <%= yield_content :related %>
-      </aside>
-      <% end %>
-    </div>
-  </div>
-    </section>
   </div>
   <%= partial "layouts/contribute" %>
 </main>

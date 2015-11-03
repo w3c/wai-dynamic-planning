@@ -28,12 +28,20 @@
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
+##
+# Define site-wide variables and make them visible for templates
+##
+@site = {
+  'title'         => 'Accessibility Planning Roadmap',
+  'github'        => 'wai-dynamic-planning',
+  'email'         => 'wai-eo-editors@w3.org',
+  'email-private' => 'wai@w3.org'
+}
+set :site, @site
+
 ###
 # Helpers
 ###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -74,15 +82,27 @@ helpers do
       link_to(link_text, url, options)
     end
   end
+
+  def w3url(uri)
+    if development? || ENV['BUILD_FOR_GITHUB']
+      'https://www.w3.org' + uri.to_s
+    else
+      uri
+    end
+  end
+
+  def in_section?(section)
+    current_page.path.match("^#{section}")
+  end
   
-  def is_current(url)
-    url == '/' + current_page.path
+  def is_current?(url)
+    current_page.path == url
   end
   
   def existing_nav_link(link_text, url, options = {})
     options[:class] ||= ""
     
-    if is_current(url)
+    if is_current?(url)
       '<span class="label"><span id="current-icon">»</span>' + link_text + '</span>'
     else
       link_to(link_text, url, options)
@@ -90,13 +110,12 @@ helpers do
   end
   
   def list_nav_link(link_text, url, options = {})
-    if is_current(url)
+    if is_current?(url)
       '<li id="current-node" class="current-nav">' + '<span class="label"><span id="current-icon">»</span>' + link_text + '</span></li>'
     else
       '<li>' + link_to(link_text, url, options) + '</li>'
     end
   end
-  
   
   def block_start(block_name = "")
     '<div class="' + block_name + '">'
@@ -120,12 +139,6 @@ end
 set :markdown_engine, :kramdown
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'img'
-
 set :relative_links, true
 activate :relative_assets
 
@@ -136,15 +149,6 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
-
-  # Enable cache buster
-  activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
 end
 
 activate :deploy do |deploy|

@@ -1,40 +1,33 @@
 <%= partial "layouts/header" %>
 
-<main id="main" role="main" class="content">
-  <%= partial "layouts/navigation" %>
-  <div class="wrap">
-    <section role="region">
-  <h2 class="attach_permalink"><%= current_page.data.title %></h2>
+<main id="main" role="main">
+  <%= partial "layouts/status" %>
+
+  <h1 id="skip"><%= current_page.data.title %></h1>
+
+  <div class="right-inset">
+    <%= partial "layouts/sectionnav" %>
+    <%= partial "navigation" %>
+  </div>
+
   <div class="inner">
-    <div class="yield">
-      <%= yield %>
-      <% if current_page.data.prev or current_page.data.next %>
-      <div class="prev_next">
-        <% if current_page.data.next %>
-          <p class="next"><span>Next:</span> <%= link_to(current_page.data.next.title, current_page.data.next.url) %></p>
-        <% end %>
-      </div>
-      <% end %>
-      <p><%= link_to('Return to ' + current_page.data.parent, 'index.html') %></p>
-    </div>
+    <%= yield %>
   
-    <div class="support_material">
+    <div class="support-material">
       <% if content_for?(:resources) %>
-      <aside id="resources">
+      <aside class="resources">
         <h3>Key Resources</h3>
         <%= yield_content :resources %>
       </aside>
       <% end %>
 
       <% if content_for?(:related) %>
-      <aside id="related">
+      <aside class="related">
         <h3>Related Activities</h3>
         <%= yield_content :related %>
       </aside>
       <% end %>
     </div>
-  </div>
-    </section>
   </div>
   <%= partial "layouts/contribute" %>
 </main>

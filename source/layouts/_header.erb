@@ -3,39 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>
-  <%= current_page.data.title %>
-  <% if current_page.data.order == 1 %>
-    <% if current_page.data.guide_title %>
-      <%= " &bull; " + current_page.data.guide_title %>
+    <% if current_page.url != '/' %>
+      <%= current_page.data.title %> &bull;
     <% end %>
-  <% else %>
-    <% if current_page.parent and current_page.parent.data.guide_title %>
-      <%= " &bull; " + current_page.parent.data.guide_title %>
-    <% end %>
-  <% end %>
-  &bull; Web Accessibility Roadmap &bull; WAI
+    <%= site['title'] %> &bull; WAI
   </title>
   <meta name="viewport" content="width=device-width">
+  <%= stylesheet_link_tag (w3url "/WAI/wai-main.css"), :relative => false %>
   <%= stylesheet_link_tag "main" %>
-	<!--[if IE 7]><%= stylesheet_link_tag "http://www.w3.org/WAI/ie-old.css" %><![endif]-->
+	<!--[if IE 7]><%= stylesheet_link_tag (w3url "/WAI/ie-old.css"), :relative => false %><![endif]-->
   <%= javascript_include_tag "modernizr" %>
 </head>
 <body class="<%= page_classes %> <%= current_page.data.layout.gsub('/', ' ') %> <%= current_page.data.status %>">
-
   <header>
   	<ul id="controls">
-  		<li><a href="#skip"><%= image_tag 'http://www.w3.org/Icons/downinpage.png', :alt => '' %> Skip to Content</a></li>
-  		<li> | <a href="http://www.w3.org/WAI/changedesign">Change text size or colors</a></li>
+  		<li><a href="#skip"><%= image_tag (w3url "/Icons/downinpage.png"), :alt => '' %> Skip to Content</a></li>
+  		<li> | <a href="<%= w3url "/WAI/changedesign" %>">Change text size or colors</a></li>
   	</ul>
   	<div id="masthead">
       <p id="logos">
-        <a href="http://w3.org/" title="W3C Home"><%= image_tag 'http://w3.org/Icons/w3c_home', :alt => 'W3C Logo' %></a><a href="http://w3.org/WAI/" title="WAI Home"><%= image_tag 'http://w3.org/WAI/images/wai-temp', :alt => 'Web Accessibility initiative' %></a>
+        <a href="<%= w3url "/" %>" title="W3C Home"><%= image_tag (w3url "/Icons/w3c_home"), :alt => 'W3C Logo' %></a><a href="<%= w3url "/WAI/" %>" title="WAI Home"><%= image_tag (w3url "/WAI/images/wai-temp"), :alt => 'Web Accessibility initiative' %></a>
       </p>
     </div>
   	<div id="tagline">
       <p>WAI: Strategies, guidelines, resources to make the Web accessible to people with disabilities</p>
     </div>
   </header>
-  <%= partial "layouts/status" %>
-
   <%= partial "layouts/sitenav" %>

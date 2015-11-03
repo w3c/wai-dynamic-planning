@@ -1,3 +1,6 @@
+/*
+* Mixin to include media queries
+*/
 @mixin mq($width, $IE9: false, $query1: min, $query2: width) {
   @if $IE9 == true{
     .lt-ie9 & {
@@ -15,11 +18,87 @@
   }
 }
 
+/*
+* Various standard button stylings
+*/
+.btn {
+  background: linear-gradient(to bottom, lighten(#ccc, 10%), #ccc);
+  color: #333;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: percentage(44/18);
+  padding: .5em .75em;
+  text-decoration: none;
+  white-space: nowrap;
+  border: {
+    color: #ccc;
+    width: 1px;
+    style: solid;
+    radius: .25em;
+  }
+  &:hover, &:focus {
+    color: #333;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #ccc, darken(#ccc, 10%));
+  }
+
+  .primary {
+    @extend .btn;
+    background: linear-gradient(to bottom, lighten($w3c_purple, 10%), $w3c_purple);
+    color: #fff;
+    border-color: darken($w3c_purple, 10%);
+    &:hover, &:focus {
+      color: #fff;
+      background: linear-gradient(to bottom, $w3c_purple, darken($w3c_purple, 10%));
+    }
+  }
+
+  .small {
+    @extend .btn;
+    padding: .15em .2em;
+    line-height: 1.75;
+  }
+
+  .flat {
+    font-weight: normal;
+    font-size: 1em;
+    color: #333333;
+    text-shadow: 0 1px 5px rgba(255, 255, 255, 0.25);
+    line-height: percentage(44/18);
+    padding: .25em .5em;
+    background: darken($w3c_paleblue, 5%);
+    box-shadow: inset 0 -2px darken($w3c_paleblue, 10%);
+    border-bottom: 2px solid darken($w3c_paleblue, 15%);
+    cursor: pointer;
+    &:hover, &:focus {
+      color: #fff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+      background: lighten($w3c_blue, 10%);
+      border-bottom: 2px solid lighten($w3c_blue, 5%);
+      box-shadow: inset 0 -2px $w3c_blue;
+    }
+  }
+
+  .icon {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .next {
+    float: right;
+  }
+
+  .jump {
+    display: block;
+    margin: 0 1em 1em;
+    text-align: center;
+  }
+}
 
 /*
 * Hide only visually, but have it available for screenreaders: h5bp.com/v
 */
-
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -35,7 +114,6 @@
 * Extends the .visuallyhidden class to allow the element to be focusable
 * when navigated to via the keyboard: h5bp.com/p
 */
-
 .visuallyhidden.hasfocus,
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {

@@ -1,0 +1,13 @@
+<nav class="section">
+  <h2>Section Navigation</h2>
+  <p><%= link_to data.structure.initiate.label, "/initiate/index.html" %></p>
+  <ul>
+    <% data.structure.initiate.activities.each do |tag, activity| %>
+      <% if is_current? "initiate/#{tag}.html" %>
+        <li class="current"><%= activity.label %></li>
+      <% else %>
+        <li><%= link_to activity.label, "/initiate/#{tag}.html" %></li>
+      <% end %>
+    <% end %>
+  </ul>
+</nav>

@@ -1,0 +1,75 @@
+initiate:
+  label: Initiate
+  icon: rocket
+  activities:
+    introducing:
+      label: Introducing accessibility
+    review_situation:
+      label: Reviewing the current situation
+    identify_goals:
+      label: Identifying accessibility goals
+    business_case:
+      label: Prepare an accessibility business case
+    obtain_support:
+      label: Obtain support for accessibility activities
+    communicate:
+      label: Communicate accessibility aims and value to wider organization
+
+plan:
+  label: Plan
+  icon: map
+  activities:
+    develop_policy:
+      label: Develop accessibility policy
+    identify_roles:
+      label: Identifying important roles
+    review_website:
+      label: Reviewing current websites
+    review_design_assets:
+      label: Review design and marketing resources
+    review_technical_assets:
+      label: Review technical libraries and tools
+    policy_integration:
+      label: Integrate accessibility into wider policies
+    budget:
+      label: Assign budget
+    develop_roadmap:
+      label: Develop milestones or roadmap
+    reporting_templates_and_metrics:
+      label: Develop reporting templates and standard metrics
+    stakeholder_feedback:
+      label: Feedback loops for stakeholders
+
+implement:
+  label: Implement
+  icon: directions
+  activities:
+    assign_roles:
+      label: Assigning people to roles
+    training:
+      label: Training for accessibility
+    recruitment:
+      label: Recruit to improve accessibility
+    evaluation:
+      label: Evaluation regime and process
+    prioritization:
+      label: Prioritizing identified issues
+    knowledge_sharing:
+      label: Share experience and knowledge
+    procurement:
+      label: Accessible procurement
+
+monitor:
+  label: Monitor
+  icon: tools
+  activities:
+    asset_reviews:
+      label: Regular reviews of policies, procedures, and resources
+    website_reviews:
+      label: Regular website reviews
+    identify_improvements:
+      label: Identify areas for improvement
+    user_feedback:
+      label: Manage user feedback and provide support
+    stakeholder_reporting:
+      label: Report to stakeholders and management

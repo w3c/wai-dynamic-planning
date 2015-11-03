@@ -1,0 +1,9 @@
+<nav class="section">
+  <h2>Section Navigation</h2>
+  <p><%= link_to site['title'], "/index.html" %></p>
+  <ul>
+    <% data.structure.each do |tag, section| %>
+    <li<% if in_section? tag %> class="current"<% end %>><% if is_current? "#{tag}/index.html" %><%= section.label %><% else %><%= link_to section.label, "/#{tag}/index.html" %><% end %></li>
+    <% end%>
+  </ul>
+</nav>
