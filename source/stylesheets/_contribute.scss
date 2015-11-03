@@ -25,9 +25,6 @@
     border-top: 1px solid #ccc;
     line-height: 300%;
   }
-  .index & {
-    margin-top: 8em;
-  }
 }
 @include mq($medium) {
   .contribute {

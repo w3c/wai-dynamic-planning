@@ -1,6 +1,7 @@
 initiate:
   label: Initiate
   icon: rocket
+  description: Develop clear goals and an environment supportive of accessibility.
   activities:
     introducing:
       label: Introducing accessibility
@@ -18,6 +19,7 @@ initiate:
 plan:
   label: Plan
   icon: map
+  description: Clarify scope based on an understanding of current situation.
   activities:
     develop_policy:
       label: Develop accessibility policy
@@ -43,6 +45,7 @@ plan:
 implement:
   label: Implement
   icon: cogs
+  description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
     assign_roles:
       label: Assigning people to roles
@@ -62,6 +65,7 @@ implement:
 monitor:
   label: Monitor
   icon: tachometer
+  description: Continue to review and report on content, processes, and resources.
   activities:
     asset_reviews:
       label: Regular reviews of policies, procedures, and resources
