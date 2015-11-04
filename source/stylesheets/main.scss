@@ -41,18 +41,9 @@ i {
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
   list-style-type: none;
   margin-left: 0;
-  padding: 0;
-  
   >li {
-    width: 40%;
-    margin-bottom: 2em;
-
     p:first-of-type {
       font-size: 150%;
     }
@@ -74,6 +65,19 @@ i {
       color: $wai_link_visited;
       text-decoration: underline;
       
+    }
+  }
+}
+@include mq($medium) {
+  .grid {
+    padding: 0 3em;
+    >li {
+      width: 45%;
+      margin-bottom: 2em;
+      float: left;
+      &.even {
+        float: right;
+      }
     }
   }
 }

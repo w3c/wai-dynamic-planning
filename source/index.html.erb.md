@@ -9,8 +9,10 @@ This resource explores activities that are important when planning for accessibi
 
 {::nomarkdown}
 <ul class="grid">
+<% cycle = 'even' %>
 <% data.structure.each do |tag, section| %>
-  <li><p><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "/#{tag}/index.html" %></p>
+  <% cycle = (cycle == 'odd' ? 'even' : 'odd') %>
+  <li class="<%= cycle %>"><p><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "/#{tag}/index.html" %></p>
     <p><%= section.description %></p>
     <ul>
     <% section.activities.each do |activity_tag, activity| %>
