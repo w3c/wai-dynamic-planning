@@ -97,6 +97,13 @@ helpers do
     end
   end
   
+  def title(sentence)
+    stop_words = %w{a an and the or for of nor}
+    sentence.split(/[ _]/).each_with_index.map{
+      |word, index| stop_words.include?(word) && index > 0 ? word : word.capitalize
+    }.join(" ")
+  end
+
   def block(start_end = :start)
     if start_end == :end
       "</div>"
