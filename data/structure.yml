@@ -3,77 +3,49 @@ initiate:
   icon: rocket
   description: Develop clear goals and an environment supportive of accessibility.
   activities:
-    introducing:
-      label: Introducing accessibility
-    review_situation:
-      label: Reviewing the current situation
-    identify_goals:
-      label: Identifying accessibility goals
-    business_case:
-      label: Prepare an accessibility business case
-    obtain_support:
-      label: Obtain support for accessibility activities
-    communicate:
-      label: Communicate accessibility aims and value to wider organization
+    - get_familiar
+    - make_baseline
+    - set_goals
+    - business_case
+    - get_support
+    - spread_the_word
 
 plan:
   label: Plan
   icon: map
   description: Clarify scope based on an understanding of current situation.
   activities:
-    develop_policy:
-      label: Develop accessibility policy
-    identify_roles:
-      label: Identifying important roles
-    review_website:
-      label: Reviewing current websites
-    review_design_assets:
-      label: Review design and marketing resources
-    review_technical_assets:
-      label: Review technical libraries and tools
-    policy_integration:
-      label: Integrate accessibility into wider policies
-    budget:
-      label: Assign budget
-    develop_roadmap:
-      label: Develop milestones or roadmap
-    reporting_templates_and_metrics:
-      label: Develop reporting templates and standard metrics
-    stakeholder_feedback:
-      label: Feedback loops for stakeholders
+    - develop_policy
+    - identify_roles
+    - review_website
+    - review_design_assets
+    - review_technical_assets
+    - policy_integration
+    - allocate_budget
+    - develop_milestones
+    - develop_metrics
+    - stakeholder_feedback
 
 implement:
   label: Implement
   icon: cogs
   description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
-    assign_roles:
-      label: Assigning people to roles
-    training:
-      label: Training for accessibility
-    recruitment:
-      label: Recruit to improve accessibility
-    evaluation:
-      label: Evaluation regime and process
-    prioritization:
-      label: Prioritizing identified issues
-    knowledge_sharing:
-      label: Share experience and knowledge
-    procurement:
-      label: Accessible procurement
+    - assign_roles
+    - training
+    - recruitment
+    - evaluation_process
+    - prioritize_issues
+    - share_knowledge
+    - procurement
 
 monitor:
   label: Monitor
   icon: tachometer
   description: Continue to review and report on content, processes, and resources.
   activities:
-    asset_reviews:
-      label: Regular reviews of policies, procedures, and resources
-    website_reviews:
-      label: Regular website reviews
-    identify_improvements:
-      label: Identify areas for improvement
-    user_feedback:
-      label: Manage user feedback and provide support
-    stakeholder_reporting:
-      label: Report to stakeholders and management
+    - review_policies
+    - regular_website_reviews
+    - identify_improvements
+    - manage_user_feedback
+    - stakeholder_reporting
