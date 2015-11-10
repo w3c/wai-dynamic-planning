@@ -4,17 +4,19 @@ status: editors-draft
 layout: category
 ---
 
+{::options auto_ids="false" /}
+
 {:.introduction}
-Starting any program of work involves developing clear goals and solid management support, both administratively and financially. Like quality, accessibility is more a feature of web deliverables than a deliverable in itself. This means that the environment in which projects are developed needs careful thought to ensure that accessibility is well-supported.
+When starting with accessibility consider current project and organizational approaches and develop clear, measurably goals. Communicate these goals throughout the organization, and particularly with stakeholders to secure support.
 
 {::nomarkdown}
 <%= block 'activities' %>
 <%= article %>
 {:/}
 
-### [Introducing accessibility](introducing.html)
+### [Get Familiar](get_familiar.html)
 
-For those new to accessibility, find out what it is and why it is important.
+<span class="highlight">Introducing accessibility.</span> Find out what it is and why it is important.
 
 {::nomarkdown}
 <%= article :end %>
@@ -22,45 +24,45 @@ For those new to accessibility, find out what it is and why it is important.
 <%= article %>
 {:/}
 
-### [Reviewing the current situation](review_situation.html)
+### [Make Baseline](make_baseline.html)
 
-Knowing the current state of accessibility of resources will help in understanding both the scale of the task and what activities might be necessary.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Identifying accessibility goals](identify_goals.html)
-
-Having clear, achievable goals will help in identifying what needs to be done, how to do it, and knowing when it is done.
+<span class="highlight">Reviewing the current situation.</span> Knowing the current state of key resources will help understanding the scale of the task and help the need for change.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Prepare an accessibility business case](business_case.html)
+### [Set Goals](set_goals.html)
 
-A business case will help communicate why accessibility is important and program goals. This can help in both securing management support and raising organizational awareness.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Obtain support for accessibility activities](obtain_support.html)
-
-Management support is vital to ensure that resources are available and accessibility is prioritized.
+<span class="highlight">Identify and set accessibility goals.</span>  Clear, achievable goals identify what needs to be done, how to do it, and knowing when it is done.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Communicate accessibility aims and value to wider organization](communicate.html)
+### [Business Case](business_case.html)
 
-Spreading the word within an organization can help ensure accessibility is not forgotten and that workload is shared.
+<span class="highlight">Prepare an accessibility business case.</span> Help communicate why accessibility is important and what needs to be done.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Get Support](get_support.html)
+
+<span class="highlight">Get support for accessibility activities.</span> Management support is vital to ensure that resources are available and accessibility is prioritized.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Spread the Word](spread_the_word.html)
+
+<span class="highlight">Communicate aims and value to wider organization.</span> Spreading the word can help ensure accessibility is not forgotten and that workload is shared.
 
 {::nomarkdown}
 <%= article :end %>
