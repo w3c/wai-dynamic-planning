@@ -2,11 +2,11 @@
   <h2>Section Navigation</h2>
   <p><%= link_to "<i class='fa fa-#{data.structure.initiate.icon}'></i>#{data.structure.initiate.label}", "/initiate/index.html" %></p>
   <ul>
-    <% data.structure.initiate.activities.each do |tag, activity| %>
+    <% data.structure.initiate.activities.each do |tag| %>
       <% if is_current? "initiate/#{tag}.html" %>
-        <li class="current"><%= activity.label %></li>
+        <li class="current"><%= title(tag) %></li>
       <% else %>
-        <li><%= link_to activity.label, "/initiate/#{tag}.html" %></li>
+        <li><%= link_to title(tag), "/initiate/#{tag}.html" %></li>
       <% end %>
     <% end %>
   </ul>

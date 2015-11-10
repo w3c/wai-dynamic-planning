@@ -15,8 +15,8 @@ This resource explores activities that are important when planning for accessibi
   <li class="<%= cycle %>"><p><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "/#{tag}/index.html" %></p>
     <p><%= section.description %></p>
     <ul>
-    <% section.activities.each do |activity_tag, activity| %>
-      <li><%= link_to activity.label, "/#{tag}/#{activity_tag}.html" %></li>
+    <% section.activities.each do |activity| %>
+      <li><%= link_to title(activity), "/#{tag}/#{activity}.html" %></li>
     <% end %>
     </ul>
   </li>
