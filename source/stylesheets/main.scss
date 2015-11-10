@@ -140,13 +140,11 @@ i {
         text-decoration: none;
       }
     }
-    svg {
-      width: 16px;
-      height: 15px;
-      stroke: black;
-      margin-right: 0.2em;
-      position: relative;
-      top: 2px;
+    &.activity {
+      ul {
+        list-style-type: square;
+        padding-left: 2.2em;
+      }
     }
   }
 }
