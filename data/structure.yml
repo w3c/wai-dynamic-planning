@@ -15,13 +15,13 @@ plan:
   icon: map
   description: Clarify scope based on an understanding of current situation.
   activities:
-    - develop_policy
     - identify_roles
+    - develop_policy
+    - secure_budget
     - review_website
     - review_design_assets
     - review_technical_assets
     - policy_integration
-    - allocate_budget
     - develop_milestones
     - develop_metrics
     - stakeholder_feedback

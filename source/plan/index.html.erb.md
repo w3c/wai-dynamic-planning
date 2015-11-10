@@ -4,98 +4,100 @@ status: editors-draft
 layout: category
 ---
 
+{::options auto_ids="false" /}
+
 {:.introduction}
-Regardless of the scope of work, ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Assessing the current situation is important to determine the scale of work required and allow achievable milestones to be set.
+Ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Understanding the current situation will help determine the scale of work and allow achievable milestones to be set.
 
 {::nomarkdown}
 <%= block 'activities' %>
 <%= article %>
 {:/}
 
-### [Develop accessibility policy](develop_policy.html)
+### [Identify Roles](identify_roles.html)
 
-An accessibility policy will document the goals, scope, and responsibilities important to accessibility.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Identifying important roles](identify_roles.html)
-
-Knowing who is responsible for what will help ensure that accessibility questions reach the right people and that issues are dealt with appropriately.
+<span class="highlight">Determine key roles and responsibilities.</span> Understanding what roles need to be covered will help in creating the team and ensuring all tasks are covered.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Reviewing current websites](review_website.html)
+### [Develop Policy](develop_policy.html)
 
-Understanding the current state of website accessibility will help in understanding both the scale of the task and what work might be necessary.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Review design and marketing resources](review_design_assets.html)
-
-Checking design resources, such as brand or design guidelines, for accessibility issues and removing them can help reduce instances of some accessibility barriers. This will also help cultivate the idea that accessibility is for more than just developers. 
+<span class="highlight">Create accessibility policy.</span> Document the goals, scope, and responsibilities important to accessibility.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Review technical libraries and tools](review_technical_assets.html)
+### [Secure Budget](secure_budget.html)
 
-Ensuring shared technical resources, such as widget libraries, are accessible can make a big difference with a little effort.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Integrate accessibility into wider policies](policy_integration.html)
-
-Some policies and processes, such as those related to procurement, recruitment, or risk management, can impact on accessibility and can be modified to incorporate goals.
+<span class="highlight">Determine and secure budget.</span> Clarify what additional costs may be required, for example for reviews, training, audits, and testing with users. Ensure budget is available.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Assign budget](budget.html)
+### [Review Website](review_website.html)
 
-Understanding what additional costs may be required for accessibility, for example for policy reviews, training, audits, and testing with users, is essential for cost control.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Develop milestones or roadmap](develop_roadmap.html)
-
-Ensuring that there are clear milestones or planned phases for accessibility activity will help focus attention.
+<span class="highlight">Review accessibility of existing websites.</span> Before making changes, thoroughly review existing websites to identify issues to be fixed or avoided.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Develop reporting templates and standard metrics](reporting_templates_and_metrics.html)
+### [Review Design Assets](review_design_assets.html)
 
-Creating a standard approach to reporting accessibility findings will help communicate the current state. This can include key metrics, such as, number of Level A failures, that are to be captured.
+<span class="highlight">Review design and marketing resources.</span> Check design resources, such as brand or design guidelines, for accessibility issues. Remove them to build in accessibility into new projects.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Feedback loops for stakeholders](stakeholder_feedback.html)
+### [Review Technical Assets](review_technical_assets.html)
 
-Long-term support is helped by ensuring regular report and feedback points to management and stakeholders.
+<span class="highlight">Review technical libraries and tools.</span> Finding and fixing problems in assets, such as widget libraries or CMSs, can make a big difference with a little effort.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Policy Integration](policy_integration.html)
+
+<span class="highlight">Integrate accessibility into wider policies.</span>  Policies and processes, such as procurement, can impact on accessibility. Modify them to incorporate relevant goals.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Develop Milestones](develop_milestones.html)
+
+<span class="highlight">Develop realistic milestones</span>. Ensure that there are clear milestones or planned phases for accessibility activity to help focus attention.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Develop metrics](develop_metrics.html)
+
+<span class="highlight">Develop reporting templates and standard metrics.</span> Create a standard approach to reporting findings to make reporting easier and improvement obvious.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Stakeholder Feedback](stakeholder_feedback.html)
+
+<span class="highlight">Create feedback loops for stakeholders</span>. Help maintain long-term support by providing regular report and feedback points to management and stakeholders.
 
 {::nomarkdown}
 <%= article :end %>
