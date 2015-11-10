@@ -1,22 +1,13 @@
 ---
 title: Prepare an accessibility business case
-parent: Initiate
 status: editors-draft
 layout: activity
-prev:
-  url: identify_goals.html
-  title: Identifying accessibility goals
-next:
-  url: obtain_support.html
-  title: Obtain support for accessibility activities
 ---
 
 {:.introduction}
-A business case will help communicate why accessibility is important and program goals. This can help in both securing management support and raising organizational awareness.
+Understand why accessibility has become important to the organization and create a business case that responds to those reasons. The business case should also communicate the added value of accessibility.
 
-Management support will help with securing budget for accessibility activities, and with prioritizing accessibility with regard to other project or program goals. A business case aims to help communicate the value of accessibility and develop an understanding of the extent of the work involved.
-
-Understanding why accessibility has become important will help in the preparation of persuasive materials that respond to business objectives. Key reasons may also suggest additional necessary activities to explore in a business case. For example, an executive directive to increase revenue by growing the website's reach to include people with disabilities, older people, and mobile web users will likely require more robust reporting of accessibility achievements and impact on revenue.
+The business case aims to persuade organizational stakeholders and senior management that accessibility should be prioritized within web projects. It will need to explore the reasons for accessibility, the risks associated with the issue, and what changes or resources are needed to address it. The business case may also need to outline what measures will be used to track improvements in accessibility and the broader return on investment.
 
 {::nomarkdown}
 <% content_for :resources do %>

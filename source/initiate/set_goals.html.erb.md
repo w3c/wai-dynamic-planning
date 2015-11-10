@@ -1,20 +1,11 @@
 ---
 title: Identify accessibility goals
-parent: Initiate
 status: editors-draft
 layout: activity
-prev:
-  url: review_situation.html
-  title: Reviewing the current situation
-next:
-  url: business_case.html
-  title: Prepare an accessibility business case
 ---
 
 {:.introduction}
-Having clear, achievable goals will help in identifying what needs to be done, how to do it, and knowing when it is done.
-
-Define project accessibility goals that are specific, measurable, achievable, realistic, and time-targeted. This helps to focus your team, clarifies what activities need to be planned, suggests how support can be best secured, and defines what deliverables are required.
+Define project accessibility goals that are specific, measurable, achievable, relevant, and time-targeted. This helps to focus your team, clarifies what activities need to be planned, defines what deliverables are required and when, and ensures that successful delivery is easily determined.
 
 Goals may address the accessibility of a single website or online service, or may be more related to broader integration of accessibility into development processes and policies.
 
