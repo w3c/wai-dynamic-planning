@@ -71,13 +71,12 @@ i {
 @include mq($medium) {
   .grid {
     padding: 0 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     >li {
       width: 45%;
       margin-bottom: 2em;
-      float: left;
-      &.even {
-        float: right;
-      }
     }
   }
 }
