@@ -41,7 +41,7 @@ implement:
 
 sustain:
   label: Sustain
-  icon: tachometer
+  icon: pagelines
   description: Continue to review and report on content, processes, and resources.
   activities:
     - review_policies
