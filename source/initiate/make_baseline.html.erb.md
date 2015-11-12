@@ -32,7 +32,7 @@ Creating such a baseline will help in the short-term with securing backing and s
 <% content_for :related do %>
 {:/}
 
-* [setup_evaluation](../implement/Setup Evaluation.html)
+* [Setup Evaluation](../implement/Setup Evaluation.html)
 * [Prioritize Issues](../implement/prioritize_issues.html)
 * [Review Design Materials](../implement/review_design_materials.html)
 
