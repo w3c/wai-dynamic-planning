@@ -15,16 +15,16 @@ plan:
   icon: map
   description: Clarify scope based on an understanding of current situation.
   activities:
-    - identify_roles
-    - develop_policy
-    - secure_budget
-    - review_website
-    - review_design_assets
-    - review_technical_assets
-    - policy_integration
+    - define_roles
+    - make_a_policy
+    - assign_budget
+    - review_websites
+    - review_design_materials
+    - review_tools
+    - enhance_policies
     - develop_milestones
-    - develop_metrics
-    - stakeholder_feedback
+    - develop_reporting
+    - setup_feedback
 
 implement:
   label: Implement
@@ -32,20 +32,20 @@ implement:
   description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
     - assign_roles
-    - training
-    - recruitment
-    - evaluation_process
+    - train_staff
+    - recruit_experts
+    - setup_evaluation
     - prioritize_issues
     - share_knowledge
-    - procurement
+    - procure_accessibility
 
-monitor:
-  label: Monitor
+sustain:
+  label: Sustain
   icon: tachometer
   description: Continue to review and report on content, processes, and resources.
   activities:
     - review_policies
-    - regular_website_reviews
-    - identify_improvements
-    - manage_user_feedback
-    - stakeholder_reporting
+    - review_websites
+    - look_to_improve
+    - get_user_feedback
+    - report_to_stakeholders

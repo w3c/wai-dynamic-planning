@@ -1,5 +1,5 @@
 ---
-title: Identify accessibility goals
+title: Identify and set accessibility goals
 status: editors-draft
 layout: activity
 ---
@@ -7,7 +7,7 @@ layout: activity
 {:.introduction}
 Define project accessibility goals that are specific, measurable, achievable, relevant, and time-targeted. This helps to focus your team, clarifies what activities need to be planned, defines what deliverables are required and when, and ensures that successful delivery is easily determined.
 
-Goals may address the accessibility of a single website or online service, or may be more related to broader integration of accessibility into development processes and policies.
+Goals may address the accessibility of a single website, or may be more related to broader integration of accessibility into development processes and policies.
 
 Examples goals might include:
 
@@ -20,9 +20,9 @@ Examples goals might include:
 <% content_for :related do %>
 {:/}
 
-* [Communicate accessibility aims and value to wider organization](communicate.html)
-* [Develop accessibility policy](../plan/develop_policy.html)
-* [Develop milestones or roadmap](../plan/develop_roadmap.html)
+* [Spread the Word](spread_the_word.html)
+* [Make a Policy](../plan/make_a_policy.html)
+* [Develop Milestones](../plan/develop_milestones.html)
 
 {::nomarkdown}
 <% end %>

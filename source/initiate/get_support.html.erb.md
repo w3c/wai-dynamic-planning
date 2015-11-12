@@ -1,5 +1,5 @@
 ---
-title: Obtain support for accessibility activities
+title: Secure support for accessibility activities
 status: editors-draft
 layout: activity
 ---
@@ -13,7 +13,7 @@ Stakeholders may also include project teams involved in other aspects of the org
 <% content_for :resources do %>
 {:/}
 
-* [Developing a Web Accessibility Business Case](/WAI/bcase/Overview)
+* {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/}
 
   Provides an outline of how incorporating accessibility can benefit your business or organization.
   
@@ -25,9 +25,10 @@ Stakeholders may also include project teams involved in other aspects of the org
 <% content_for :related do %>
 {:/}
 
-* [Identify accessibility goals](identify_goals.html)
-* [Develop accessibility policy](../plan/develop_policy.html)
-* [Develop milestones or roadmap](../plan/develop_roadmap.html)
+* [Set Goals](set_goals.html)
+* [Business Case](business_case.html)
+* [Make a Policy](../plan/make_a_policy.html)
+* [Develop Milestones](../plan/develop_milestones.html)
 
 {::nomarkdown}
 <% end %>

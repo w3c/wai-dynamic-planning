@@ -12,7 +12,7 @@ There are key opportunities to incorporate accessibility in any web project, fro
 <%= article %>
 {:/}
 
-## [Assigning people to roles](assign_roles.html)
+## [Assigning Roles](assign_roles.html)
 
 Enthusiasm and inspiration may be suitable qualities for accessibility champions. For developers, designers, and content creators knowledge and experience are more important. 
 
@@ -21,7 +21,7 @@ Enthusiasm and inspiration may be suitable qualities for accessibility champions
 <%= article %>
 {:/}
 
-## [Training for accessibility](training.html)
+## [Train Staff](train_staff.html)
 
 Accessibility awareness training helps all project staff. Staff, such as developers and content managers, can have focused training that addresses their specific role.
 
@@ -30,7 +30,7 @@ Accessibility awareness training helps all project staff. Staff, such as develop
 <%= article %>
 {:/}
 
-## [Recruit to improve accessibility](recruitment.html)
+## [Recruit Experts](recruit_experts.html)
 
 External experience can help to bolster team knowledge and support urgent goals. Longer term recruitment can focus on candidates with demonstrable accessibility experience.
 
@@ -39,7 +39,7 @@ External experience can help to bolster team knowledge and support urgent goals.
 <%= article %>
 {:/}
 
-## [Evaluation regime and process](evaluation.html)
+## [Setup Evaluation](setup_evaluation.html)
 
 Aim to carry out a consistent evaluation at key stages throughout the project, rather than just at the end. 
 
@@ -48,7 +48,7 @@ Aim to carry out a consistent evaluation at key stages throughout the project, r
 <%= article %>
 {:/}
 
-## [Prioritizing identified issues](prioritization.html)
+## [Prioritize Issues](prioritize_issues.html)
 
 Prioritizing any known issues well help target limited resources for maximum effect before milestones are reached. 
 
@@ -57,7 +57,7 @@ Prioritizing any known issues well help target limited resources for maximum eff
 <%= article %>
 {:/}
 
-## [Share experience and knowledge](knowledge_sharing.html)
+## [Share Knowledge](share_knowledge.html)
 
 Sharing knowledge and solutions will increase project team experience and help pass this experience on to other project teams.
 
@@ -66,7 +66,7 @@ Sharing knowledge and solutions will increase project team experience and help p
 <%= article %>
 {:/}
 
-## [Accessible procurement](procurement.html)
+## [Procure Accessibility](procure_accessibility.html)
 
 Assessing vendors and third-party products will help ensure project deliverables meet accessibility policies.
 
