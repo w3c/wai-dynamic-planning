@@ -1,0 +1,13 @@
+<nav class="activity">
+  <h2>Activities</h2>
+  <p><%= link_to "<i class='fa fa-#{data.structure.initiate.icon}'></i>#{data.structure.initiate.label}", "/initiate/index.html" %></p>
+  <ul style="list-style-type: none; padding-left: 1em;">
+    <% data.structure_with_icons.initiate.activities.each do |tag, data| %>
+      <% if is_current? "initiate/#{tag}.html" %>
+        <li class="current"><i class="fa fa-<%= data.icon %>"></i><%= title(tag) %></li>
+      <% else %>
+        <li><%= link_to "<i class='fa fa-#{data.icon}'></i>" + title(tag), "/initiate/#{tag}.html" %></li>
+      <% end %>
+    <% end %>
+  </ul>
+</nav>

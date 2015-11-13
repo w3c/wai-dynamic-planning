@@ -1,0 +1,79 @@
+initiate:
+  label: Initiate
+  icon: rocket
+  description: Develop clear goals and an environment supportive of accessibility.
+  activities:
+    get_familiar:
+      icon: mortar-board
+    make_baseline:
+      icon: balance-scale
+    set_goals:
+      icon: star
+    business_case:
+      icon: briefcase
+    get_support:
+      icon: trophy
+    spread_the_word:
+      icon: comment
+
+plan:
+  label: Plan
+  icon: map
+  description: Clarify scope based on an understanding of current situation.
+  activities:
+    define_roles:
+      icon: group
+    make_a_policy:
+      icon: gavel
+    assign_budget:
+      icon: money
+    review_websites:
+      icon: file-code-o
+    review_design_materials:
+      icon: edit
+    review_tools:
+      icon: wrench
+    enhance_policies:
+      icon: umbrella
+    develop_milestones:
+      icon: road
+    develop_reporting:
+      icon: pie-chart
+    setup_feedback:
+      icon: comments
+
+implement:
+  label: Implement
+  icon: cogs
+  description: Ensure personal are trained, tools are available, and accessibility is included throughout.
+  activities:
+    assign_roles:
+      icon: hand-o-right
+    train_staff:
+      icon: mortar-board
+    recruit_experts:
+      icon: user-plus
+    setup_evaluation:
+      icon: bug
+    prioritize_issues:
+      icon: list-ol
+    share_knowledge:
+      icon: share-alt
+    procure_accessibility:
+      icon: shopping-cart
+
+sustain:
+  label: Sustain
+  icon: pagelines
+  description: Continue to review and report on content, processes, and resources.
+  activities:
+    review_policies:
+      icon: refresh
+    review_websites:
+      icon: file-code-o
+    look_to_improve:
+      icon: line-chart
+    get_user_feedback:
+      icon: comments
+    report_to_stakeholders:
+      icon: bar-chart
