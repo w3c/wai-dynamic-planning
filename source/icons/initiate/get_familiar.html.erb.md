@@ -13,7 +13,7 @@ Web accessibility brings much broader benefits both to your organization and oth
 An appreciation of how people with disabilities use the web can help you understand both the challenges faced and how simple modifications can help.
 
 {::nomarkdown}
-<% content_for :resources do %>
+<% content_for :more_information do %>
 {:/}
 
 * [Accessibility - W3C](/standards/webdesign/accessibility)

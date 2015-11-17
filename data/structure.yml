@@ -3,12 +3,12 @@ initiate:
   icon: rocket
   description: Develop clear goals and an environment supportive of accessibility.
   activities:
-    - get_familiar
-    - make_baseline
-    - set_goals
-    - business_case
-    - get_support
-    - spread_the_word
+    - learn_the_basics
+    - assess_the_situation
+    - raise_awareness
+    - develop_business_case
+    - gather_support
+    - set_objectives
 
 plan:
   label: Plan
