@@ -98,10 +98,7 @@ helpers do
   end
   
   def title(sentence)
-    stop_words = %w{a an and the or for of nor}
-    sentence.split(/[ _]/).each_with_index.map{
-      |word, index| stop_words.include?(word) && index > 0 ? word : word.capitalize
-    }.join(" ")
+    sentence.capitalize.split(/[ _]/).join(" ")
   end
 
   def block(start_end = :start)

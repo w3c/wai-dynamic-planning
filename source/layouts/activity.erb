@@ -14,16 +14,16 @@
     <%= yield %>
   
     <div class="support-material">
-      <% if content_for?(:resources) %>
-      <aside class="resources">
-        <h3>Key Resources</h3>
-        <%= yield_content :resources %>
+      <% if content_for?(:more_information) %>
+      <aside class="more_information">
+        <h3>For more information</h3>
+        <%= yield_content :more_information %>
       </aside>
       <% end %>
 
       <% if content_for?(:related) %>
       <aside class="related">
-        <h3>Related Activities</h3>
+        <h3>Related activities</h3>
         <%= yield_content :related %>
       </aside>
       <% end %>
