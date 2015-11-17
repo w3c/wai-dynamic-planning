@@ -14,7 +14,7 @@ When starting with accessibility consider current project and organizational app
 <%= article %>
 {:/}
 
-### [Get Familiar](get_familiar.html)
+### [Learn the basics](learn_the_basics.html)
 
 Find out what accessibility is and why it is important.
 
@@ -24,25 +24,25 @@ Find out what accessibility is and why it is important.
 <%= article %>
 {:/}
 
-### [Make Baseline](make_baseline.html)
+### [Assess the situation](assess_the_situation.html)
 
-Knowing the current state of key resources will help understanding the scale of the task and communicating the need for change.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Set Goals](set_goals.html)
-
-Clear, achievable goals identify what needs to be done, how to do it, and knowing when it is done.
+Knowing the current state of key resources will help understanding the scale of the task and in communicating the need for change.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Business Case](business_case.html)
+### [Raise awareness](raise_awareness.html)
+
+Communicate aims and value to help ensure accessibility is not forgotten and that workload is shared.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+### [Develop business case](develop_business_case.html)
 
 A strong business case will help communicate why accessibility is important and what needs to be done.
 
@@ -51,7 +51,7 @@ A strong business case will help communicate why accessibility is important and 
 <%= article %>
 {:/}
 
-### [Get Support](get_support.html)
+### [Gather support](gather_support.html)
 
 Management support is vital to ensure that resources are available and accessibility is prioritized.
 
@@ -60,9 +60,9 @@ Management support is vital to ensure that resources are available and accessibi
 <%= article %>
 {:/}
 
-### [Spread the Word](spread_the_word.html)
+### [Set objectives](set_objectives.html)
 
-Communicate aims and value to help ensure accessibility is not forgotten and that workload is shared.
+Clear, achievable objectives identify what needs to be done, how to do it, and knowing when it is done.
 
 {::nomarkdown}
 <%= article :end %>
