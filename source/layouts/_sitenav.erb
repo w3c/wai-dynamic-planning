@@ -1,26 +1,26 @@
 <nav id="nav">
 	<h2>Site Navigation</h2>
-	<p id="w3cnav"><a href="<% w3url '/' %>">W3C Home</a></p>
-	<p id="subhomenav"><a href="<% w3url '/WAI/' %>">Web Accessibility Initiative (WAI) Home</a></p>
+	<p id="w3cnav"><a href="<%= w3url '/' %>">W3Cc Home</a></p>
+	<p id="subhomenav"><a href="<%= w3url '/WAI/' %>">Web Accessibility Initiative (WAI) Home</a></p>
 	<ol id="nav1" type="A">
-		<li><a href="<% w3url '/WAI/gettingstarted/Overview.html' %>">Getting Started</a></li>
-		<li><a href="<% w3url '/WAI/users/Overview' %>">Designing for Inclusion</a></li>
-		<li><a href="<% w3url '/WAI/guid-tech' %>">Guidelines &amp; Techniques</a></li>
-		<li class="current-nav "><a href="<% w3url '/WAI/managing' %>">Planning &amp; Implementing</a>
+		<li><a href="<%= w3url '/WAI/gettingstarted/Overview.html' %>">Getting Started</a></li>
+		<li><a href="<%= w3url '/WAI/users/Overview' %>">Designing for Inclusion</a></li>
+		<li><a href="<%= w3url '/WAI/guid-tech' %>">Guidelines &amp; Techniques</a></li>
+		<li class="current-nav "><a href="<%= w3url '/WAI/managing' %>">Planning &amp; Implementing</a>
 			<ul>
 				<li class="current-nav nav-head">Policy Resources
 					<ol>
-						<li><a href="<% w3url '/WAI/Policy/harmon' %>">Standards Harmonization</a></li>
-						<li><a href="<% w3url '/WAI/Policy/Overview' %>">International Policies</a></li>
-						<li><a href="<% w3url '/WAI/impl/pol' %>">Organizational Policies</a></li>
+						<li><a href="<%= w3url '/WAI/Policy/harmon' %>">Standards Harmonization</a></li>
+						<li><a href="<%= w3url '/WAI/Policy/Overview' %>">International Policies</a></li>
+						<li><a href="<%= w3url '/WAI/impl/pol' %>">Organizational Policies</a></li>
 					</ol>
 				</li>
 				<li class="nav-head">Managing Accessibility
 					<ol>
-						<li><a href="<% w3url '/WAI/impl/Overview' %>">Strategic Planning</a></li>
-						<li><a href="<% w3url '/WAI/impl/improving' %>">Improving Existing Sites</a></li>
-						<li><a href="<% w3url '/WAI/users/involving' %>">Involving Users in Web Projects</a></li>
-						<li><a href="<% w3url '/WAI/impl/software' %>">Selecting Authoring Tools</a></li>
+						<li><a href="<%= w3url '/WAI/impl/Overview' %>">Strategic Planning</a></li>
+						<li><a href="<%= w3url '/WAI/impl/improving' %>">Improving Existing Sites</a></li>
+						<li><a href="<%= w3url '/WAI/users/involving' %>">Involving Users in Web Projects</a></li>
+						<li><a href="<%= w3url '/WAI/impl/software' %>">Selecting Authoring Tools</a></li>
 					</ol>
 				</li>
         <li<% if is_current?('index.html') %> id="current-node"<% end %> class="current-nav"><%= nav_link('Planning Roadmap', 'index.html') %>
@@ -33,16 +33,16 @@
       </li>
 			</ul>
 		</li>
-		<li><a href="<% w3url '/WAI/eval/Overview' %>">Evaluating Accessibility</a></li>
-		<li><a href="<% w3url '/WAI/train' %>">Tutorials &amp; Presentations</a></li>
-		<li><a href="<% w3url '/WAI/about-links' %>">Getting Involved with WAI</a></li>
+		<li><a href="<%= w3url '/WAI/eval/Overview' %>">Evaluating Accessibility</a></li>
+		<li><a href="<%= w3url '/WAI/train' %>">Tutorials &amp; Presentations</a></li>
+		<li><a href="<%= w3url '/WAI/about-links' %>">Getting Involved with WAI</a></li>
 	</ol>
 	
 	<div id="nav-static">
 		<div class="nav-discover">
-			<p><a href="<% w3url '/WAI/yourWAI' %>"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a></p>
+			<p><a href="<%= w3url '/WAI/yourWAI' %>"><strong><u>Discover new resources</u></strong> for people with disabilities, policy makers, managers, and you!</a></p>
 		</div>
 			
-		<p class="translations"><a href="<% w3url '/WAI/wai-translations' %>"><img src="<% w3url '/WAI/images/translations-med-1' %>" alt="characters from different languages" /> Translations</a></p>
+		<p class="translations"><a href="<%= w3url '/WAI/wai-translations' %>"><img src="<%= w3url '/WAI/images/translations-med-1' %>" alt="characters from different languages" /> Translations</a></p>
 	</div>
 </nav>
