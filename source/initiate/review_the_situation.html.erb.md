@@ -5,11 +5,11 @@ layout: activity
 ---
 
 {:.introduction}
-Knowing the current state of accessibility in your organization will help in discussions with stakeholders and management. This will also provide you with a better understanding of the scale of the challenge.
+Exploring the current state of accessibility in your organization will help in discussions with stakeholders and management. This will also provide you with a better understanding of the scale of the challenge.
 
 Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
 
-* Key websites and user journeys;
+* Key websites and user activities;
 * Web content policies and processes, for example related to editing and publishing;
 * General awareness of and attitude towards accessibility and disability.
 

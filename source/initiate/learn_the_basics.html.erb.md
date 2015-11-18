@@ -10,6 +10,7 @@ The more you understand accessibility, the more effectively it can be implemente
 *	Introductory articles and videos;
 *	Asking colleagues, friends, and family members with disabilities;
 *	Training appropriate for your particular role;
+* Disability organizations offering training or information services.
 
 First-hand experience of how people with disabilities use the web can be enlightening and inspiring. This can help convince others of the need for web accessibility. 
 

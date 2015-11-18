@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-Communicate the importance and value of accessibility throughout your organization. Many people may not appreciate that their role has an impact on website accessibility. Others may not appreciate the additional value that accessibility brings.
+Communicate the importance and value of accessibility throughout your organization. Many people will know nothing about accessibility. Some may not appreciate that their role has an impact on website accessibility. Others may not be aware of the additional value that accessibility brings.
 
 A general introduction to accessibility, including organizational goals, will be of benefit to anyone in the organization. For specific teams consider providing additional relevant information. For example, marketing may benefit on more information to promote corporate social responsibility.
 

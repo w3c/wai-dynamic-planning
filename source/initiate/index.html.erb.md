@@ -24,7 +24,7 @@ Find out what accessibility is and why it is important.
 <%= article %>
 {:/}
 
-### [Assess the situation](assess_the_situation.html)
+### [Review the situation](review_the_situation.html)
 
 Knowing the current state of key resources will help understanding the scale of the task and in communicating the need for change.
 
