@@ -15,16 +15,13 @@ plan:
   icon: map
   description: Clarify scope based on an understanding of current situation.
   activities:
-    - define_roles
-    - make_a_policy
-    - assign_budget
-    - review_websites
-    - review_design_materials
-    - review_tools
-    - enhance_policies
-    - develop_milestones
-    - develop_reporting
-    - setup_feedback
+    - create_accessibility_policy
+    - assign_responsibilities
+    - determine_budget
+    - perform_detailed_review
+    - review_resources
+    - establish_monitoring_framework
+    - engage_with_stakeholders
 
 implement:
   label: Implement

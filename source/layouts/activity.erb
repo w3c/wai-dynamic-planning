@@ -3,11 +3,25 @@
 <main id="main" role="main">
   <%= partial "layouts/status" %>
 
-  <h1 id="skip"><% if current_page.data.icon %><i style="margin-right: 0" class="fa fa-<%= current_page.data.icon %>"></i> <% end %><%= current_page.data.title %></h1>
+  <h1 id="skip"><%= current_page.data.title %></h1>
 
   <div class="right-inset">
     <%= partial "layouts/sectionnav" %>
-    <%= partial "navigation" %>
+    <nav class="activity">
+      <h2>Activities</h2>
+      <% section  = File.dirname(current_page.path) %>
+      <% nav_data = eval('data.structure.' + section) %>
+      <p><%= link_to "<i class='fa fa-#{nav_data.icon}'></i>#{nav_data.label}", "/initiate/index.html" %></p>
+      <ul>
+        <% nav_data.activities.each do |tag| %>
+          <% if is_current? section + "/#{tag}.html" %>
+            <li class="current"><%= title(tag) %></li>
+          <% else %>
+            <li><%= link_to title(tag), "/" + section + "/#{tag}.html" %></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </nav>    
   </div>
 
   <div class="inner">

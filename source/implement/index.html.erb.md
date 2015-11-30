@@ -66,10 +66,18 @@ Sharing knowledge and solutions will increase project team experience and help p
 <%= article %>
 {:/}
 
+### [Enhance Policies](enhance_policies.html)
+
+Policies and processes, such as procurement, can impact on accessibility. Modify them to incorporate relevant goals.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
 ## [Procure Accessibility](procure_accessibility.html)
 
 Assessing vendors and third-party products will help ensure project deliverables meet accessibility policies.
-
 
 {::nomarkdown}
 <%= article :end %>
