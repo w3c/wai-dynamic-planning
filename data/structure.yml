@@ -19,7 +19,7 @@ plan:
     - assign_responsibilities
     - determine_budget
     - perform_detailed_review
-    - review_resources
+    - review_broad_environment
     - establish_monitoring_framework
     - engage_with_stakeholders
 
