@@ -1,5 +1,5 @@
 ---
-title: Assess the current situation
+title: Assess the situation
 status: editors-draft
 layout: activity
 ---
