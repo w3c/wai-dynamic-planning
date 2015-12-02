@@ -26,7 +26,7 @@ Find out what accessibility is and why it is important.
 
 ### [Assess the situation](assess_the_situation.html)
 
-Knowing the current state of key resources will help with understanding the scale of the task and communicating the need for change.
+Know the organization's current state of accessibility to help determine scope of work ahead.
 
 {::nomarkdown}
 <%= article :end %>
@@ -35,7 +35,7 @@ Knowing the current state of key resources will help with understanding the scal
 
 ### [Raise awareness](raise_awareness.html)
 
-Communicate aims and value to help ensure accessibility is not forgotten and that workload is shared.
+Communicate the aims, value-adds, and importance of accessibility throughout the organization.
 
 {::nomarkdown}
 <%= article :end %>
@@ -44,7 +44,7 @@ Communicate aims and value to help ensure accessibility is not forgotten and tha
 
 ### [Develop business case](develop_business_case.html)
 
-A strong business case will help communicate why accessibility is important and what needs to be done.
+A strong business case helps gain buy-in from stakeholders and can make accessibility an organizational priority.
 
 {::nomarkdown}
 <%= article :end %>
@@ -53,7 +53,7 @@ A strong business case will help communicate why accessibility is important and 
 
 ### [Gather support](gather_support.html)
 
-Management support is vital to ensure that resources are available and accessibility is prioritized.
+Organization-wide support is vital to ensure accessibility is sustained and distributed across the organization.
 
 {::nomarkdown}
 <%= article :end %>
@@ -62,7 +62,7 @@ Management support is vital to ensure that resources are available and accessibi
 
 ### [Set objectives](set_objectives.html)
 
-Clear, achievable objectives identify what needs to be done, how to do it, and knowing when it is done.
+Clear objectives identify key deliverables, establish a timeline, and define how to measure success.
 
 {::nomarkdown}
 <%= article :end %>
