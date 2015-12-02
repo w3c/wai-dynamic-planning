@@ -5,12 +5,13 @@ layout: activity
 ---
 
 {:.introduction}
-The more you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggested supporting activities: 
+The more you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
  
-*	Introductory articles and videos;
-*	Asking colleagues, friends, and family members with disabilities;
-*	Training appropriate for your particular role;
-* Disability organizations offering training or information services.
+*	Research introductory articles and videos;
+*	Talk with colleagues, friends, and family members with disabilities;
+*	Find training appropriate for your particular role;
+* Seek information or training from disability organizations;
+* Set up assistive technology demonstrations.
 
 First-hand experience of how people with disabilities use the web can be enlightening and inspiring. This can help convince others of the need for web accessibility. 
 
