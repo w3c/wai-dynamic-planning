@@ -4,14 +4,8 @@ status: editors-draft
 layout: activity
 ---
 
-{:.at-a-glance}
-* Define key performance indicators (KPIs) to track progress towards goals
-* Develop standard accessibility reporting template
-* For deployed websites, plan for regular on-going monitoring
-* Create milestones to track accessibility from as early as possible in projects 
-
 {:.introduction}
-Having defined goals ensure that the progress towards those goals can be easily determined. For each goal you will need to define how you will know when it has been met or what progress has occurred.
+Having defined goals ensure that the progress towards those goals can be easily determined. For each goal you need to define how you will know when it has been met or what progress has occurred.
 
 Some example KPIs include,
 
@@ -22,9 +16,9 @@ Some example KPIs include,
 * Positive social media comments on accessibility of service
 * Training sessions delivered
 
-It is valuable to develop a standard report structure to capture the measure of accessibility for websites or tools. This will allow for comparisons between different websites and also between different versions of the same website. This will help in determining progress, generally and for individual websites, and in identifying areas where more resources are required to meet the organizational standards.
+It is valuable to develop a standard report structure to capture the measure of accessibility for websites or tools. This allows for comparisons between different websites and also between different versions of the same website. This helps in determining progress, generally and for individual websites, and in identifying areas where more resources are required to meet the organizational standards.
 
-For long-term or ongoing goals you will need to plan regular monitoring to ensure that achieved goals do not slip. For example, updates to content and website maintenance work may introduce new accessibility barriers or new staff may not have the necessary skills. Plan for regular reviews of random sample content from the website. Ensure that responsibility is assigned for the checks and there are clear escalation paths for identified issues.
+For long-term or ongoing goals you need to plan regular monitoring to ensure that achieved goals do not slip. For example, updates to content and website maintenance work may introduce new accessibility barriers or new staff may not have the necessary skills. Plan for regular reviews of random sample content from the website. Ensure that responsibility is assigned for the checks and there are clear escalation paths for identified issues.
 
 For project related monitoring, ensure that milestones are set throughout to assess project deliverables against goals. Accessibility checks can be performed at all stages of a project, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later in the project.
 
