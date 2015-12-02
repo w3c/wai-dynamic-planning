@@ -5,8 +5,8 @@ layout: activity
 ---
 
 {:.introduction}
-The more you understand accessibility, the more effectively it can be implemented and promoted throughout your organization. Some ways to learn more about web accessibility include:
-
+The more you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggested supporting resources: 
+ 
 *	Introductory articles and videos;
 *	Asking colleagues, friends, and family members with disabilities;
 *	Training appropriate for your particular role;
