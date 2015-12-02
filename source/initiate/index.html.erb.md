@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-When starting with accessibility consider current project and organizational approaches and develop clear, measurably goals. Communicate these goals throughout the organization, and particularly with stakeholders to secure support.
+When starting with accessibility consider current project and organizational approaches, and develop clear, measurable goals. Communicate these goals throughout the organization, particularly with stakeholders, to secure support.
 
 {::nomarkdown}
 <%= block 'activities' %>
@@ -26,7 +26,7 @@ Find out what accessibility is and why it is important.
 
 ### [Review the situation](review_the_situation.html)
 
-Knowing the current state of key resources will help understanding the scale of the task and in communicating the need for change.
+Knowing the current state of key resources will help with understanding the scale of the task and communicating the need for change.
 
 {::nomarkdown}
 <%= article :end %>
