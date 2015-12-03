@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-The more you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
+The better you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
  
 *	Research introductory articles and videos;
 *	Talk with colleagues, friends, and family members with disabilities;

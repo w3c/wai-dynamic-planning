@@ -10,7 +10,7 @@ Exploring the current state of accessibility in your organization will help in d
 Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
 
 * Key websites and user activities;
-* Web content policies and processes, for example related to editing and publishing;
+* Web content policies and processes, such as those related to editing and publishing;
 * General awareness of and attitude towards accessibility and disability.
 
 You may not be in the position to explore all these aspects in a first attempt. However, the more information you can gather, the better you will understand the types and sources of the issues that need to be addressed.
