@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-Ensuring that processes, frameworks, and resources are supportive of accessibility will improve the final deliverables. Understanding the current situation will help determine the scale of work and allow achievable milestones to be set.
+Ensure that processes, frameworks, and resources are supportive of accessibility to improve the final deliverables. Understanding the current situation will help determine the scale of work and allow achievable milestones to be set.
 
 {::nomarkdown}
 <%= block 'activities' %>
@@ -25,14 +25,14 @@ Document the goals, scope, and responsibilities important to accessibility.
 
 ### [Assign responsibilities](assign_responsibilities.html)
 
-Understanding what roles need to be covered will help in creating the team and ensuring all tasks are covered.
+Understand what roles need to be covered to help in creating the team and ensuring all tasks are covered.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Determine budget?](determine_budget.html)
+### [Determine budget](determine_budget.html)
 
 Clarify what additional costs may be required, for example for reviews, training, audits, and testing with users. Ensure budget is available.
 
@@ -41,7 +41,7 @@ Clarify what additional costs may be required, for example for reviews, training
 <%= article %>
 {:/}
 
-### [Perform detailed review](preform_detailed_review.html)
+### [Perform detailed review](perform_detailed_review.html)
 
 Before making changes, thoroughly review existing websites to identify issues to be fixed or avoided.
 
@@ -50,7 +50,7 @@ Before making changes, thoroughly review existing websites to identify issues to
 <%= article %>
 {:/}
 
-### [Review context/environment/framework/resources??](review_resources.html)
+### [Review resources](review_resources.html)
 
 Check design resources, such as brand or design guidelines, for accessibility issues. Remove them to build accessibility into new projects.
 
