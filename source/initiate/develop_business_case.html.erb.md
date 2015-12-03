@@ -5,16 +5,17 @@ layout: activity
 ---
 
 {:.introduction}
-Develop a tailored business case to respond to why accessibility has become important to your organization. The business case will be used to persuade stakeholders and management that web accessibility should be financially supported and prioritized.
+Develop a tailored business case to respond to why accessibility should be addressed within your organization. The business case will be used to persuade stakeholders and management that web accessibility should be financially supported and prioritized.
 
 Depending on organizational priorities, the business case should explore:
 
-* Impact for users with disabilities;
-* Broader benefits for everyone, such as usability;
-* Legal aspects that may be applicable to your organization;
-* Impact on corporate social responsibility.
+* Direct impact for users with disabilities
+* Broader benefits for everyone, such as usability
+* Financial, time, and resource costs associated with not addressing accessibility early
+* Legal aspects that may be applicable to your organization
+* Impact on corporate social responsibility
 
-The business case should also outline the risks associated with ignoring accessibility, provide some indication of the resources needed, and specify how improvements will be tracked.
+The business case should also outline the risks associated with ignoring accessibility, provide some indication of the resources needed, and specify how improvements will be tracked, and anticipated return on investment.
 
 {::nomarkdown}
 <% content_for :more_information do %>

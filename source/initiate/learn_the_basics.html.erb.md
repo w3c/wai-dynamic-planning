@@ -10,14 +10,14 @@ The better you understand accessibility, the more effectively it can be implemen
 *	Research introductory articles and videos;
 *	Talk with colleagues, friends, and family members with disabilities;
 *	Find training appropriate for your particular role;
-* Seek information or training from disability organizations;
+* Seek information or training from accessibility and disability organizations;
 * Set up assistive technology demonstrations.
 
-First-hand experience of how people with disabilities use the web can be enlightening and inspiring. This can help convince others of the need for web accessibility. 
+First-hand experience of how people with disabilities access web content can be enlightening and inspiring. This can help convince others of the need for web accessibility. 
 
-### What is accessibility?
+### What is web accessibility?
 
-Web content and services are accessible when they are equally available to all people regardless of disability. Web accessibility brings much broader benefits both to your organization and other website visitors. For example, visitors using mobile devices with smaller screens and older people with changing abilities due to aging benefit from accessible websites.
+Web content and services are accessible when they are equally available to all people regardless of their disabilities. In addition, web accessibility brings much broader benefits both to your organization and other website visitors. For example, visitors using mobile devices with smaller screens and older people with changing abilities due to aging benefit from accessible websites.
 
 {::nomarkdown}
 <% content_for :more_information do %>

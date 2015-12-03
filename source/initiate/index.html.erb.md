@@ -26,16 +26,16 @@ Find out what accessibility is and why it is important.
 
 ### [Assess the situation](assess_the_situation.html)
 
-Know the organization's current state of accessibility to help determine scope of work ahead.
+Learn the organization's current state of accessibility to help determine scope of work ahead.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Raise awareness](raise_awareness.html)
+### [Set objectives](set_objectives.html)
 
-Communicate the aims, value-adds, and importance of accessibility throughout the organization.
+Clear objectives identify key deliverables, establish a timeline, and define how to measure success.
 
 {::nomarkdown}
 <%= article :end %>
@@ -51,18 +51,18 @@ A strong business case helps gain buy-in from stakeholders and can make accessib
 <%= article %>
 {:/}
 
-### [Gather support](gather_support.html)
+### [Raise awareness](raise_awareness.html)
 
-Organization-wide support is vital to ensure accessibility is sustained and distributed across the organization.
+Communicate the goals, value-adds, and importance of accessibility throughout the organization.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-### [Set objectives](set_objectives.html)
+### [Gather support](gather_support.html)
 
-Clear objectives identify key deliverables, establish a timeline, and define how to measure success.
+Organization-wide support is vital to ensure accessibility is distributed across the organization and sustained.
 
 {::nomarkdown}
 <%= article :end %>
