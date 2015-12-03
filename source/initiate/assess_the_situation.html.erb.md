@@ -23,10 +23,6 @@ You may not be in the position to explore all these aspects in a first attempt. 
 
   Provides simple steps to help assess if a web page addresses accessibility.
   
-* {::nomarkdown}<%= link_to "Involving Users in Web Accessibility Evaluation", (w3url '/WAI/eval/users.html') %>{:/}
-
-  Guidance on including people with disabilities in accessibility evaluations throughout Web development.
-  
 {::nomarkdown}
 <% end %>
 {:/}
