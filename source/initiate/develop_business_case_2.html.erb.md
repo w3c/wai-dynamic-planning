@@ -17,9 +17,17 @@ Depending on organizational priorities, the business case should explore:
 
 The business case should also outline the risks associated with ignoring accessibility, provide some indication of the resources needed, and specify how improvements will be tracked, and anticipated return on investment.
 
-For more guidance on how to create your business case see:
+{::nomarkdown}
+<% content_for :more_information do %>
+{:/}
 
 * {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/}
+
+  Explores factors important in developing a business case for accessibility.
+  
+{::nomarkdown}
+<% end %>
+{:/}
 
 {::nomarkdown}
 <% content_for :related do %>
