@@ -1,5 +1,5 @@
 ---
-title: Review websites in detail
+title: Perform detailed review
 status: editors-draft
 layout: activity
 ---
