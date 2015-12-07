@@ -168,9 +168,12 @@ i {
     }
   }
 
-  .category & {
-    width: 72%;
+  @include mq($medium) {
+    .category & {
+      width: 72%;
+    }
   }
+
   .activity & {
     .support-material {
       @extend .two-column;
@@ -192,16 +195,18 @@ i {
     article {
       @extend .two-column;
     }
-    h2 {
-      width: 32%;
-      border-bottom: none !important;
-      margin-right: 3%;
-    }
-    h3 {
-      width: 30%;
-    }
-    p {
-      width: 65%;
+    @include mq($medium) {
+      h2 {
+        width: 32%;
+        border-bottom: none !important;
+        margin-right: 3%;
+      }
+      h3 {
+        width: 30%;
+      }
+      p {
+        width: 65%;
+      }
     }
   }
   @include mq($medium) {
