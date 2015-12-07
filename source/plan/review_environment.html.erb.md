@@ -1,11 +1,11 @@
 ---
-title: Review broad environment
+title: Review environment
 status: editors-draft
 layout: activity
 ---
 
 {:.introduction}
-Review (and fix) the environment in which websites are created to help prevent accessibility issues from occurring. Many resources have a direct impact on end product accessibility, such as content management systems (CMS). Other resources have more of an indirect impact, for example, recruiting staff with accessibility skills. Prioritize assessment efforts based on how much the resource directly impacts the accessibility of resources, the cost to implement changes, and how quickly any improvements will help.
+Review the environment in which websites are created to help prevent accessibility issues from occurring. Many resources have a direct impact on end product accessibility, such as content management systems (CMS). Other resources have more of an indirect impact, for example, recruiting staff with accessibility skills. Prioritize assessment efforts based on how much the resource directly impacts the accessibility of resources, the cost to implement changes, and how quickly any improvements will help.
 
 CMSs and templates are difficult to change later on. When selecting a new CMS, how well it supports accessibility should be an important part of the selection criteria. For existing authoring tools, consider what accessibility options might be available and how they are being used. The process of preparing content can also be reviewed to incorporate accessibility, for example, video creation process should include a caption and transcription stage.
 

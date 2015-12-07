@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-Ensure that processes, frameworks, and resources are supportive of accessibility to improve the final deliverables. Understanding the current situation will help determine the scale of work and allow achievable milestones to be set.
+Clarify your organizations goals and detail the resources needed to deliver accessible projects. Review existing websites and infrastructure to determine what improvements can be made.
 
 {::nomarkdown}
 <%= block 'activities' %>
@@ -34,7 +34,7 @@ Understand what roles need to be covered to help in creating the team and ensuri
 
 ### [Determine budget](determine_budget.html)
 
-Clarify what additional costs may be required, for example for reviews, training, audits, and testing with users. Ensure budget is available.
+Ensure costs are clarified and budget is secured for accessibility activities, such as reviews, training, audits, and testing with users.
 
 {::nomarkdown}
 <%= article :end %>
@@ -50,21 +50,9 @@ Before making changes, thoroughly review existing websites to identify issues to
 <%= article %>
 {:/}
 
-### [Review resources](review_resources.html)
+### [Review environment](review_environment.html)
 
-Check design resources, such as brand or design guidelines, for accessibility issues. Remove them to build accessibility into new projects.
-
-Finding and fixing problems in technical libraries and tools, such as widget libraries or CMSs, can make a big difference with a little effort.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-
-### [Develop milestones](develop_milestones.html)
-
-Ensure that there are clear milestones or planned phases for accessibility activity to help focus attention.
+Technical and design resources will all directly impact on accessibility. Other factors, such as recruitment policies, will have an indirect impact.
 
 {::nomarkdown}
 <%= article :end %>
@@ -79,6 +67,7 @@ Create a standard way of reporting findings to make reporting easier and identif
 <%= article :end %>
 <%= article %>
 {:/}
+
 
 ### [Engage with stakeholders](engage_with_stakeholders.html)
 

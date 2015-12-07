@@ -1,7 +1,7 @@
 initiate:
   label: Initiate
   icon: rocket
-  description: Develop clear goals and an environment supportive of accessibility.
+  description: Develop understanding of accessibility and build organizational enthusiasm. 
   activities:
     - learn_the_basics
     - assess_the_situation
@@ -13,13 +13,13 @@ initiate:
 plan:
   label: Plan
   icon: map
-  description: Clarify scope based on an understanding of current situation.
+  description: Develop clear goals and an environment that supports accessibility.
   activities:
     - create_accessibility_policy
     - assign_responsibilities
     - determine_budget
     - perform_detailed_review
-    - review_broad_environment
+    - review_environment
     - establish_monitoring_framework
     - engage_with_stakeholders
 

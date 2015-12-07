@@ -11,7 +11,7 @@
       <h2>Activities</h2>
       <% section  = File.dirname(current_page.path) %>
       <% nav_data = eval('data.structure.' + section) %>
-      <p><%= link_to "<i class='fa fa-#{nav_data.icon}'></i>#{nav_data.label}", "/initiate/index.html" %></p>
+      <p><%= link_to "<i class='fa fa-#{nav_data.icon}'></i>#{nav_data.label}", "/#{section}/index.html" %></p>
       <ul>
         <% nav_data.activities.each do |tag| %>
           <% if is_current? section + "/#{tag}.html" %>
