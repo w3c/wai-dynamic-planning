@@ -7,7 +7,7 @@ layout: activity
 {:.introduction}
 Key stakeholder and management support will simplify the process of introducing or improving accessibility. Management support will help with prioritization clashes, access to resources, and communication activities. Use the business case to help secure support from these groups.
 
-Support for accessibility is often found among other project teams involved in the creation of websites. Persuading these groups on the benefits of incorporating accessibility into deliverables will help increase the drive for accessibility and create more advocates or champions.
+Support for accessibility is often found among other project teams involved in the creation of websites. Encourage interest in these groups by exploring how accessibility has broad benefits. For example, individuals can improve their skills, organizations improve their websites, and people with disabilities have a better online experience. This will help increase the enthusiasm for accessibility and create more advocates or champions.
 
 Create opportunities to exchange information and provide support. This could be informal between interested individuals, such as chat channels and lunch gatherings, or more formal presentations to management during staff meetings or feedback sessions.
 
