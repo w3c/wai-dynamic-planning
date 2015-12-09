@@ -24,7 +24,7 @@ Find out what accessibility is and why it is important.
 <%= article %>
 {:/}
 
-### [Assess the situation](assess_the_situation.html)
+### [Explore the situation](explore_the_situation.html)
 
 Learn the organization's current state of accessibility to help determine scope of work ahead.
 
