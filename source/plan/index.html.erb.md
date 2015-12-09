@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-Clarify your organizations goals and detail the resources needed to deliver accessible projects. Review existing websites and infrastructure to determine what improvements can be made.
+Careful planning of the necessary efforts is critical to effective implementation later on. It ensures clear assessment of the required work, distribution of the tasks, and continual follow-up on progress.
 
 {::nomarkdown}
 <%= block 'activities' %>
@@ -61,7 +61,7 @@ Technical and design resources will all directly impact on accessibility. Other 
 
 ### [Establish monitoring framework](establish_monitoring_framework.html)
 
-Create a standard way of reporting findings to make reporting easier and identifying improvement more obvious.
+Create a standard way of monitoring and reporting findings, to help track and control progress.
 
 {::nomarkdown}
 <%= article :end %>
@@ -71,7 +71,7 @@ Create a standard way of reporting findings to make reporting easier and identif
 
 ### [Engage with stakeholders](engage_with_stakeholders.html)
 
-Help maintain long-term support by providing regular report and feedback points to management and stakeholders.
+Help maintain long-term support through regular communication with management and other stakeholders.
 
 {::nomarkdown}
 <%= article :end %>
