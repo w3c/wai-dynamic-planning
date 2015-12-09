@@ -5,10 +5,10 @@ initiate:
   activities:
     - learn_the_basics
     - explore_the_situation
-    - raise_awareness
-    - develop_business_case
-    - gather_support
     - set_objectives
+    - develop_business_case
+    - raise_awareness
+    - gather_support
 
 plan:
   label: Plan
