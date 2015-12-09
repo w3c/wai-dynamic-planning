@@ -9,7 +9,7 @@ Perform a detailed accessibility review of websites in scope of your objectives.
 
 Review results are helpful to identify problems to be avoided in future work, even if the project involves completely replacing an existing website. Review results are also helpful in stakeholder reporting activities. Highlight existing problems and their impact so that later in the project the impact of positive change can be put into context.
 
-Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
+Accessibility checks can be performed at all stages of a project, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later in the project. Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
 
 {::nomarkdown}
 <% content_for :more_information do %>
