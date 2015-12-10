@@ -5,13 +5,16 @@ layout: activity
 ---
 
 {:.introduction}
-Stakeholders may include management, other internal teams, such as marketing, suppliers, advocacy groups, and customers. All stakeholders have an interest in accessibility activities, either because they need to respond to goals, such as development teams, or because they benefit in some way, such as advocacy groups.
+Engage with your stakeholders to get them on board and to identify what they can deliver and how they can help you. This includes internal stakeholders such as project teams, marketing, and management, as well as external stakeholders such as suppliers, advocacy groups, and customers. For example:
 
-Provide accurate and up-to-date information to stakeholders so that they are better able to help meet the accessibility goals. Consider how the stakeholder group can contribute to the improvement of accessibility. For example, many advocacy groups and charities provide training services.
+* Coordinate with project teams on relaunch and development cycles;
+* Introduce accessibility aspects in marketing campaigns;
+* Keep management up-to-date on your planning and implementation;
+* Negotiate with suppliers to better support you with accessibility;
+* Find out the latest accessibility trends for advocates and champions;
+* Provide feedback channels to engage with your customers and end-users.
 
-Consider what opportunities exist to help communicate accessibility goals and activities with internal stakeholders. For example, formal management meetings provide an opportunity to report on progress against key performance indicators. Informal meetings can provide an opportunity to exchange information and explore ideas.
-
-Your accessibility statement, a public version of your accessibility policy, provides a useful point of contact for external stakeholders and an opportunity to highlight accessibility achievements. You also need to ensure that there are feedback channels in place for all your stakeholders. 
+Particularly the latter aspect can help you communicate your efforts publicly, set expectations, and increase committment for accessibility. For example, a public accessibility statement that identifies aspects of your websites that work well and less well, explanation of the plans to improve inaccessibility, and contact information in case customers observe barriers can help you overcome the transition period and gather feedback to prioritize repairs.
 
 {::nomarkdown}
 <% content_for :more_information do %>
