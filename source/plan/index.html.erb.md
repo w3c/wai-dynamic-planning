@@ -41,7 +41,7 @@ Ensure costs are clarified and budget is secured for accessibility activities, s
 <%= article %>
 {:/}
 
-### [Perform detailed review](perform_detailed_review.html)
+### [Review websites](review_websites.html)
 
 Before making changes, thoroughly review existing websites to identify issues to be fixed or avoided.
 

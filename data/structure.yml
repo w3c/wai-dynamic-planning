@@ -18,7 +18,7 @@ plan:
     - create_accessibility_policy
     - assign_responsibilities
     - determine_budget
-    - perform_detailed_review
+    - review_websites
     - review_environment
     - establish_monitoring_framework
     - engage_with_stakeholders
