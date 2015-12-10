@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-When starting with accessibility consider current project and organizational approaches, and develop clear, measurable goals. Communicate these goals throughout the organization, particularly with stakeholders, to secure support.
+Properly initiating accessibility efforts is a fundamental task that is often overlooked. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
 
 {::nomarkdown}
 <%= block 'activities' %>
