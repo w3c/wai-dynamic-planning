@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-Properly initiating accessibility efforts is a foundational task that is often overlooked. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
+Properly initiating accessibility efforts is a fundamental task that is often overlooked. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
 
 {::nomarkdown}
 <%= block 'activities' %>
