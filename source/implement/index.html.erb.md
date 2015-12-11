@@ -12,16 +12,7 @@ There are key opportunities to incorporate accessibility in any web project, fro
 <%= article %>
 {:/}
 
-## [Assigning Roles](assign_roles.html)
-
-Enthusiasm and inspiration may be suitable qualities for accessibility champions. For developers, designers, and content creators knowledge and experience are more important. 
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Train Staff](train_staff.html)
+## [Build skills and expertise](build_skills_and_expertise.html)
 
 Accessibility awareness training helps all project staff. Staff, such as developers and content managers, can have focused training that addresses their specific role.
 
@@ -30,43 +21,7 @@ Accessibility awareness training helps all project staff. Staff, such as develop
 <%= article %>
 {:/}
 
-## [Recruit Experts](recruit_experts.html)
-
-External experience can help to bolster team knowledge and support urgent goals. Longer term recruitment can focus on candidates with demonstrable accessibility experience.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Setup Evaluation](setup_evaluation.html)
-
-Aim to carry out a consistent evaluation at key stages throughout the project, rather than just at the end. 
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Prioritize Issues](prioritize_issues.html)
-
-Prioritizing any known issues well help target limited resources for maximum effect before milestones are reached. 
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Share Knowledge](share_knowledge.html)
-
-Sharing knowledge and solutions will increase project team experience and help pass this experience on to other project teams.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-### [Enhance Policies](enhance_policies.html)
+### [Enhance policies](enhance_policies.html)
 
 Policies and processes, such as procurement, can impact on accessibility. Modify them to incorporate relevant goals.
 
@@ -75,9 +30,36 @@ Policies and processes, such as procurement, can impact on accessibility. Modify
 <%= article %>
 {:/}
 
-## [Procure Accessibility](procure_accessibility.html)
+## [Evaluate regularly](evaluate_regularly.html)
 
-Assessing vendors and third-party products will help ensure project deliverables meet accessibility policies.
+Aim to carry out a consistent evaluation at key stages throughout the project, rather than just at the end. 
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+## [Prioritize issues](prioritize_issues.html)
+
+Prioritizing any known issues well help target limited resources for maximum effect before milestones are reached. 
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+## [Distribute and track efforts](distribute_and_track_efforts.html)
+
+Enthusiasm and inspiration may be suitable qualities for accessibility champions. For developers, designers, and content creators knowledge and experience are more important. 
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+## [Communicate results](communicate_results.html)
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 {::nomarkdown}
 <%= article :end %>
