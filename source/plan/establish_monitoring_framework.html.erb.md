@@ -9,7 +9,7 @@ Having defined milestones ensure that the progress towards them can be determine
 
 Some example criteria include,
 
-* Number WCAG 2.0 Success Criteria passed, and their level
+* Number of WCAG 2.0 Success Criteria passed, and their level
 * Number of complaints received related to accessibility
 * Calls handled from people who were unable to process their application online
 * Positive social media comments on accessibility of service
