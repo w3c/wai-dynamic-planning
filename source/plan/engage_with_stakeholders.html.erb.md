@@ -5,13 +5,15 @@ layout: activity
 ---
 
 {:.introduction}
-Stakeholders may include management, other internal teams, such as marketing, suppliers, advocacy groups, and customers. All stakeholders have an interest in accessibility activities, either because they need to respond to goals, such as development teams, or because they benefit in some way, such as advocacy groups.
+Engage with your stakeholders to bring them on board and to identify how they can help you meet your accessibility goals. This includes internal stakeholders such as project teams, marketing, and management, as well as external stakeholders such as suppliers, advocacy groups, and customers. For example:
 
-Provide accurate and up-to-date information to stakeholders so that they are better able to help meet the accessibility goals. Consider how the stakeholder group can contribute to the improvement of accessibility. For example, many advocacy groups and charities provide training services.
+* Introduce accessibility aspects in marketing campaigns.
+* Report progress to management.
+* Negotiate with suppliers to better support you with accessibility.
+* Find out the latest accessibility trends for advocates and champions.
+* Provide feedback channels to engage with your customers and end-users.
 
-Consider what opportunities exist to help communicate accessibility goals and activities with internal stakeholders. For example, formal management meetings provide an opportunity to report on progress against key performance indicators. Informal meetings can provide an opportunity to exchange information and explore ideas.
-
-Your accessibility statement, a public version of your accessibility policy, provides a useful point of contact for external stakeholders and an opportunity to highlight accessibility achievements. You also need to ensure that there are feedback channels in place for all your stakeholders. 
+Communicate your efforts publicly to help set expectations and increase internal committment for accessibility. A public accessibility statement that identifies parts of your websites that work well and less well, explains accessibility improvements to come, and provides contact options for customers to report problems can help you overcome the transition period and gather feedback to prioritize repairs.
 
 {::nomarkdown}
 <% content_for :more_information do %>
