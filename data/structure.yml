@@ -28,13 +28,12 @@ implement:
   icon: cogs
   description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
-    - assign_roles
-    - train_staff
-    - recruit_experts
-    - setup_evaluation
+    - build_skills_and_expertise
+    - enchance_policies
+    - evaluate_regularly
     - prioritize_issues
-    - share_knowledge
-    - procure_accessibility
+    - distribute_and_track_efforts
+    - communicate_results
 
 sustain:
   label: Sustain
