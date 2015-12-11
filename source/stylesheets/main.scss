@@ -166,11 +166,14 @@ i {
         width: 49%;
       }
     }
-  }
 
-  @include mq($medium) {
     .category & {
       width: 72%;
+    }
+
+    .categories {
+      width: 90%;
+      margin: 0 auto;
     }
   }
 
@@ -179,17 +182,12 @@ i {
       @extend .two-column;
       ul {
         li {
-          p {
-            margin: 0 0 0.5em 0;
-          }
-          p:first-of-type {
-            margin-bottom: 0;
-          }
           margin-bottom: 1em;
         }
       }
     }
   }
+
   .categories, .activities {
     position: relative;
     article {
@@ -209,10 +207,15 @@ i {
       }
     }
   }
-  @include mq($medium) {
-    .categories {
-      width: 90%;
-      margin: 0 auto;
+  
+  ul {
+    li {
+      p {
+        margin: 0 0 0.5em 0;
+      }
+      p:first-of-type {
+        margin-bottom: 0.25em;
+      }
     }
   }
 }
