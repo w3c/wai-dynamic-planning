@@ -1,11 +1,18 @@
 ---
-title: Distribute and track efforts
+title: Track progress
 status: editors-draft
 layout: activity
 ---
 
 {:.introduction}
-Planning will clarify what areas of work need to be addressed, such as updating policies and processes, improving authoring tools, fix issues. Distribute these tasks throughout the team and ensure that you monitor and track progress. Look for opportunities to optimize delivery of improvements. For example, shared training sessions between departments, or ensuring all websites use the same accessible content management system. 
+Track the progress made towards the set accessibility targets and according to the assigned responsibilities and establisged monitoring framework. This includes progress on the accessibility of:
+
+* Web content
+* Procedures and policies
+* Skills and training
+* Awareness and attitude
+
+Regularly review successes and challenges, and promote exchange of good practice across the staff to support progress. For example, sharing successful training sessions, resources, and tools across departments could leverage knowledge and skills.
 
 {::nomarkdown}
 <% content_for :more_information do %>
