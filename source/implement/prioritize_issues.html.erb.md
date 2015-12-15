@@ -5,19 +5,17 @@ layout: activity
 ---
 
 {:.introduction}
-Project deadlines may require you to prioritize resources to ensure that key functionality is accessible or key goals are met. For identified issues consider:
+While all set accessibility targets will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
 
-* What is the impact on people with disabilities?
+* Starting with issues that are easier to address, to help build motivation in the team and demonstrate success.
+* Prioritizing the development of accessible templates and components to support the creating of accessible content.
+* Prioritizing visual design aspect, to synchronize with an on-going re-branding activity within the organization.
+* Prioritizing recruitment or procurement policies to address anticipated hiring and acquisitions.
+* De-prioritizing issues that are related to a product, such as a content management system (CMS), forms generator, or programming framework, that is expected to be changed soon anyway.
 
-  The WCAG Success Criteria Level indicates the generalized impact, but the actal impact depends on the context of the issue and the target audience. For example, a 'buy' image button with no alternative text will prevent some users from purchasing from your website. However, a minor image in the footer with no alternative text will have less impact. User experience testing and reporting is an important measure of the impact of accessibility issues.
+Further prioritization criteria are described in [http://www.w3.org/WAI/impl/improving#prioritize Prioritize Solutions section of Improving the Accessibility of Your Website].
 
-* What is the effort required for repair?
-
-  The time, cost, and skills required to fix an issue will vary greatly. For example, repairing an issue in the header could require a simple change to a template that is automatically propagated throughout the website, or it could require changing every page manually.
-
-  Discussion with representatives from all teams can help you quickly determine possible solutions and what effort would be required to implement them. Ensure that whoever is responsible for implementing the solution is involved, as they will know best what constraints exist.
-  
-Seek to address high impact, low effort issues first. This approach usually takes less time overall and completes lots of changes quickly. This also helps demonstrate your commitment to the accessibility of your websites.
+Involve different perspectives, including internal and external stakeholders, in the prioritization process. Review the situation regularly to benefit from arising opportunities.
 
 {::nomarkdown}
 <% content_for :more_information do %>
