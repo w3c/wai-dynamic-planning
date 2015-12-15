@@ -9,17 +9,12 @@ Integrate the goals from your Accessibility Policy within other organizational p
 
 The following are some examples of where incorporating accessibility can bring broad benefits.
 
-* Recruitment policies
-  
-  Change general recruitment briefs or policies to ensure that accessibility is an required skill for new recruits. The required knowledge will vary depending on the role, for example developers will need skill in creating accessible code, project managers will need knowledge of integrating accessibility into project plans.
-  
-* Document publication process
+* Recruitment policies - include relevant accessibility skills in general recruitment briefs and policies, to support the recruitment of staff expertise.
+* Staff training - provide accessibility training as part of staff and career development plans, to support the development of staff expertise.
+* Document publishing process - incorporate accessibility checks as part of your web content publishing workflow, to ensure that good practice is maintained and that final web content continues to be accessible.
+* Procurement process - ensure that suppliers are aware of your accessibility requirements by including criteria in any request for quotations and contracts, to help you meet your organizational goals.
 
-  Incorporate accessibility checks as part of your web content publishing workflow. This ensures that good practice is maintained and that final web content continues to be accessible. Checks will also help identify where additional training may be required.
-
-* Procurement process
-
-  Ensure that suppliers are aware of your accessibility requirements by including criteria in any request for quotations. Including accessibility as an element of the supplier selection process will also help ensure that third-party deliverables meet your accessibility policy. Consider including successful completion of an independent accessibility evaluation as a requirement of final user acceptance testing.  
+Depending on your organization there may be several other relevant procedures or policies to involve accessibility, such as equal employment policies, workspace accommodation, and customer care.
 
 {::nomarkdown}
 <% content_for :more_information do %>
