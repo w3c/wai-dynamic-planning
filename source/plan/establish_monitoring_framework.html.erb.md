@@ -7,7 +7,7 @@ layout: activity
 {:.introduction}
 Having defined milestones ensure that the progress towards them can be determined. Ensure that each milestone has specific and measurable criteria to indicate what progress has occurred.
 
-Some example criteria include,
+Some example criteria include:
 
 * Number of WCAG 2.0 Success Criteria passed, and their level
 * Number of complaints received related to accessibility

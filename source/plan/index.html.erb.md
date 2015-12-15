@@ -34,7 +34,7 @@ Understand what roles need to be covered to help in creating the team and ensuri
 
 ### [Determine budget](determine_budget.html)
 
-Ensure costs are clarified and budget is secured for accessibility activities, such as reviews, training, audits, and testing with users.
+Ensure costs are clarified and budget is secured for accessibility activities such as reviews, training, audits, and testing with users.
 
 {::nomarkdown}
 <%= article :end %>
