@@ -1,11 +1,11 @@
 ---
-title: Evaluate regularly
+title: Evaluate early and regularly
 status: editors-draft
 layout: activity
 ---
 
 {:.introduction}
-Evaluate at key milestones or sprints throughout the development process. Key pages or processes and stand alone components can be evaluated as they become available.
+Evaluate accessibility throughout the design and development process, and particularly at key milestones and sprints. Evaluate key web pages, processes, and stand alone components as they become available.
 
 Early evaluations of designs help identify problems and potential problems before significant coding work takes place. Other design resources, such as personas, and user stories, can also be reviewed to include accessibility considerations. This will help designers better understand how people with disabilitieis interact with your website. 
 
