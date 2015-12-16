@@ -32,7 +32,7 @@
 # Define site-wide variables and make them visible for templates
 ##
 @site = {
-  'title'         => 'Accessibility Planning Roadmap',
+  'title'         => 'Planning and Managing Web Accessibility',
   'github'        => 'wai-dynamic-planning',
   'email'         => 'wai-eo-editors@w3.org',
   'email-private' => 'wai@w3.org'
