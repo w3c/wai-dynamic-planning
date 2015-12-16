@@ -40,8 +40,8 @@ sustain:
   icon: pagelines
   description: Continue to review and report on content, processes, and resources.
   activities:
-    - review_policies
-    - review_websites
-    - look_to_improve
-    - get_user_feedback
-    - report_to_stakeholders
+    - monitor_websites
+    - engage_with_stakeholders
+    - track_standards_and_legislation
+    - adapt_to_new_technologies
+    - manage_user_feedback

@@ -12,17 +12,24 @@ Keeping momentum helps with the accessibility maintenance for completed projects
 <%= article %>
 {:/}
 
+Monitor websites
+Report to stakeholders
+Track standards and legislation
+Review new technologies
+Manage user feedback; users, advocates, interested groups
 
-## [Review Policies](review_policies.html)
+Regular reviews of policies, procedures, and resources
+    Developing a continual review cycle for policies, personnel, and design and development will help ensure that new legislation and best practices are incorporated. This will also help develop accessibility as an ongoing activity.
+Regular website reviews
+    Changing content can introduce accessibility issues. Review developed websites to identify areas opportunities.
+Identify areas for improvement
+    Regular reviews may flag up opportunities for improvement in policies, resources, or web content. This may form the basis for subsequent projects.
+Manage user feedback and provide support
+    User feedback on the accessibility of websites can help guide improvement activities and identify areas in need of attention. Ensure any feedback mechanism allows identified issues to propagate to the right people.
+Report to stakeholders and management
+    Ongoing management reporting is important to ensure that organizational goals are being met and that accessibility remains a priority.
 
-Developing a continual review cycle for policies, personnel, and design and development will help ensure that new legislation and best practices are incorporated. This will also help develop accessibility as an ongoing activity.
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Review Websites](review_websites.html)
+## [Review websites](review_websites.html)
 
 Changing content can introduce accessibility issues. Review developed websites to identify areas opportunities.
 
@@ -31,7 +38,25 @@ Changing content can introduce accessibility issues. Review developed websites t
 <%= article %>
 {:/}
 
-## [Look to Improve](look_to_improve.html)
+## [Engage with stakeholders](engage_with_stakeholders.html)
+
+Ongoing management reporting is important to ensure that organizational goals are being met and that accessibility remains a priority.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+## [Track standards and legislation](track_standards_and_legislation.html)
+
+Developing a continual review cycle for policies, personnel, and design and development will help ensure that new legislation and best practices are incorporated. This will also help develop accessibility as an ongoing activity.
+
+{::nomarkdown}
+<%= article :end %>
+<%= article %>
+{:/}
+
+## [Adapt to new technologies](adapt_to_new_technologies.html)
 
 Regular reviews may flag up opportunities for improvement in policies, resources, or web content. This may form the basis for subsequent projects.
 
@@ -40,18 +65,9 @@ Regular reviews may flag up opportunities for improvement in policies, resources
 <%= article %>
 {:/}
 
-## [Get User Feedback](get_user_feedback.html)
+## [Manage user feedback](manage_user_feedback.html)
 
 User feedback on the accessibility of websites can help guide improvement activities and identify areas in need of attention. Ensure any feedback mechanism allows identified issues to propagate to the right people. 
-
-{::nomarkdown}
-<%= article :end %>
-<%= article %>
-{:/}
-
-## [Report to Stakeholders](report_to_stakeholders.html)
-
-Ongoing management reporting is important to ensure that organizational goals are being met and that accessibility remains a priority.
 
 {::nomarkdown}
 <%= article :end %>
