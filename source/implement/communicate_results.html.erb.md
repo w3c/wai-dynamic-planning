@@ -1,11 +1,11 @@
 ---
-title: Communicate results
+title: Communicate progress
 status: editors-draft
 layout: activity
 ---
 
 {:.introduction}
-Share website accessibility achievements as part of general organization wide website communications. Aim to build awareness and highlight the organization's positive approach and the benefits it brings. Sharing successes will also help to maintain support and enthusiasm for accessibility activities, and overcome any resistance to the change.
+Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challanges, and focus management on the need for urgent attention. Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers.
 
 Possible communication opportunities include:
 
