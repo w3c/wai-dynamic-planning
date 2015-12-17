@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-Having defined milestones ensure that the progress towards them can be determined. Ensure that each milestone has specific and measurable criteria to indicate what progress has occurred.
+Defined milestones help you measure your progress. Ensure that each milestone has specific and measurable criteria to indicate what progress has occurred.
 
 Some example criteria include:
 
