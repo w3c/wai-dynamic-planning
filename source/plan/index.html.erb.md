@@ -7,7 +7,7 @@ layout: category
 {::options auto_ids="false" /}
 
 {:.introduction}
-Careful planning of the necessary efforts is critical to effective implementation later on. It ensures clear assessment of the required work, distribution of the tasks, and continual follow-up on progress.
+Careful planning is critical to effective implementation of any accessibility effort. It ensures a clear assessment of the required work, distribution of tasks, and continual follow-up on progress.
 
 {::nomarkdown}
 <%= block 'activities' %>
@@ -16,7 +16,7 @@ Careful planning of the necessary efforts is critical to effective implementatio
 
 ### [Create accessibility policy](create_accessibility_policy.html)
 
-Document the goals, scope, and responsibilities important to accessibility.
+Document the accessibility goals, scope, and responsibilities important to your organization.
 
 {::nomarkdown}
 <%= article :end %>
@@ -25,7 +25,7 @@ Document the goals, scope, and responsibilities important to accessibility.
 
 ### [Assign responsibilities](assign_responsibilities.html)
 
-Understand what roles need to be covered to help in creating the team and ensuring all tasks are covered.
+Understand what roles are needed to ensure all tasks are covered.
 
 {::nomarkdown}
 <%= article :end %>
@@ -43,7 +43,7 @@ Ensure costs are clarified and budget is secured for accessibility activities su
 
 ### [Review websites](review_websites.html)
 
-Before making changes, thoroughly review existing websites to identify issues to be fixed or avoided.
+Identify issues to be fixed or avoided in existing websites.
 
 {::nomarkdown}
 <%= article :end %>
@@ -52,7 +52,7 @@ Before making changes, thoroughly review existing websites to identify issues to
 
 ### [Review environment](review_environment.html)
 
-Technical and design resources will all directly impact on accessibility. Other factors, such as recruitment policies, will have an indirect impact.
+Consider resources, processes, and tools in your organization that may impact accessibility efforts.
 
 {::nomarkdown}
 <%= article :end %>
@@ -61,7 +61,7 @@ Technical and design resources will all directly impact on accessibility. Other 
 
 ### [Establish monitoring framework](establish_monitoring_framework.html)
 
-Create a standard way of monitoring and reporting findings, to help track and control progress.
+Create a standard way of monitoring and reporting findings, in order to track and progress.
 
 {::nomarkdown}
 <%= article :end %>
@@ -71,7 +71,7 @@ Create a standard way of monitoring and reporting findings, to help track and co
 
 ### [Engage with stakeholders](engage_with_stakeholders.html)
 
-Help maintain long-term support through regular communication with management and other stakeholders.
+Maintain long-term support through regular communication with management and other stakeholders.
 
 {::nomarkdown}
 <%= article :end %>
