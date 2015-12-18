@@ -29,10 +29,10 @@ implement:
   description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
     - build_skills_and_expertise
-    - enchance_policies
-    - evaluate_regularly
+    - enhance_policies
+    - evaluate_early_and_regularly
     - prioritize_issues
-    - distribute_and_track_efforts
+    - track_progress
     - communicate_results
 
 sustain:
@@ -44,4 +44,4 @@ sustain:
     - engage_with_stakeholders
     - track_standards_and_legislation
     - adapt_to_new_technologies
-    - manage_user_feedback
+    - incorporate_user_feedback

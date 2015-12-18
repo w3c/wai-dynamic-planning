@@ -15,7 +15,7 @@ Keeping momentum helps with the accessibility maintenance for completed projects
 
 ## [Monitor websites](monitor_websites.html)
 
-Changing content can introduce accessibility issues. Review developed websites to identify areas opportunities.
+Changing content can introduce accessibility issues. Review regularly to identify issues and solutions.
 
 {::nomarkdown}
 <%= article :end %>
@@ -24,7 +24,7 @@ Changing content can introduce accessibility issues. Review developed websites t
 
 ## [Engage with stakeholders](engage_with_stakeholders.html)
 
-Ongoing management reporting is important to ensure that organizational goals are being met and that accessibility remains a priority.
+Work with stakeholders to continually prioritize accessibility.
 
 {::nomarkdown}
 <%= article :end %>
@@ -33,7 +33,7 @@ Ongoing management reporting is important to ensure that organizational goals ar
 
 ## [Track standards and legislation](track_standards_and_legislation.html)
 
-Developing a continual review cycle for policies, personnel, and design and development will help ensure that new legislation and best practices are incorporated. This will also help develop accessibility as an ongoing activity.
+Keep up-to-date with changes to ensure that you are responding to the latest requirements.
 
 {::nomarkdown}
 <%= article :end %>
@@ -49,7 +49,7 @@ Regular reviews may flag up opportunities for improvement in policies, resources
 <%= article %>
 {:/}
 
-## [Manage user feedback](manage_user_feedback.html)
+## [Incorporate user feedback](incorporate_user_feedback.html)
 
 User feedback on the accessibility of websites can help guide improvement activities and identify areas in need of attention. Ensure any feedback mechanism allows identified issues to propagate to the right people. 
 

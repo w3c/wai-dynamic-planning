@@ -14,7 +14,7 @@ There are key opportunities to incorporate accessibility in any web project, fro
 
 ## [Build skills and expertise](build_skills_and_expertise.html)
 
-Accessibility awareness training helps all project staff. Staff, such as developers and content managers, can have focused training that addresses their specific role.
+Improve accessibility awareness and develop core skills for key staff.
 
 {::nomarkdown}
 <%= article :end %>
@@ -23,16 +23,16 @@ Accessibility awareness training helps all project staff. Staff, such as develop
 
 ### [Enhance policies](enhance_policies.html)
 
-Policies and processes, such as procurement, can impact on accessibility. Modify them to incorporate relevant goals.
+Create a policy framework that builds accessibility throughout the organization.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-## [Evaluate regularly](evaluate_regularly.html)
+## [Evaluate early and regularly](evaluate_early_and_regularly.html)
 
-Aim to carry out a consistent evaluation at key stages throughout the project, rather than just at the end. 
+Find and fix issues early in the process to reduce risk and cost.
 
 {::nomarkdown}
 <%= article :end %>
@@ -41,16 +41,16 @@ Aim to carry out a consistent evaluation at key stages throughout the project, r
 
 ## [Prioritize issues](prioritize_issues.html)
 
-Prioritizing any known issues well help target limited resources for maximum effect before milestones are reached. 
+Use resources effectively by addressing high impact, easy-to-fix issues first.
 
 {::nomarkdown}
 <%= article :end %>
 <%= article %>
 {:/}
 
-## [Distribute and track efforts](distribute_and_track_efforts.html)
+## [Track progress](track_progress.html)
 
-Enthusiasm and inspiration may be suitable qualities for accessibility champions. For developers, designers, and content creators knowledge and experience are more important. 
+Monitor progress towards accessibility goals.
 
 {::nomarkdown}
 <%= article :end %>
@@ -59,7 +59,7 @@ Enthusiasm and inspiration may be suitable qualities for accessibility champions
 
 ## [Communicate results](communicate_results.html)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Share the good and the bad to maintain awareness and support.
 
 {::nomarkdown}
 <%= article :end %>

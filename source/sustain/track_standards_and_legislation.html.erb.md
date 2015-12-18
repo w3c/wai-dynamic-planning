@@ -7,7 +7,7 @@ layout: activity
 {:.introduction}
 Review changes in standards and legislation that form part of your Accessibility Policy and consider any new standards or legislation that might add to your policy. These may have a broad impact on how you manage accessibility and will need to be planned with care.
 
-Monitoring for change annually should provide you with ample notice to plan for change. Engage with the web accessibility community where any changes will be announced. Changes in legislation tend to include dates by which compliance must be achieved. This can be helpful if you need to gather support, and will usually require involved planning to ensure that changes are implemented in time.
+Create a process to track changes in standards that provides you with sufficient opportunity to respond in good time. Changes in legislation tend to include dates by which compliance must be achieved. This can be helpful if you need to gather support, and will usually require involved planning to ensure that changes are implemented in time.
 
 Changes to standards are more likely to involve changes to design and coding approaches. As well as updating existing websites, review any existing common libraries, knowledge bases, and training material to ensure that the current standards are correctly reflected.
 
