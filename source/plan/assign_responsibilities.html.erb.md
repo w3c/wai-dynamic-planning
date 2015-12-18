@@ -9,12 +9,12 @@ Responsibility for delivering accessibility needs to be assigned to specific ind
 
 Responsibilities can be spread throughout your organization increasing awareness and reducing the risk of the activities overwhelming an individual or team. Some example responsibilities include:
 
-* Marketing - Embed accessibility within brand or design guidelines.
-* Quality assurance - Test for and track accessibility issues within the code.
-* Development - Maintain code libraries with accessible components.
-* Purchasing - Ensure that organizational accessibility policy is incorporated within procurement processes.
-* Acceptance testing - Ensure that any agency-delivered website or component meets your desired level of accessibility.
-* Recruitment - Incorporate accessibility skills within recruitment profiles.
+* **Marketing** - Embed accessibility within brand or design guidelines.
+* **Quality assurance** - Test for and track accessibility issues within the code.
+* **Development** - Maintain code libraries with accessible components.
+* **Purchasing** - Ensure that organizational accessibility policy is incorporated within procurement processes.
+* **Acceptance testing** - Ensure that any agency-delivered website or component meets your desired level of accessibility.
+* **Recruitment** - Incorporate accessibility skills within recruitment profiles.
 
 {::nomarkdown}
 <% content_for :more_information do %>
