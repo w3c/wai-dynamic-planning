@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-While all set accessibility targets will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
+While all set accessibility objectives will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
 
 * Start with issues that are easier to address, to help build motivation in the team and demonstrate success.
 * Prioritize the development of accessible templates and components to support the creating of accessible content.
