@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-Integrate the goals from your Accessibility Policy within other organizational procedures and policies. This will help spread the responsibility but also ensure that accessibility is considered as an integral part of day-to-day activities.
+Integrate the goals from your Accessibility Policy [add link] within other organizational procedures and policies. This will help spread the responsibility but also ensure that accessibility is considered as an integral part of day-to-day activities.
 
 The following are some examples of where incorporating accessibility can bring broad benefits.
 
