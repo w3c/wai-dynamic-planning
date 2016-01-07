@@ -13,11 +13,11 @@ The best outcomes for accessibility come when objectives are aligned and integra
 
 Examples of objectives might include:
 
-* Develop accessibility policy by year-end
-* Include accessibility clauses in procurement within 6 months and enforce for all new Web procurement activities by year-end
-* Evaluate primary website and address any Level A and AA non-conformancies within 18 months
-* Prepare and deliver accessible writing course for all content authors by May
-* Modify design approval process to include accessibility considerations before June
+* Develop accessibility policy by year-end.
+* Include accessibility clauses in procurement within 6 months and enforce for all new Web procurement activities by year-end.
+* Evaluate primary website and address any Level A and AA non-conformancies within 18 months.
+* Prepare and deliver accessible writing course for all content authors by May.
+* Modify design approval process to include accessibility considerations before June.
 
 {::nomarkdown}
 <% content_for :related do %>
