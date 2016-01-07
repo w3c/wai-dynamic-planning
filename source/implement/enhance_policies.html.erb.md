@@ -12,9 +12,9 @@ The following are some examples of where incorporating accessibility can bring b
 * Recruitment policies - include relevant accessibility skills in general recruitment briefs and policies, to support the recruitment of staff expertise.
 * Staff training - provide accessibility training as part of staff and career development plans, to support the development of staff expertise.
 * Document publishing process - incorporate accessibility checks as part of your web content publishing workflow, to ensure that good practice is maintained and that final web content continues to be accessible.
-* Procurement process - ensure that suppliers are aware of your accessibility requirements by including criteria in any request for quotations and contracts, to help you meet your organizational goals.
+* Procurement process - ensure that suppliers are aware of your accessibility requirements by including criteria in any request for quotations and contracts.
 
-Depending on your organization there may be several other relevant procedures or policies to involve accessibility, such as equal employment policies, workspace accommodation, and customer care.
+Depending on your organization there may be several other relevant procedures or policies that involve accessibility, such as equal employment policies, workspace accommodation, and customer care.
 
 {::nomarkdown}
 <% content_for :more_information do %>
