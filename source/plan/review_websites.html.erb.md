@@ -15,6 +15,10 @@ Accessibility checks can be performed at all stages of a project, not only when 
 <% content_for :more_information do %>
 {:/}
 
+* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/}
+
+  Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+
 {::nomarkdown}
 <% end %>
 {:/}

@@ -15,14 +15,6 @@ The environment in which your websites are created and maintained have equally s
 Having clear understanding of the issues will help you better address them. For example, you may identify that without improving the content management system (CMS) or without training, there is no way to achieve your accessibility objectives.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

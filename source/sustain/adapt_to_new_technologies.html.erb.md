@@ -18,14 +18,6 @@ Similarly, new versions of your authoring tools may provide additional accessibi
 Upgrades to hardware are generally less frequent than software changes, but should also be considered. This includes new consumer devices intended to access the Web as well as new assistive technologies. Explore new technology as it becomes commonly available and consider what changes might be necessary to support accessibility. For assistive technologies, consider working with advocacy organisations to identify new technologies and what changes may be necessary to support them.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

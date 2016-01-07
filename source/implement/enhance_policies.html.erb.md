@@ -17,14 +17,6 @@ The following are some examples of where incorporating accessibility can bring b
 Depending on your organization there may be several other relevant procedures or policies that involve accessibility, such as equal employment policies, workspace accommodation, and customer care.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-  
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

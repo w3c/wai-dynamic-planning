@@ -16,6 +16,14 @@ Use a standard report structure to capture evaluation findings. This allows for 
 {::nomarkdown}
 <% content_for :more_information do %>
 {:/}
+
+* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/}
+
+  Provides simple steps to help assess if a web page addresses accessibility.
+
+* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/}
+
+  Introduces a methodology for determining how well a website conforms to WCAG 2.0.
   
 {::nomarkdown}
 <% end %>

@@ -18,14 +18,6 @@ Reviews should seek to identify issues and also identify why those issues are oc
 Take action to correct the issues and also to remedy the reason for the issues occurring.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

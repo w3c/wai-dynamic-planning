@@ -16,14 +16,6 @@ Possible communication opportunities include:
 * Developer workshops to share good practice approaches.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-  
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

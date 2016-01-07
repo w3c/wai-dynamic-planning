@@ -17,14 +17,6 @@ Responsibilities can be spread throughout your organization increasing awareness
 * **Recruitment** &ndash; Incorporate accessibility skills within recruitment profiles.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

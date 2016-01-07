@@ -18,14 +18,6 @@ Changes in organizational structure may also be considered in the long-term and 
 * Prioritize accessibility during restructuring.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 

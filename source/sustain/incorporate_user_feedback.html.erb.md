@@ -13,6 +13,10 @@ Communicate accessibility improvements on your website in the Accessibility Stat
 <% content_for :more_information do %>
 {:/}
 
+* {::nomarkdown}<%= link_to "Contacting Organizations about Inaccessible Websites", (w3url '/WAI/users/inaccessible.html') %>{:/}
+
+  Describes how people might seek to contact you, consider how you can make this task easier for your users.
+
 {::nomarkdown}
 <% end %>
 {:/}

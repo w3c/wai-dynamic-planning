@@ -12,18 +12,6 @@ Support for accessibility is often found among other project teams involved in t
 Create opportunities to exchange information and provide support. This could be informal between interested individuals, such as chat channels and lunch gatherings, or more formal presentations to management during staff meetings or feedback sessions.
 
 {::nomarkdown}
-<% content_for :more_information do %>
-{:/}
-
-* {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/}
-
-  Provides an outline of how incorporating accessibility can benefit your business or organization.
-  
-{::nomarkdown}
-<% end %>
-{:/}
-
-{::nomarkdown}
 <% content_for :related do %>
 {:/}
 
