@@ -11,7 +11,11 @@ External stakeholders are more likely to be interested in how your organization 
 
 Work with internal stakeholders to ensure that accessibility remains a priority, particularly when it comes to new projects. Long-term engagement should also consider how accessibility changes are impacting project delivery. Are projects costing more? Is less time needed to ensure that accessibility is covered? Are there less problems at the end of projects?
 
-Changes in organizational structure may also be considered in the long-term and require the strategic view that senior stakeholders have. Examples include: providing subject matter experts within each development team, building accessibility support services within the organization, or keeping accessibility a priority during restructuring.
+Changes in organizational structure may also be considered in the long-term and require the strategic view that senior stakeholders have. Examples include:
+
+* Provide subject matter experts within each development team.
+* Build accessibility support services within the organization.
+* Prioritize accessibility during restructuring.
 
 {::nomarkdown}
 <% content_for :more_information do %>
