@@ -11,11 +11,11 @@ Consider what technologies you aim to support and ensure that you track function
 
 Update the list of browsers and assistive technologies that are supported for website development. New versions will bring new features and improved support for existing standards. Consider what additional accessibility support new versions will bring and determine what additional work might be needed to take advantage of them. Any work can then be fed into the next iteration of the site.
 
-Similarly, new versions of your authoring tools may provide additional accessibility features that you can take advantage of. You may need to update training or provide extra training to ensure that content authors are able to use new features. There may also be value in feeding suggested improvements back to authoring tool vendors.
+Similarly, new versions of your authoring tools may provide additional accessibility features that you can take advantage of. You may need to update training or provide extra training so that content authors are able to use new features. Consider suggesting accessibility improvements back to authoring tool vendors.
 
 ### Hardware
 
-Upgraded to hardware are generally less frequent than software changes, but should also be considered. This includes new consumer devices intended to access the Web as well as new assistive technologies. Explore new technology as it becomes commonly available and consider what changes might be necessary to support accessibility. For assistive technologies, consider working with advocacy organisations to identify new technologies and what changes may be necessary to support them.
+Upgrades to hardware are generally less frequent than software changes, but should also be considered. This includes new consumer devices intended to access the Web as well as new assistive technologies. Explore new technology as it becomes commonly available and consider what changes might be necessary to support accessibility. For assistive technologies, consider working with advocacy organisations to identify new technologies and what changes may be necessary to support them.
 
 {::nomarkdown}
 <% content_for :more_information do %>
