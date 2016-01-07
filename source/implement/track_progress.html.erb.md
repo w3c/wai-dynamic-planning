@@ -5,12 +5,12 @@ layout: activity
 ---
 
 {:.introduction}
-Track the progress made towards the set accessibility objectives and according to the assigned responsibilities and establisged monitoring framework. This includes progress on the accessibility of:
+Track the progress made towards your accessibility objectives according to the assigned responsibilities and established monitoring framework. This includes progress on:
 
-* Web content
-* Procedures and policies
-* Skills and training
-* Awareness and attitude
+* Web content accessibility
+* Implementation of procedures and policies
+* Staff training and knowledge sharing
+* Organizational awareness and attitude
 
 Regularly review successes and challenges, and promote exchange of good practice across the staff to support progress. For example, sharing successful training sessions, resources, and tools across departments could leverage knowledge and skills.
 
