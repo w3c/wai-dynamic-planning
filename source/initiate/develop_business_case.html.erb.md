@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-An effective business case demonstrates why and how web accessibility aligns and integrates into organizational strategies and goals. This perspective is needed by stakeholders and management so they can agree to provide financial support and business priority for accessibility.
+Develop a tailored business case to respond to why accessibility should be addressed within your organization. The business case will be used to persuade stakeholders and management that web accessibility should be financially supported and prioritized.
 
 Depending on organizational priorities, the business case should explore:
 
@@ -17,9 +17,17 @@ Depending on organizational priorities, the business case should explore:
 
 The business case should also outline the risks associated with ignoring accessibility, provide some indication of the resources needed, and specify how improvements will be tracked, and anticipated return on investment.
 
-For more guidance on how to create your business case see:
+{::nomarkdown}
+<% content_for :more_information do %>
+{:/}
 
 * {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/}
+
+  Explores factors important in developing a business case for accessibility.
+  
+{::nomarkdown}
+<% end %>
+{:/}
 
 {::nomarkdown}
 <% content_for :related do %>
