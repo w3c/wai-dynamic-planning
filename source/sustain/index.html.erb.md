@@ -42,7 +42,7 @@ Keep up-to-date with changes to ensure that you are responding to the latest req
 
 ## [Adapt to new technologies](adapt_to_new_technologies.html)
 
-Regular reviews may flag up opportunities for improvement in policies, resources, or web content. This may form the basis for subsequent projects.
+Regular reviews may identify opportunities for improvement in policies, resources, or web content. This may form the basis for subsequent projects.
 
 {::nomarkdown}
 <%= article :end %>
