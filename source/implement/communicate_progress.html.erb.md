@@ -5,7 +5,9 @@ layout: activity
 ---
 
 {:.introduction}
-Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challanges, and focus management on the need for urgent attention. Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers.
+Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challenges and focus management on the need for urgent attention.
+
+Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers.
 
 Possible communication opportunities include:
 

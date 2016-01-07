@@ -57,7 +57,7 @@ Monitor progress towards accessibility goals.
 <%= article %>
 {:/}
 
-## [Communicate results](communicate_results.html)
+## [Communicate progress](communicate_progress.html)
 
 Share the good and the bad to maintain awareness and support.
 

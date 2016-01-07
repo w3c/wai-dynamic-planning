@@ -33,7 +33,7 @@ implement:
     - evaluate_early_and_regularly
     - prioritize_issues
     - track_progress
-    - communicate_results
+    - communicate_progress
 
 sustain:
   label: Sustain
