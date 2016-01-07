@@ -5,7 +5,7 @@ layout: activity
 ---
 
 {:.introduction}
-Track the progress made towards the set accessibility objectives and according to the assigned responsibilities and establisged monitoring framework. This includes progress on the accessibility of:
+Track the progress made towards accessibility objectives and according to the assigned responsibilities and established monitoring framework. This includes progress on the accessibility of:
 
 * Web content
 * Procedures and policies
