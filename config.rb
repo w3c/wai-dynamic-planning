@@ -101,17 +101,31 @@ helpers do
     sentence.capitalize.split(/[ _]/).join(" ")
   end
 
-  def block(start_end = :start)
-    if start_end == :end
-      "</div>"
-    elsif start_end.is_a? String
-      "<div class=\"#{start_end}\">"
-    else
-      "<div>"
+  def support(start_end = :start)
+    if start_end == :start
+      '<div class="support-material">'
+    elsif start_end == :end
+      '</div>'
     end
   end
 
-  def article(start_end = :start)
+  def more_information(start_end = :start)
+    if start_end == :start
+      '<aside class="more-information"><h3>For more information</h3>'
+    elsif start_end == :end
+      '</aside>'
+    end
+  end
+
+  def related(start_end = :start)
+    if start_end == :start
+      '<aside class="related"><h3>Related activities</h3>'
+    elsif start_end == :end
+      '</aside>'
+    end
+  end
+
+  def activity(start_end = :start)
     if start_end == :end
       "</article>"
     elsif start_end.is_a? String

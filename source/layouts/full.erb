@@ -14,10 +14,10 @@
       <p><%= link_to "<i class='fa fa-#{nav_data.icon}'></i>#{nav_data.label}", "/#{section}/index.html" %></p>
       <ul>
         <% nav_data.activities.each do |tag| %>
-          <% if is_current? section + "/#{tag}.html" %>
+          <% if is_current? section + "#" + tag.gsub('_', '-') %>
             <li class="current"><%= title(tag) %></li>
           <% else %>
-            <li><%= link_to title(tag), "/" + section + "/#{tag}.html" %></li>
+            <li><%= link_to title(tag), "#" + tag.gsub('_', '-') %></li>
           <% end %>
         <% end %>
       </ul>
@@ -26,22 +26,6 @@
 
   <div class="inner">
     <%= yield %>
-  
-    <div class="support-material">
-      <% if content_for?(:more_information) %>
-      <aside class="more_information">
-        <h3>For more information</h3>
-        <%= yield_content :more_information %>
-      </aside>
-      <% end %>
-
-      <% if content_for?(:related) %>
-      <aside class="related">
-        <h3>Related activities</h3>
-        <%= yield_content :related %>
-      </aside>
-      <% end %>
-    </div>
   </div>
   <%= partial "layouts/contribute" %>
 </main>

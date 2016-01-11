@@ -148,7 +148,29 @@ i {
   }
 }
 
-.inner {
+#main .inner {
+  article {
+    @include mq($medium) {
+      &:first-of-type {
+        .permalink-wrapper {
+          margin-right: 28%;
+        }
+      }
+    }
+    .permalink-wrapper {
+      h2 {
+        padding-right: 2.8em;
+      }
+      .permalink {
+        background: $wai_bg;
+        
+        .sharebox {
+         font-size: 120%; 
+        }
+      }
+    }
+  }
+  
   li {
     margin-bottom: 0.5em;
   }
@@ -170,24 +192,21 @@ i {
       }
     }
 
-    .category & {
-      width: 72%;
-    }
-
     .categories {
       width: 90%;
       margin: 0 auto;
     }
   }
 
-  .activity & {
-    .support-material {
-      @extend .two-column;
-      ul {
-        li {
-          margin-bottom: 1em;
-        }
+  .support-material {
+    @extend .two-column;
+    ul {
+      li {
+        margin-bottom: 1em;
       }
+    }
+    h3 {
+      color: $wai_fg;
     }
   }
 
