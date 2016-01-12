@@ -149,14 +149,18 @@ i {
 }
 
 #main .inner {
-  article {
-    @include mq($medium) {
-      &:first-of-type {
-        .permalink-wrapper {
-          margin-right: 28%;
-        }
-      }
+  h2 {
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+  ul.toc {
+    margin-bottom: 2em;
+    li {
+      margin-bottom: 0.1em;
     }
+  }
+  article {
+    margin-bottom: 3em;
     .permalink-wrapper {
       h2 {
         padding-right: 2.8em;

@@ -1,15 +1,20 @@
 ---
 title: Initiate
+icon: rocket
 status: editors-draft
 layout: category
 ---
 
-{::options auto_ids="false" /}
-
-{:.introduction}
 Properly initiating accessibility efforts is a fundamental task that is often overlooked. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
 
+{:.toc .no_toc}
+## On this page
+
+{:toc .toc}
+* Will be replaced with the ToC
+
 {::nomarkdown}
+<%= expand_collapse %>
 <%= activity %>
 {:/}
 
@@ -18,7 +23,10 @@ Properly initiating accessibility efforts is a fundamental task that is often ov
 
 Find out what accessibility is and why it is important.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Learn the basics' %>
+{:/}
+
 The better you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
  
 *	Research introductory articles and videos;
@@ -29,6 +37,7 @@ The better you understand accessibility, the more effectively it can be implemen
 
 First-hand experience of how people with disabilities access web content can be enlightening and inspiring. This can help others understand the benefits and value of accessibility. 
 
+{:.no_toc}
 ### What is web accessibility?
 
 Web accessibility fulfills the basic promise of the web - making information and communication readily available to all people regardless of barriers in geography, language, or disability. Integrating accessibility into websites brings broader benefits to organizations and other website visitors. For example, easier code maintenance and better user experiences, particularly on mobile devices. 
@@ -60,6 +69,7 @@ Web accessibility fulfills the basic promise of the web - making information and
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -69,7 +79,10 @@ Web accessibility fulfills the basic promise of the web - making information and
 
 Learn the organization's current state of accessibility to help determine scope of work ahead.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Explore the situation' %>
+{:/}
+
 Explore and learn the current state of accessibility in your organization to help when initiating discussions with stakeholders and management. Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
 
 * Key websites and website user activities
@@ -100,6 +113,7 @@ You may not be in the position to explore all these aspects in a first attempt. 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -109,7 +123,10 @@ You may not be in the position to explore all these aspects in a first attempt. 
 
 Clear objectives identify key deliverables, establish a timeline, and define how to measure success.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Set objectives' %>
+{:/}
+
 Create objectives in response to identified accessibility problems and organizational goals. Develop measurable objectives that address accessibility gaps within the organization's web content, processes, and policies. Objectives help to focus your team, clarify what activities need to be planned, define required deliverables, and ensure that successful delivery can be determined.
 
 Ensure that objectives have management agreement and support. This will help secure funding, align accessibility and business objectives, and reinforce your strategy. 
@@ -136,6 +153,7 @@ Examples of objectives might include:
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -145,7 +163,10 @@ Examples of objectives might include:
 
 A strong business case helps gain buy-in from stakeholders and can make accessibility an organizational priority.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Develop business case' %>
+{:/}
+
 Develop a tailored business case to respond to why accessibility should be addressed within your organization. The business case will be used to persuade stakeholders and management that web accessibility should be financially supported and prioritized.
 
 Depending on organizational priorities, the business case should explore:
@@ -179,6 +200,7 @@ The business case should also outline the risks associated with ignoring accessi
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -188,7 +210,10 @@ The business case should also outline the risks associated with ignoring accessi
 
 Communicate the goals, value-adds, and importance of accessibility throughout the organization.
 
-introduction}
+{::nomarkdown}
+<%= read_more 'Raise awareness' %>
+{:/}
+
 Communicate the importance and value of accessibility throughout your organization. Many people will know nothing about accessibility. Some may not appreciate that their role has an impact on website accessibility. Others may not be aware of the additional value that accessibility brings.
 
 A general introduction to accessibility, including organizational goals, will benefit everyone in the organization by improving awareness and building enthusiasm for the task.
@@ -217,6 +242,7 @@ Consider inviting guest or expert speakers to organizational or departmental eve
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -226,7 +252,10 @@ Consider inviting guest or expert speakers to organizational or departmental eve
 
 Organization-wide support is vital to ensure accessibility is distributed across the organization and sustained.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Gather support' %>
+{:/}
+
 Key stakeholder and management support will simplify the process of introducing or improving accessibility. Management support will help with prioritization clashes, access to resources, and communication activities. Use the business case to help secure support from these groups.
 
 Support for accessibility is often found among other project teams involved in the creation of websites. Encourage interest in these groups by exploring how accessibility has broad benefits. For example, individuals can improve their skills, organizations improve their websites, and people with disabilities have a better online experience. This will help increase the enthusiasm for accessibility and create more advocates or champions.
@@ -246,5 +275,7 @@ Create opportunities to exchange information and provide support. This could be 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
+<%= expand_collapse :end %>
 {:/}

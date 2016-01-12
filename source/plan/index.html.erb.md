@@ -1,17 +1,31 @@
 ---
 title: Plan
+icon: map
 status: editors-draft
 layout: category
 ---
 
 Careful planning is critical to effective implementation of any accessibility effort. It ensures a clear assessment of the required work, distribution of tasks, and continual follow-up on progress.
 
+{:.toc .no_toc}
+## On this page
+
+{:toc .toc}
+* Will be replaced with the ToC
+
 {::nomarkdown}
+<%= expand_collapse %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Create accessibility policy
+
+Document the accessibility goals, scope, and responsibilities important to your organization.
+
+{::nomarkdown}
+<%= read_more 'Create accessibility policy' %>
+{:/}
 
 A web accessibility policy captures your goals and targets. Policies vary across organizations but at a minimum establishes what web accessibility standard you aim to conform to and by when. For example, your policy might only state that your website will meet all criteria specified in WCAG 2.0 Level AA within one year. A policy may cover other topics such as roles and responsibilities, content preparation processes, quality assurance, infrastructure, and reporting.
 
@@ -34,12 +48,19 @@ Ensure the policy has approval and backing from management. This will help all i
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Assign responsibilities
+
+Understand what roles are needed to ensure all tasks are covered.
+
+{::nomarkdown}
+<%= read_more 'Assign responsibilities' %>
+{:/}
 
 Responsibility for delivering accessibility needs to be assigned to specific individuals and incorporated into their job description. Formalizing the responsibility helps ensure that the individual has time for the work and can receive training. Clear identification also helps communicate who is responsible for accessibility and that it is being prioritized.
 
@@ -60,12 +81,19 @@ Responsibilities can be spread throughout your organization increasing awareness
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Determine budget
+
+Ensure costs are clarified and budget is secured for accessibility activities such as reviews, training, audits, and testing with users.
+
+{::nomarkdown}
+<%= read_more 'Determine budget' %>
+{:/}
 
 Your budget needs depend on your accessibility goals and the extent of the work required to achieve them. Some things that need to be considered when creating a budget include:
 
@@ -85,12 +113,19 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Review websites
+
+Identify issues to be fixed or avoided in existing websites.
+
+{::nomarkdown}
+<%= read_more 'Review websites' %>
+{:/}
 
 Perform a detailed accessibility review of websites in the scope of your objectives. This can create a baseline for future work, identify where training or additional expertise is needed, and help clarify how big a problem exists. The review may highlight instances of good practice, which identifies staff or suppliers who have critical skills to build on.
 
@@ -115,6 +150,7 @@ Accessibility checks can be performed at all stages of a project, not only when 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -122,6 +158,12 @@ Accessibility checks can be performed at all stages of a project, not only when 
 
 {:.attach_permalink}
 ## Review environment
+
+Consider resources, processes, and tools in your organization that may impact accessibility efforts.
+
+{::nomarkdown}
+<%= read_more 'Review environment' %>
+{:/}
 
 The environment in which your websites are created and maintained have equally significant impact on their accessibility. Also review these surrounding aspects, including:
 
@@ -140,12 +182,19 @@ Having clear understanding of the issues will help you better address them. For 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Establish monitoring framework
+
+Create a standard way of monitoring and reporting findings, in order to track and progress.
+
+{::nomarkdown}
+<%= read_more 'Establish monitoring framework' %>
+{:/}
 
 Defined milestones help you measure your progress. Ensure that each milestone has specific and measurable criteria to indicate what progress has occurred.
 
@@ -169,12 +218,19 @@ For long-term or ongoing goals you need to plan regular monitoring to ensure tha
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
 
 {:.attach_permalink}
 ## Engage with stakeholders
+
+Maintain long-term support through regular communication with management and other stakeholders.
+
+{::nomarkdown}
+<%= read_more 'Engage with stakeholders' %>
+{:/}
 
 Engage with your stakeholders to bring them on board and to identify how they can help you meet your accessibility goals. This includes internal stakeholders such as project teams, marketing, and management, as well as external stakeholders such as suppliers, advocacy groups, and customers. For example:
 
@@ -194,5 +250,6 @@ Communicate your efforts publicly to help set expectations and increase internal
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 {:/}

@@ -101,6 +101,25 @@ helpers do
     sentence.capitalize.split(/[ _]/).join(" ")
   end
 
+  def expand_collapse(start_end = :start)
+    if start_end == :start
+      '<div class="f_controls_accordion f_fileToLoad_accordionControls"></div>
+<div id="accordion" class="accordionWrapper">'
+    elsif start_end == :end
+      '</div></div>'
+    end
+  end
+
+  def read_more(start_end = :start)
+    if start_end == :end
+      '</div>'
+    elsif start_end == :start
+      '<span class="f_panelHead">Read more.</span><div>'
+    elsif start_end.is_a? String
+      "<span class=\"f_panelHead\">Read more about #{start_end}.</span><div>"
+    end
+  end
+
   def support(start_end = :start)
     if start_end == :start
       '<div class="support-material">'

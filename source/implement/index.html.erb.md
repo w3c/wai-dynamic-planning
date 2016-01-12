@@ -1,13 +1,20 @@
 ---
 title: Implement
+icon: cogs
 status: editors-draft
 layout: category
 ---
 
-{:.introduction}
 There are key opportunities to incorporate accessibility in any web project, from personnel and training to evaluation and prioritization. Weave accessibility throughout the project to improve the overall quality of final outcome without significantly impacting on budget or timescales.
 
+{:.toc .no_toc}
+## On this page
+
+{:toc .toc}
+* Will be replaced with the ToC
+
 {::nomarkdown}
+<%= expand_collapse %>
 <%= activity %>
 {:/}
 
@@ -16,7 +23,10 @@ There are key opportunities to incorporate accessibility in any web project, fro
 
 Improve accessibility awareness and develop core skills for key staff.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Build skills and expertise' %>
+{:/}
+
 Develop the accessibility skills of your staff, including designers, developers, and content creators. This includes providing training for existing staff, as well as including accessibility skills in staff recruitment criteria. Examples of training include:
 
 * **Introductions to accessibility** for everyone
@@ -44,6 +54,7 @@ Document and share experience from projects to build knowledge and benefit from 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -53,7 +64,10 @@ Document and share experience from projects to build knowledge and benefit from 
 
 Create a policy framework that builds accessibility throughout the organization.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Enhance policies' %>
+{:/}
+
 Integrate the goals from your Accessibility Policy within other organizational procedures and policies. This will help spread the responsibility but also ensure that accessibility is considered as an integral part of day-to-day activities.
 
 The following are some examples of where incorporating accessibility can bring broad benefits.
@@ -73,6 +87,7 @@ Depending on your organization there may be several other relevant procedures or
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -82,7 +97,10 @@ Depending on your organization there may be several other relevant procedures or
 
 Find and fix issues early in the process to reduce risk and cost.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Evaluate early and regularly' %>
+{:/}
+
 Evaluate accessibility throughout the design and development process, and particularly at key milestones and sprints. Evaluate key web pages, processes, and stand-alone components as they become available.
 
 Early evaluations of designs help identify problems and potential problems before significant work takes place. Other design resources, such as personas and user stories, can also be reviewed to include accessibility considerations. This will help designers better understand how people with disabilities interact with your website. 
@@ -112,6 +130,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -121,7 +140,10 @@ Use a standard report structure to capture evaluation findings. This allows for 
 
 Use resources effectively by addressing high impact, easy-to-fix issues first.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Prioritize issues' %>
+{:/}
+
 While all accessibility objectives will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
 
 * Start with issues that are easier to address, to help build motivation in the team and demonstrate success.
@@ -149,6 +171,7 @@ Involve different perspectives, including internal and external stakeholders, in
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -158,7 +181,10 @@ Involve different perspectives, including internal and external stakeholders, in
 
 Monitor progress towards accessibility goals.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Track progress' %>
+{:/}
+
 Track the progress made towards your accessibility objectives according to the assigned responsibilities and established monitoring framework. This includes progress on:
 
 * Web content accessibility
@@ -176,6 +202,7 @@ Regularly review successes and challenges, and promote exchange of good practice
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -185,7 +212,10 @@ Regularly review successes and challenges, and promote exchange of good practice
 
 Share the good and the bad to maintain awareness and support.
 
-{:.introduction}
+{::nomarkdown}
+<%= read_more 'Communicate progress' %>
+{:/}
+
 Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challenges and focus management on the need for urgent attention.
 
 Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers.
@@ -204,5 +234,6 @@ Possible communication opportunities include:
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
+<%= read_more :end %>
 <%= activity :end %>
 {:/}
