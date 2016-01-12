@@ -40,6 +40,13 @@
 	</footer>
 	<%= javascript_include_tag "main" %>
   <%= javascript_include_tag "permalink" %>
+  <script type="text/javascript">
+    /**
+     * @var string Paths to button templates for expand/collapse
+     */
+    var accordionControls = '<% if ENV['BUILD_FOR_GITHUB'] %>/<%= site['github'] %><% end %>/controlall.html';
+    var panelControls = '<% if ENV['BUILD_FOR_GITHUB'] %>/<%= site['github'] %><% end %>/controlsection.html';    
+  </script>
   <%= javascript_include_tag "excol" %>
 	</body>
 </html>

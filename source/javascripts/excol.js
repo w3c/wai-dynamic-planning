@@ -57,11 +57,6 @@ var panelLocation = pathToResource+'jquery.mewidget.panel.min.js';
 var panelwrapperLocation = pathToResource+'jquery.mewidget.panelwrapper.min.js';
 var accordionLocation = pathToResource+'jquery.mewidget.accordion.min.js';
 /**
- * @var string Paths to button templates
- */
-var accordionControls = '/controlall.html';
-var panelControls = '/controlsection.html';
-/**
  * @var string Paths to accordion initialization CSSs
  */
 var accordionInitCSS = pathToResource+'accordionInit.css';
