@@ -48,11 +48,6 @@ Document and share experience from projects to build knowledge and benefit from 
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -83,6 +78,8 @@ Depending on your organization there may be several other relevant procedures or
 <%= support %>
 <%= related %>
 {:/}
+
+* [Create accessibility policy](../plan/#create-accessibility-policy)
 
 {::nomarkdown}
 <%= related :end %>
@@ -124,11 +121,6 @@ Use a standard report structure to capture evaluation findings. This allows for 
   
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -165,11 +157,6 @@ Involve different perspectives, including internal and external stakeholders, in
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -199,6 +186,8 @@ Regularly review successes and challenges, and promote exchange of good practice
 <%= related %>
 {:/}
 
+* [Set objectives](../plan/#set-objectives)
+
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
@@ -227,13 +216,6 @@ Possible communication opportunities include:
 * Developer workshops to share good practice approaches.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 {:/}

@@ -42,11 +42,6 @@ Ensure the policy has approval and backing from management. This will help all i
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -74,13 +69,6 @@ Responsibilities can be spread throughout your organization increasing awareness
 * **Recruitment** &ndash; Incorporate accessibility skills within recruitment profiles.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -109,6 +97,8 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 <%= support %>
 <%= related %>
 {:/}
+
+* [Develop business case](../initiate/#develop-business-case)
 
 {::nomarkdown}
 <%= related :end %>
@@ -144,11 +134,6 @@ Accessibility checks can be performed at all stages of a project, not only when 
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -175,13 +160,6 @@ The environment in which your websites are created and maintained have equally s
 Having clear understanding of the issues will help you better address them. For example, you may identify that without improving the content management system (CMS) or without training, there is no way to achieve your accessibility objectives.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -215,6 +193,8 @@ For long-term or ongoing goals you need to plan regular monitoring to ensure tha
 <%= related %>
 {:/}
 
+* [Set objectives](../plan/#set-objectives)
+
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
@@ -243,13 +223,6 @@ Engage with your stakeholders to bring them on board and to identify how they ca
 Communicate your efforts publicly to help set expectations and increase internal commitment for accessibility. A public accessibility statement that identifies parts of your websites that work well and less well, explains accessibility improvements to come, and provides contact options for customers to report problems can help you overcome the transition period and gather feedback to prioritize repairs.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 {:/}

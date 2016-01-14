@@ -40,13 +40,6 @@ Reviews should seek to identify issues and also identify why those issues are oc
 Take action to correct the issues and also to remedy the reason for the issues occurring.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -74,13 +67,6 @@ Changes in organizational structure may also be considered in the long-term and 
 * Prioritize accessibility during restructuring.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -112,11 +98,6 @@ Standards may change to cover additional areas of accessibility or respond to ne
   
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -147,13 +128,6 @@ Similarly, new versions of your authoring tools may provide additional accessibi
 Upgrades to hardware are generally less frequent than software changes, but should also be considered. This includes new consumer devices intended to access the Web as well as new assistive technologies. Explore new technology as it becomes commonly available and consider what changes might be necessary to support accessibility. For assistive technologies, consider working with advocacy organisations to identify new technologies and what changes may be necessary to support them.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -183,11 +157,6 @@ Communicate accessibility improvements on your website in the Accessibility Stat
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>

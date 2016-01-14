@@ -64,7 +64,7 @@ Web accessibility fulfills the basic promise of the web - making information and
 <%= related %>
 {:/}
 
-* [Train staff](../implement/train_staff.html)
+* [Build skills and expertise](../implement/#build-skills-and-expertise)
 
 {::nomarkdown}
 <%= related :end %>
@@ -106,9 +106,8 @@ You may not be in the position to explore all these aspects in a first attempt. 
 <%= related %>
 {:/}
 
-* [Setup evaluation](../implement/Setup Evaluation.html)
-* [Prioritize issues](../implement/prioritize_issues.html)
-* [Review design materials](../implement/review_design_materials.html)
+* [Review websites](../plan/#review-websites)
+* [Review environment](../plan/#review-environment)
 
 {::nomarkdown}
 <%= related :end %>
@@ -142,17 +141,6 @@ Examples of objectives might include:
 * Modify design approval process to include accessibility considerations before June.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-* [Raise awareness](raise_awareness.html)
-* [Make a Policy](../plan/make_a_policy.html)
-* [Develop Milestones](../plan/develop_milestones.html)
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -190,15 +178,6 @@ The business case should also outline the risks associated with ignoring accessi
   
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-* [Set goals](set_goals.html)
-* [Make a policy](../plan/make_a_policy.html)
-* [Develop milestones](../plan/develop_milestones.html)
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -233,14 +212,6 @@ Consider inviting guest or expert speakers to organizational or departmental eve
   
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-* [Develop business case](develop_business_case.html)
-* [Make a Policy](../plan/make_a_policy.html)
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -263,18 +234,6 @@ Support for accessibility is often found among other project teams involved in t
 Create opportunities to exchange information and provide support. This could be informal between interested individuals, such as chat channels and lunch gatherings, or more formal presentations to management during staff meetings or feedback sessions.
 
 {::nomarkdown}
-<%= support %>
-<%= related %>
-{:/}
-
-* [Set Goals](set_goals.html)
-* [Business Case](business_case.html)
-* [Make a Policy](../plan/make_a_policy.html)
-* [Develop Milestones](../plan/develop_milestones.html)
-
-{::nomarkdown}
-<%= related :end %>
-<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= expand_collapse :end %>
