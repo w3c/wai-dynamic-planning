@@ -98,7 +98,7 @@ helpers do
   end
   
   def title(sentence)
-    sentence.capitalize.split(/[ _]/).join(" ")
+    sentence.capitalize.split(/[ _-]/).join(" ")
   end
 
   def expand_collapse(start_end = :start)
