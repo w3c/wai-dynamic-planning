@@ -11,11 +11,11 @@ This resource explores activities that are important when planning for accessibi
 <% cycle = 'even' %>
 <% data.structure.each do |tag, section| %>
   <% cycle = (cycle == 'odd' ? 'even' : 'odd') %>
-  <li class="<%= cycle %>"><p><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "/#{tag}/" %></p>
+  <li class="<%= cycle %>"><p><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "#{tag}/" %></p>
     <p><%= section.description %></p>
     <ul>
     <% section.activities.each do |activity| %>
-      <li><%= link_to title(activity), "/#{tag}/##{activity}" %></li>
+      <li><%= link_to title(activity), "#{tag}/##{activity}" %></li>
     <% end %>
     </ul>
   </li>

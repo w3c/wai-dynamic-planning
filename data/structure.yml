@@ -3,45 +3,45 @@ initiate:
   icon: rocket
   description: Develop understanding of accessibility and build organizational enthusiasm. 
   activities:
-    - learn_the_basics
-    - explore_the_situation
-    - set_objectives
-    - develop_business_case
-    - raise_awareness
-    - gather_support
+    - learn-the-basics
+    - explore-the-situation
+    - set-objectives
+    - develop-business-case
+    - raise-awareness
+    - gather-support
 
 plan:
   label: Plan
   icon: map
   description: Develop clear goals and an environment that supports accessibility.
   activities:
-    - create_accessibility_policy
-    - assign_responsibilities
-    - determine_budget
-    - review_websites
-    - review_environment
-    - establish_monitoring_framework
-    - engage_with_stakeholders
+    - create-accessibility-policy
+    - assign-responsibilities
+    - determine-budget
+    - review-websites
+    - review-environment
+    - establish-monitoring-framework
+    - engage-with-stakeholders
 
 implement:
   label: Implement
   icon: cogs
   description: Ensure personal are trained, tools are available, and accessibility is included throughout.
   activities:
-    - build_skills_and_expertise
-    - enhance_policies
-    - evaluate_early_and_regularly
-    - prioritize_issues
-    - track_progress
-    - communicate_progress
+    - build-skills-and-expertise
+    - enhance-policies
+    - evaluate-early-and-regularly
+    - prioritize-issues
+    - track-progress
+    - communicate-progress
 
 sustain:
   label: Sustain
   icon: pagelines
   description: Continue to review and report on content, processes, and resources.
   activities:
-    - monitor_websites
-    - engage_with_stakeholders
-    - track_standards_and_legislation
-    - adapt_to_new_technologies
-    - incorporate_user_feedback
+    - monitor-websites
+    - engage-with-stakeholders
+    - track-standards-and-legislation
+    - adapt-to-new-technologies
+    - incorporate-user-feedback
