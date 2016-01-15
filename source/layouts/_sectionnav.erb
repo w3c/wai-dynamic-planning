@@ -3,7 +3,7 @@
   <p><%= link_to site['title'], "/index.html" %></p>
   <ul>
     <% data.structure.each do |tag, section| %>
-    <li<% if in_section? tag %> class="current"<% end %>><% if is_current? "#{tag}/" %><i class="fa fa-<%= section.icon %>"></i><%= section.label %><% else %><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "#{tag}/" %><% end %></li>
+    <li<% if in_section? tag %> class="current"<% end %>><% if is_current? "#{tag}/index.html" %><i class="fa fa-<%= section.icon %>"></i><%= section.label %><% else %><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "../#{tag}/" %><% end %></li>
     <% end %>
   </ul>
 </nav>
