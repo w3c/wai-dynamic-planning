@@ -50,29 +50,6 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def nav_link(link_text, url, options = {})
-    options[:class] ||= ""
-    
-    option = /^\/option(\d)/.match('/' + current_page.path)
-    if option
-      url = '/option' + option[1] + url
-    end
-
-    is_home = /^#{url}$/.match('/' + current_page.path) and /^(\/option\d)?\/index.html$/.match(url)
-    section = /(\/option\d)?\/([^\.\/]*)/.match('/' + current_page.path)
-    in_section = /\/#{section[2]}\//.match(url)
-    if in_section or is_home
-      options[:class] << ' in_section'
-    end
-
-    if /^#{url}$/.match('/' + current_page.path)
-      options[:class] << ' current'
-      '<span class="' + options[:class] + '"><span class="visuallyhidden">Current: </span>' + link_text + '</span>'
-    else
-      link_to(link_text, url, options)
-    end
-  end
-
   def w3url(uri)
     if development? || ENV['BUILD_FOR_GITHUB']
       'https://www.w3.org' + uri.to_s
@@ -81,20 +58,8 @@ helpers do
     end
   end
 
-  def in_section?(section)
-    current_page.path.match("^#{section}")
-  end
-  
   def is_current?(url)
-    current_page.path == url
-  end
-  
-  def list_nav_link(link_text, url, options = {})
-    if is_current?(url)
-      '<li id="current-node" class="current-nav">' + '<span class="label"><span id="current-icon">»</span>' + link_text + '</span></li>'
-    else
-      '<li>' + link_to(link_text, url, options) + '</li>'
-    end
+    current_page.url == url
   end
   
   def title(sentence)
