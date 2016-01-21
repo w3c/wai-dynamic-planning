@@ -8,7 +8,14 @@
 		<li><a href="<%= w3url '/WAI/guid-tech' %>">Guidelines &amp; Techniques</a></li>
 		<li class="current-nav "><a href="<%= w3url '/WAI/managing' %>">Planning &amp; Implementing</a>
 			<ul>
-				<li class="current-nav nav-head">Management Resources
+				<li class="current-nav nav-head">Policy Resources
+					<ol>
+						<li><a href="<%= w3url '/WAI/Policy/harmon' %>">Standards Harmonization</a></li>
+						<li><a href="<%= w3url '/WAI/Policy/Overview' %>">International Policies</a></li>
+						<li><a href="<%= w3url '/WAI/impl/pol' %>">Organizational Policies</a></li>
+					</ol>
+				</li>
+				<li class="current-nav nav-head">Managing Accessibility
           <ol>
             <% if is_current?('/') %>
               <li id="current-node" class="current-nav"><span class="label">
@@ -37,13 +44,6 @@
     				<li><a href="<%= w3url '/WAI/impl/software' %>">Selecting Authoring Tools</a></li>
           </ol>
         </li>
-				<li class="current-nav nav-head">Policy Resources
-					<ol>
-						<li><a href="<%= w3url '/WAI/Policy/harmon' %>">Standards Harmonization</a></li>
-						<li><a href="<%= w3url '/WAI/Policy/Overview' %>">International Policies</a></li>
-						<li><a href="<%= w3url '/WAI/impl/pol' %>">Organizational Policies</a></li>
-					</ol>
-				</li>
 			</ul>
 		</li>
 		<li><a href="<%= w3url '/WAI/eval/Overview' %>">Evaluating Accessibility</a></li>
