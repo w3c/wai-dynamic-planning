@@ -36,9 +36,7 @@ Ensure the policy has approval and backing from management. This will help all i
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Developing Organizational Policies on Web Accessibility", (w3url '/WAI/impl/pol') %>{:/}
-
-  Provides information on what needs to be considered when creating your policy.
+* {::nomarkdown}<%= link_to "Developing Organizational Policies on Web Accessibility", (w3url '/WAI/impl/pol') %>{:/} &ndash; Provides information on what needs to be considered when creating your policy.
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -128,9 +126,7 @@ Accessibility checks can be performed at all stages of a project, not only when 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/}
-
-  Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
 
 {::nomarkdown}
 <%= more_information :end %>

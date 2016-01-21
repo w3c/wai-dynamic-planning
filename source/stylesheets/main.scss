@@ -162,7 +162,7 @@ i {
   article {
     margin-bottom: 3em;
     .permalink-wrapper {
-      h2 {
+      .attach_permalink {
         padding-right: 2.8em;
       }
       .permalink {
@@ -205,12 +205,15 @@ i {
   .support-material {
     @extend .two-column;
     ul {
+      margin-top: 0.5em;
       li {
-        margin-bottom: 1em;
+        margin-bottom: 0;
       }
     }
     h3 {
       color: $wai_fg;
+      font-size: 110%;
+      margin: 0 0 0.5em 0;
     }
   }
 

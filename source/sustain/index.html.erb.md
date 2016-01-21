@@ -92,9 +92,7 @@ Standards may change to cover additional areas of accessibility or respond to ne
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "WAI Interest Group", (w3url '/WAI/IG/') %>{:/}
-
-  Public group with a mailing list for general discussion on Web accessibility and W3C standards announcements.
+* {::nomarkdown}<%= link_to "WAI Interest Group", (w3url '/WAI/IG/') %>{:/} &ndash; Public group with a mailing list for general discussion on Web accessibility and W3C standards announcements.
   
 {::nomarkdown}
 <%= more_information :end %>
@@ -151,9 +149,7 @@ Communicate accessibility improvements on your website in the Accessibility Stat
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Contacting Organizations about Inaccessible Websites", (w3url '/WAI/users/inaccessible.html') %>{:/}
-
-  Describes how people might seek to contact you, consider how you can make this task easier for your users.
+* {::nomarkdown}<%= link_to "Contacting Organizations about Inaccessible Websites", (w3url '/WAI/users/inaccessible.html') %>{:/} &ndash; Describes how people might seek to contact you, consider how you can make this task easier for your users.
 
 {::nomarkdown}
 <%= more_information :end %>

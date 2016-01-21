@@ -42,9 +42,7 @@ Document and share experience from projects to build knowledge and benefit from 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/bcase/Overview') %>{:/}
-
-  Provides guidance on creating training programmes customized to your particular needs.
+* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/bcase/Overview') %>{:/} &ndash; Provides guidance on creating training programmes customized to your particular needs.
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -111,13 +109,9 @@ Use a standard report structure to capture evaluation findings. This allows for 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/}
+* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/} &ndash; Provides simple steps to help assess if a web page addresses accessibility.
 
-  Provides simple steps to help assess if a web page addresses accessibility.
-
-* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/}
-
-  Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
   
 {::nomarkdown}
 <%= more_information :end %>
@@ -151,9 +145,7 @@ Involve different perspectives, including internal and external stakeholders, in
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Prioritize Solutions section of Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving#prioritize') %>{:/}
-
-  Describes further prioritization criteria.
+* {::nomarkdown}<%= link_to "Prioritize Solutions section of Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving#prioritize') %>{:/} &ndash; Describes further prioritization criteria.
 
 {::nomarkdown}
 <%= more_information :end %>

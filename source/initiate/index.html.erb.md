@@ -47,17 +47,11 @@ Web accessibility fulfills the basic promise of the web - making information and
 <%= more_information %>
 {:/}
 
-* [Accessibility - W3C](/standards/webdesign/accessibility)
-
-  A short introduction to Web accessibility.
+* [Accessibility - W3C](/standards/webdesign/accessibility) &ndash; A short introduction to Web accessibility.
   
-* [Introduction to Web Accessibility](/WAI/intro/accessibility.php)
-
-  WAI introduces Web accessibility and links to additional resources.
+* [Introduction to Web Accessibility](/WAI/intro/accessibility.php) &ndash; WAI introduces Web accessibility and links to additional resources.
   
-* [How People with Disabilities Use the Web](/WAI/intro/people-use-web)
-
-  Explores the impact of accessible design with real-life examples.
+* [How People with Disabilities Use the Web](/WAI/intro/people-use-web) &ndash; Explores the impact of accessible design with real-life examples.
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -97,9 +91,7 @@ You may not be in the position to explore all these aspects in a first attempt. 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/}
-
-  Provides simple steps to help assess if a web page addresses accessibility.
+* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/} &ndash; Provides simple steps to help assess if a web page addresses accessibility.
   
 {::nomarkdown}
 <%= more_information :end %>
@@ -172,9 +164,7 @@ The business case should also outline the risks associated with ignoring accessi
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/}
-
-  Explores factors important in developing a business case for accessibility.
+* {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/} &ndash; Explores factors important in developing a business case for accessibility.
   
 {::nomarkdown}
 <%= more_information :end %>
@@ -206,9 +196,7 @@ Consider inviting guest or expert speakers to organizational or departmental eve
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/training/Overview.html') %>{:/}
-
-  Provides help on developing training on web accessibility.
+* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/training/Overview.html') %>{:/} &ndash; Provides help on developing training on web accessibility.
   
 {::nomarkdown}
 <%= more_information :end %>
