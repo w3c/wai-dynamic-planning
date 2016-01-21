@@ -16,6 +16,7 @@ To succeed, a web accessibility effort must be well grounded in organizational c
 {::nomarkdown}
 <%= expand_collapse %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -24,7 +25,8 @@ To succeed, a web accessibility effort must be well grounded in organizational c
 Find out what accessibility is and why it is important.
 
 {::nomarkdown}
-<%= read_more 'Learn the basics' %>
+</div>
+<div>
 {:/}
 
 The better you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
@@ -44,6 +46,13 @@ Web accessibility fulfills the basic promise of the web - making information and
 
 {::nomarkdown}
 <%= support %>
+<%= related %>
+{:/}
+
+* [Build skills and expertise](../implement/#build-skills-and-expertise)
+
+{::nomarkdown}
+<%= related :end %>
 <%= more_information %>
 {:/}
 
@@ -55,17 +64,11 @@ Web accessibility fulfills the basic promise of the web - making information and
 
 {::nomarkdown}
 <%= more_information :end %>
-<%= related %>
-{:/}
-
-* [Build skills and expertise](../implement/#build-skills-and-expertise)
-
-{::nomarkdown}
-<%= related :end %>
 <%= support :end %>
-<%= read_more :end %>
+</div>
 <%= activity :end %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -74,7 +77,8 @@ Web accessibility fulfills the basic promise of the web - making information and
 Learn the organization's current state of accessibility to help determine scope of work ahead.
 
 {::nomarkdown}
-<%= read_more 'Explore the situation' %>
+</div>
+<div>
 {:/}
 
 Explore and learn the current state of accessibility in your organization to help when initiating discussions with stakeholders and management. Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
@@ -88,13 +92,6 @@ You may not be in the position to explore all these aspects in a first attempt. 
 
 {::nomarkdown}
 <%= support %>
-<%= more_information %>
-{:/}
-
-* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/} &ndash; Provides simple steps to help assess if a web page addresses accessibility.
-  
-{::nomarkdown}
-<%= more_information :end %>
 <%= related %>
 {:/}
 
@@ -103,10 +100,18 @@ You may not be in the position to explore all these aspects in a first attempt. 
 
 {::nomarkdown}
 <%= related :end %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/} &ndash; Provides simple steps to help assess if a web page addresses accessibility.
+  
+{::nomarkdown}
+<%= more_information :end %>
 <%= support :end %>
-<%= read_more :end %>
+</div>
 <%= activity :end %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -115,7 +120,8 @@ You may not be in the position to explore all these aspects in a first attempt. 
 Clear objectives identify key deliverables, establish a timeline, and define how to measure success.
 
 {::nomarkdown}
-<%= read_more 'Set objectives' %>
+</div>
+<div>
 {:/}
 
 Create objectives in response to identified accessibility problems and organizational goals. Develop measurable objectives that address accessibility gaps within the organization's web content, processes, and policies. Objectives help to focus your team, clarify what activities need to be planned, define required deliverables, and ensure that successful delivery can be determined.
@@ -133,9 +139,10 @@ Examples of objectives might include:
 * Modify design approval process to include accessibility considerations before June.
 
 {::nomarkdown}
-<%= read_more :end %>
+</div>
 <%= activity :end %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -144,7 +151,8 @@ Examples of objectives might include:
 A strong business case helps gain buy-in from stakeholders and can make accessibility an organizational priority.
 
 {::nomarkdown}
-<%= read_more 'Develop business case' %>
+</div>
+<div>
 {:/}
 
 Develop a tailored business case to respond to why accessibility should be addressed within your organization. The business case will be used to persuade stakeholders and management that web accessibility should be financially supported and prioritized.
@@ -169,9 +177,10 @@ The business case should also outline the risks associated with ignoring accessi
 {::nomarkdown}
 <%= more_information :end %>
 <%= support :end %>
-<%= read_more :end %>
+</div>
 <%= activity :end %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -180,7 +189,8 @@ The business case should also outline the risks associated with ignoring accessi
 Communicate the goals, value-adds, and importance of accessibility throughout the organization.
 
 {::nomarkdown}
-<%= read_more 'Raise awareness' %>
+</div>
+<div>
 {:/}
 
 Communicate the importance and value of accessibility throughout your organization. Many people will know nothing about accessibility. Some may not appreciate that their role has an impact on website accessibility. Others may not be aware of the additional value that accessibility brings.
@@ -201,9 +211,10 @@ Consider inviting guest or expert speakers to organizational or departmental eve
 {::nomarkdown}
 <%= more_information :end %>
 <%= support :end %>
-<%= read_more :end %>
+</div>
 <%= activity :end %>
 <%= activity %>
+<div class="f_panelHead">
 {:/}
 
 {:.attach_permalink}
@@ -212,7 +223,8 @@ Consider inviting guest or expert speakers to organizational or departmental eve
 Organization-wide support is vital to ensure accessibility is distributed across the organization and sustained.
 
 {::nomarkdown}
-<%= read_more 'Gather support' %>
+</div>
+<div>
 {:/}
 
 Key stakeholder and management support will simplify the process of introducing or improving accessibility. Management support will help with prioritization clashes, access to resources, and communication activities. Use the business case to help secure support from these groups.
@@ -222,7 +234,16 @@ Support for accessibility is often found among other project teams involved in t
 Create opportunities to exchange information and provide support. This could be informal between interested individuals, such as chat channels and lunch gatherings, or more formal presentations to management during staff meetings or feedback sessions.
 
 {::nomarkdown}
-<%= read_more :end %>
+<%= support %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "How people with disabilities use the web", (w3url '/WAI/intro/people-use-web/Overview.html') %>{:/} &ndash; .
+
+{::nomarkdown}
+<%= more_information :end %>
+<%= support :end %>
+</div>
 <%= activity :end %>
 <%= expand_collapse :end %>
 {:/}
