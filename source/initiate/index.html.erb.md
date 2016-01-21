@@ -5,7 +5,7 @@ status: editors-draft
 layout: category
 ---
 
-Properly initiating accessibility efforts is a fundamental task that is often overlooked. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
+To succeed, a web accessibility effort must be well grounded in company culture, process, and practice. It is critical to promote common understanding of accessibility goals and objectives, and the motivation for such an undertaking.
 
 {:.toc .no_toc}
 ## On this page
