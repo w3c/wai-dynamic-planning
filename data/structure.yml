@@ -26,7 +26,7 @@ plan:
 implement:
   label: Implement
   icon: cogs
-  description: Ensure personal are trained, tools are available, and accessibility is included throughout.
+  description: Ensure personnel are trained, tools are available, and accessibility is included throughout.
   activities:
     - build-skills-and-expertise
     - enhance-policies
