@@ -77,10 +77,58 @@ Depending on your organization there may be several other relevant procedures or
 <%= related %>
 {:/}
 
-* [Create accessibility policy](../plan/#create-accessibility-policy)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Create accessibility policy](../plan/#create-accessibility-policy)
 
 {::nomarkdown}
 <%= related :end %>
+<%= support :end %>
+<%= read_more :end %>
+<%= activity :end %>
+<%= activity %>
+{:/}
+
+{:.attach_permalink}
+## Perform accessibility tasks
+
+Find and fix issues early in the process to reduce risk and cost.
+
+{::nomarkdown}
+<%= read_more 'Perform accessibility tasks' %>
+{:/}
+
+Ensure that responsibilities that have been assigned across roles are being met.
+
+* Identify and address any questions or concerns by groups who have been assigned accessibility tasks.
+* Ensure that accessibility work has begun.
+* Provide assistance and/or resources to help accessibility work stay on schedule.
+
+As internal expertise grows, put in place mechanisms to verify that accessibility skills are being appropriately applied.  This might include:
+
+* Make accessibility progress part of standard reporting for all departments that have been assigned responsibility. 
+* As accessibility issues are identified, be clear about who is responsible for the remediation and that they have the appropriate skills or knowledge.
+* Document solutions as they are implemented.
+
+Depending organization size, you may consider an accessibility task force that meets regularly to coordinate progress among departments. 
+
+{::nomarkdown}
+<%= support %>
+<%= related %>
+{:/}
+
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Assign responsibilities](../plan/#assign-responsibilities)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review websites](../plan/#review-websites)
+
+{::nomarkdown}
+<%= related :end %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/} &ndash; Provides steps to help respond to immediate accessibility barriers.
+
+* {::nomarkdown}<%= link_to "Involving Users with Disabilities", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes how to involve users to help better understand accessibility issues.
+  
+{::nomarkdown}
+<%= more_information :end %>
 <%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
@@ -178,7 +226,7 @@ Regularly review successes and challenges, and promote exchange of good practice
 <%= related %>
 {:/}
 
-* [Set objectives](../plan/#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Set objectives](../plan/#set-objectives)
 
 {::nomarkdown}
 <%= related :end %>
