@@ -74,7 +74,7 @@ helpers do
       '</div></div>'
     end
   end
-
+    
   def read_more(start_end = :start)
     if start_end == :end
       '</div>'
@@ -111,12 +111,16 @@ helpers do
 
   def activity(start_end = :start)
     if start_end == :end
-      "</article>"
+      "</div></article>"
     elsif start_end.is_a? String
-      "<article class=\"#{start_end}\">"
+      "<article class=\"#{start_end}\"><div class=\"f_panelHead\">"
     else
-      "<article>"
+      "<article><div class=\"f_panelHead\">"
     end
+  end
+  
+  def activity_body()
+    '</div><div>'
   end
 
   def list_icon(icon)

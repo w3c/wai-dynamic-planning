@@ -7,12 +7,6 @@ layout: category
 
 Keeping momentum helps with the accessibility maintenance for completed projects and builds on completed work for new projects. Regular reviews of content, organizational processes, and resources will help ensure that accessibility remains a priority and issues are identified. Developing a management reporting process will help ensure that it is clear where activity is required for follow-up work.
 
-{:.toc .no_toc}
-## On this page
-
-{:toc .toc}
-* Will be replaced with the ToC
-
 {::nomarkdown}
 <%= expand_collapse %>
 <%= activity %>
@@ -24,7 +18,7 @@ Keeping momentum helps with the accessibility maintenance for completed projects
 Changing content can introduce accessibility issues. Review regularly to identify issues and solutions.
 
 {::nomarkdown}
-<%= read_more 'Monitor websites' %>
+<%= activity_body %>
 {:/}
 
 As your website content changes, ensure that regular accessibility reviews are performed. Include accessibility checks within the publishing process to help reduce the risk of issues occurring.
@@ -49,7 +43,6 @@ Take action to correct the issues and also to remedy the reason for the issues o
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
-<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -60,7 +53,7 @@ Take action to correct the issues and also to remedy the reason for the issues o
 Work with stakeholders to continually prioritize accessibility.
 
 {::nomarkdown}
-<%= read_more 'Engage with stakeholders' %>
+<%= activity_body %>
 {:/}
 
 Continued engagement with stakeholders will ensure that they are aware of the improvements in accessibility and resulting benefits. Internal stakeholders may be interested in how this is impacting the business and the effects on key performance indicators.
@@ -85,7 +78,6 @@ Changes in organizational structure may also be considered in the long-term and 
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
-<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -96,7 +88,7 @@ Changes in organizational structure may also be considered in the long-term and 
 Keep up-to-date with changes to ensure that you are responding to the latest requirements.
 
 {::nomarkdown}
-<%= read_more 'Track standards and legislation' %>
+<%= activity_body %>
 {:/}
 
 Review changes in standards and legislation that form part of your Accessibility Policy and consider any new standards or legislation that might add to your policy. These may have a broad impact on how you manage accessibility and will need to be planned with care.
@@ -115,7 +107,6 @@ Standards may change to cover additional areas of accessibility or respond to ne
 {::nomarkdown}
 <%= more_information :end %>
 <%= support :end %>
-<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -126,7 +117,7 @@ Standards may change to cover additional areas of accessibility or respond to ne
 Update resources and websites in response to changes in web technologies.
 
 {::nomarkdown}
-<%= read_more 'Adapt to new technologies' %>
+<%= activity_body %>
 {:/}
 
 Consider what technologies you aim to support and ensure that you track functionality that changes each version. This will include what baseline browsers and assistive technologies you support and also the authoring tools that you use, such as your content management system.
@@ -144,7 +135,6 @@ Similarly, new versions of your authoring tools may provide additional accessibi
 Upgrades to hardware are generally less frequent than software changes, but should also be considered. This includes new consumer devices intended to access the Web as well as new assistive technologies. Explore new technology as it becomes commonly available and consider what changes might be necessary to support accessibility. For assistive technologies, consider working with advocacy organisations to identify new technologies and what changes may be necessary to support them.
 
 {::nomarkdown}
-<%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
@@ -155,7 +145,7 @@ Upgrades to hardware are generally less frequent than software changes, but shou
 Use user feedback to help guide improvement activities and identify areas in need of attention.
 
 {::nomarkdown}
-<%= read_more 'Incorporate user feedback' %>
+<%= activity_body %>
 {:/}
 
 Ensure that any on-going customer support is able to respond to user accessibility issues. This will include training for first line support and also clear escalation paths for issues that cannot be resolved immediately. Inform the user who raised the issue of any escalation that requires more involved changes and when improvements might be expected.
@@ -172,6 +162,5 @@ Communicate accessibility improvements on your website in the Accessibility Stat
 {::nomarkdown}
 <%= more_information :end %>
 <%= support :end %>
-<%= read_more :end %>
 <%= activity :end %>
 {:/}

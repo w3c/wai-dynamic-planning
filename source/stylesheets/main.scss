@@ -251,8 +251,57 @@ i {
       }
     }
   }
+  
+  @include mq($medium) {
+    article:first-of-type {
+      .f_panelHead {
+        margin-right: 28%;
+      }
+    }
+  }
+
+  .f_panelHead {
+    border-bottom: none;
+    overflow: visible;
+    position: relative;
+    .f_expanderWrapper {
+      margin-top: 0.1em;
+      position: absolute;
+      float: none;
+      top: 0;
+      left: 0;
+    }
+    h2 {
+      border-bottom: 2px transparent solid;
+      margin-left: 1.5em;
+    }
+    &.fs_hover, &.fs_focus {
+      h2 {
+        border-bottom-color: $wai_fg;
+      }
+    }
+    > p {
+      font-size: 120%;
+      margin: 0.5em 0 0 1.7em;
+    }
+    + * {
+      margin-left: 1.1em;
+    }
+  }
 }
 
 .contribute {
   clear: right;
+}
+
+@media print {
+  .f_controls_accordion, .f_expanderWrapper {
+    display: none;
+  }
+  .f_panelHead {
+    h2, p, & + * {
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
 }
