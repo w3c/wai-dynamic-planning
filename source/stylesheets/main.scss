@@ -26,6 +26,8 @@ $wai_grey: #333333;
 @import "helpers";
 @import "permalink";
 @import "contribute";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import "wai-style-changes";
 @import "wai-print-style";
 
@@ -108,10 +110,7 @@ i {
       @extend .visuallyhidden;
     }
     ul {
-      margin: 0.5em 0 0 0;
-      list-style: none;
-      padding-left: 1.3em;
-      position: relative;
+      margin-bottom: 0;
       li {
         padding: 0;
         &.current {
@@ -213,6 +212,12 @@ i {
       color: $wai_fg;
       font-size: 110%;
       margin: 0 0 0.5em 0;
+    }
+    .related {
+      ul {
+        @extend .fa-ul;
+        margin-left: 3.4em;
+      }
     }
   }
 

@@ -40,6 +40,15 @@ Reviews should seek to identify issues and also identify why those issues are oc
 Take action to correct the issues and also to remedy the reason for the issues occurring.
 
 {::nomarkdown}
+<%= support %>
+<%= related %>
+{:/}
+
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
+
+{::nomarkdown}
+<%= related :end %>
+<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>
@@ -67,6 +76,15 @@ Changes in organizational structure may also be considered in the long-term and 
 * Prioritize accessibility during restructuring.
 
 {::nomarkdown}
+<%= support %>
+<%= related %>
+{:/}
+
+* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Gather support](../initiate/#gather-support)
+
+{::nomarkdown}
+<%= related :end %>
+<%= support :end %>
 <%= read_more :end %>
 <%= activity :end %>
 <%= activity %>

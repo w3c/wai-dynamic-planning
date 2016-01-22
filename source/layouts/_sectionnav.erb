@@ -1,9 +1,9 @@
 <nav class="section">
   <h2>Sections</h2>
   <p><%= link_to site['title'], "../" %></p>
-  <ul>
+  <ul class="fa-ul">
     <% data.structure.each do |tag, section| %>
-    <li><% if is_current? "/#{tag}/" %><i class="fa fa-<%= section.icon %>"></i><%= section.label %><% else %><%= link_to "<i class='fa fa-#{section.icon}'></i>#{section.label}", "../#{tag}/" %><% end %></li>
+    <li><% if is_current? "/#{tag}/" %><%= list_icon(section.icon) %><%= section.label %><% else %><%= link_to list_icon(section.icon) + "#{section.label}", "../#{tag}/" %><% end %></li>
     <% end %>
   </ul>
 </nav>

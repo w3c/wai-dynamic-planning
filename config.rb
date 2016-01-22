@@ -118,6 +118,10 @@ helpers do
       "<article>"
     end
   end
+
+  def list_icon(icon)
+    content_tag(:i, nil, {:class => "fa fa-fw fa-li fa-#{icon}"})
+  end
 end
 
 set :markdown_engine, :kramdown

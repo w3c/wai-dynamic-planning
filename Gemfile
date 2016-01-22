@@ -6,6 +6,7 @@ gem "middleman", "~>3.3.7"
 gem "middleman-deploy"
 gem "middleman-autoprefixer"
 gem "middleman-syntax"
+gem "font-awesome-sass", "~>4.5.0"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
