@@ -90,7 +90,7 @@ Depending on your organization there may be several other relevant procedures or
 {:.attach_permalink}
 ## Perform accessibility tasks
 
-Find and fix issues early in the process to reduce risk and cost.
+Undertake the work and provide support for groups and individuals assigned tasks.
 
 {::nomarkdown}
 <%= read_more 'Perform accessibility tasks' %>
