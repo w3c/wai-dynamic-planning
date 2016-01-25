@@ -49,9 +49,7 @@ Web accessibility fulfills the basic promise of the web - making information and
 {:/}
 
 * [Accessibility - W3C](/standards/webdesign/accessibility) &ndash; A short introduction to Web accessibility.
-  
 * [Introduction to Web Accessibility](/WAI/intro/accessibility.php) &ndash; WAI introduces Web accessibility and links to additional resources.
-  
 * [How People with Disabilities Use the Web](/WAI/intro/people-use-web) &ndash; Explores the impact of accessible design with real-life examples.
 
 {::nomarkdown}
@@ -156,6 +154,8 @@ The business case should also outline the risks associated with ignoring accessi
 {:/}
 
 * {::nomarkdown}<%= link_to "Developing a Web Accessibility Business Case", (w3url '/WAI/bcase/Overview') %>{:/} &ndash; Explores factors important in developing a business case for accessibility.
+* {::nomarkdown}<%= link_to "Mobile Accessibility", (w3url '/WAI/mobile/Overview') %>{:/} &ndash; Summarizes existing and developing resources related to mobile accessibility.
+* {::nomarkdown}<%= link_to "Web Accessibility and Older People", (w3url '/WAI/older-users/Overview.php') %>{:/} &ndash; Introduces how the accessibility needs of older people with age-related impairments overlap with the accessibility needs of people with disabilities.
   
 {::nomarkdown}
 <%= more_information :end %>
