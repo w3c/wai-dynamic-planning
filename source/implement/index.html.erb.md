@@ -36,7 +36,10 @@ Document and share experience from projects to build knowledge and benefit from 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/bcase/Overview') %>{:/} &ndash; Provides guidance on creating training programmes customized to your particular needs.
+* {::nomarkdown}<%= link_to "Developing Web Accessibility Presentations and Training", (w3url '/WAI/training/Overview.html') %>{:/} &ndash; Provides guidance on creating training programmes customized to your particular needs.
+* {::nomarkdown}<%= link_to "Tips for Getting Started with Web Accessibility", (w3url '/WAI/gettingstarted/tips/') %>{:/} &ndash; These tips introduce some basic considerations for making your website more accessible to people with disabilities.
+* {::nomarkdown}<%= link_to "Web Accessibility Tutorials", (w3url '/WAI/tutorials/') %>{:/} &ndash; Provides guidance on how to create specific components of websites to meet WCAG 2.0.
+* {::nomarkdown}<%= link_to "Before and After Demo", (w3url '/WAI/demos/bad/') %>{:/} &ndash; Shows an inaccessible website and a retrofitted version of the same website with annotations.
 
 {::nomarkdown}
 <%= more_information :end %>

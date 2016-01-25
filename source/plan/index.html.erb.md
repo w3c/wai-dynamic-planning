@@ -178,7 +178,7 @@ For long-term or ongoing goals you need to plan regular monitoring to ensure tha
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Set objectives](../plan/#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Set objectives](../initiate/#set-objectives)
 
 {::nomarkdown}
 <%= related :end %>
