@@ -92,6 +92,13 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 
 {::nomarkdown}
 <%= related :end %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations", (w3url '/WAI/bcase/fin#invest') %>{:/} &ndash; Provides information on personnel costs, capital expenditure, and on-going costs to consider.
+
+{::nomarkdown}
+<%= more_information :end %>
 <%= support :end %>
 <%= activity :end %>
 <%= activity %>
