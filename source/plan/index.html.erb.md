@@ -177,6 +177,8 @@ Some example criteria include:
 * Positive social media comments on accessibility of service.
 * Training sessions on accessibility delivered to the staff.
 
+Ensure that accessibility progress is part of standard reporting for all parts of your organization that have been assigned any accessibility responsibility.
+
 It is valuable to develop a standard report structure to capture the measure of accessibility for websites or tools. This allows for comparisons between different websites and also between different versions of the same website.
 
 For long-term or ongoing goals you need to plan regular monitoring to ensure that achieved goals do not slip. For example, updates to content and website maintenance work may introduce new accessibility barriers or new staff may not have the necessary skills. Plan for regular reviews to monitor progress over time. Ensure that responsibility is assigned for the checks and there are clear escalation paths for identified issues.

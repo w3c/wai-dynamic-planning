@@ -29,7 +29,7 @@ Develop the accessibility skills of your staff, including designers, developers,
 * **Accessible coding solutions** for developers and testers
 * **Writing accessible content** for non-technical content authors
 
-Document and share experience from projects to build knowledge and benefit from ongoing improvements in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
+Document and share experience from past and present projects to build knowledge and benefit from ongoing improvements in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
 
 {::nomarkdown}
 <%= support %>
@@ -83,25 +83,19 @@ Depending on your organization there may be several other relevant procedures or
 {:/}
 
 {:.attach_permalink}
-## Perform accessibility tasks
+## Assign tasks and support delivery
 
-Undertake the work and provide support for groups and individuals assigned tasks.
+Assign the work and provide support to responsible groups and individuals.
 
 {::nomarkdown}
 <%= activity_body %>
 {:/}
 
-Ensure that responsibilities that have been assigned across roles are being met.
+Ensure that those with responsibility for delivering accessibility are aware of the scope of their work. This might involve assigning specific deliverables, such as a procurement policy that includes accessibility, or detailing criteria that must be met as part of other deliverables, such as outlining to developers the guidelines that code must meet.
 
-* Identify and address any questions or concerns by groups who have been assigned accessibility tasks.
-* Ensure that accessibility work has begun.
-* Provide assistance and/or resources to help accessibility work stay on schedule.
+As the work progresses, you will need to ensure that any issues or knowledge gaps are flagged and responded to. This may require additional training or resources to ensure that everyone is able to meet their objectives.
 
-As internal expertise grows, put in place mechanisms to verify that accessibility skills are being appropriately applied.  This might include:
-
-* Make accessibility progress part of standard reporting for all departments that have been assigned responsibility. 
-* As accessibility issues are identified, be clear about who is responsible for the remediation and that they have the appropriate skills or knowledge.
-* Document solutions as they are implemented.
+For those involved in delivering against specific standards, ensure that they have a clear definition of the applicable elements. For example, developers need to know the specific success criteria they need to address and how to do this.
 
 Depending organization size, you may consider an accessibility task force that meets regularly to coordinate progress among departments. 
 
@@ -117,6 +111,8 @@ Depending organization size, you may consider an accessibility task force that m
 <%= related :end %>
 <%= more_information %>
 {:/}
+
+* {::nomarkdown}<%= link_to "WCAG Overview", (w3url '/WAI/intro/wcag.php') %>{:/} &ndash; @@@.
 
 * {::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/} &ndash; Provides steps to help respond to immediate accessibility barriers.
 
@@ -204,7 +200,7 @@ Monitor progress towards accessibility goals.
 <%= activity_body %>
 {:/}
 
-Track the progress made towards your accessibility objectives according to the assigned responsibilities and established monitoring framework. This includes progress on:
+Track the progress made towards your accessibility objectives according to the assigned responsibilities and planned schedule. Report successes and failures according to established monitoring framework. This includes progress on:
 
 * Web content accessibility
 * Implementation of procedures and policies
