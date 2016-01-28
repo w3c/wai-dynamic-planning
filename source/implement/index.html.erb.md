@@ -29,7 +29,7 @@ Develop the accessibility skills of your staff, including designers, developers,
 * **Accessible coding solutions** for developers and testers
 * **Writing accessible content** for non-technical content authors
 
-Document and share experience from past and present projects to build knowledge and benefit from ongoing improvements in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
+Document and share experience gathered throughout the processes to build expertise in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
 
 {::nomarkdown}
 <%= support %>
@@ -85,17 +85,17 @@ Depending on your organization there may be several other relevant procedures or
 {:.attach_permalink}
 ## Assign tasks and support delivery
 
-Assign the work and provide support to responsible groups and individuals.
+Assign tasks according to the set objectives and identified responsibilities. Track progress on the tasks and provide support where needed.
 
 {::nomarkdown}
 <%= activity_body %>
 {:/}
 
-Ensure that those with responsibility for delivering accessibility are aware of the scope of their work. This might involve assigning specific deliverables, such as a procurement policy that includes accessibility, or detailing criteria that must be met as part of other deliverables, such as outlining to developers the guidelines that code must meet.
+Ensure that everyone involved understands their assigned tasks, the delivery schedules, where to go with questions, and that they have the necessary capabilities to undertake these tasks. This might involve assigning specific deliverables, such as a procurement policy that includes accessibility, or detailing criteria that must be met as part of other deliverables, such as outlining to developers the guidelines that code must meet.
 
-As the work progresses, you will need to ensure that any issues or knowledge gaps are flagged and responded to. This may require additional training or resources to ensure that everyone is able to meet their objectives.
+Ensure that any issues or knowledge gaps are flagged and responded to. This may require additional training or resources to ensure that everyone is able to meet their objectives.
 
-For those involved in delivering against specific standards, ensure that they have a clear definition of the applicable elements. For example, developers need to know the specific success criteria they need to address and how to do this.
+For those involved in delivering to specific standards, ensure that they have a clear definition of the applicable elements. For example, designers and developers need to know the specific success criteria they need to address and how to do this. Ensure that everyone has the resources to help them with their tasks.
 
 Depending organization size, you may consider an accessibility task force that meets regularly to coordinate progress among departments. 
 
@@ -112,11 +112,10 @@ Depending organization size, you may consider an accessibility task force that m
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "WCAG Overview", (w3url '/WAI/intro/wcag.php') %>{:/} &ndash; @@@.
-
 * {::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/} &ndash; Provides steps to help respond to immediate accessibility barriers.
-
 * {::nomarkdown}<%= link_to "Involving Users with Disabilities", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes how to involve users to help better understand accessibility issues.
+* {::nomarkdown}<%= link_to "WCAG Overview", (w3url '/WAI/intro/wcag.php') %>{:/} &ndash; Provides information on WCAG, how it is structured, and how best to use it. 
+* {::nomarkdown}<%= link_to "How to Meet WCAG 2.0", (w3url '/WAI/WCAG20/quickref/') %>{:/} &ndash; A customizable quick reference to WCAG 2.0.
   
 {::nomarkdown}
 <%= more_information :end %>
