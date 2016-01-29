@@ -5,8 +5,8 @@
 
 	<div class="buttons">
   	<a class="btn" title="Publicly archived list" href="mailto:<%= site['email'] %>?subject=%5b<%= site['title'].gsub(' ', '%20') %>%20Input%20%3a%20<%= current_page.data.title.gsub(' ', '%20') %>%5d">E-mail</a>
-    <a class="btn" href="https://github.com/w3c/<%= site['github'] %>/blob/master/source/<%= current_page.data.path %>">Fork &amp; edit on GitHub</a>
-  	<a class="btn" href="https://github.com/w3c/<%= site['github'] %>/issues/new?title=[<%= current_page.data.title.gsub(' ', '%20') %>]&body=This%20is%20a%20comment%20related%20to%20the%20page%20[<%= current_page.data.title.gsub(' ', '%20') %>](//w3c.github.io/<%= site['github'] %><%= current_page.url %>)">New GitHub Issue</a>
+    <a class="btn" href="https://github.com/w3c/<%= site['github'] %>/blob/master/source<%= current_page.url + File.basename(current_page.source_file) %>">Fork &amp; edit on GitHub</a>
+  	<a class="btn" href="https://github.com/w3c/<%= site['github'] %>/issues/new?title=[<%= current_page.data.title.gsub(' ', '%20') %>]&body=This%20is%20a%20comment%20related%20to%20the%20page%20[<%= current_page.data.title.gsub(' ', '%20') %>](//w3c.github.io/<%= site['github'] %>/<%= current_page.path %>)">New GitHub Issue</a>
 	</div>
 </aside>
 <% end %>
