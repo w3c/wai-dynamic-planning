@@ -1,7 +1,7 @@
 # WAI Dynamic Planning
 
 This is the repository for the WAI dynamic planning resource. Developed by the
-[Education and Outreach Working Group (EOWG)](//w3.org/WAI/EO/) with support from the [WAI-DEV project](//w3.org/WAI/DEV/), co-funded by the European Commission IST Programme. 
+[Education and Outreach Working Group (EOWG)](//w3.org/WAI/EO/) with support from the [WAI-DEV project](//w3.org/WAI/DEV/), co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme. 
 
 You can find the current draft state of the document on [this Github Pages site][GHPage]
 
@@ -33,28 +33,29 @@ The resource also provides some additional convenience helpers that are used to 
 
 The following elements are available:
 
-expand_collapse
-: Includes the markup for the expand all/collapse all controls, and adds in the markup to support expand/collapse within activities.
+<dl>
+  <dt>expand_collapse</dt>
+    <dd>Includes the markup for the expand all/collapse all controls, and adds in the markup to support expand/collapse within activities.</dd>
 
-activity
-: Starts an activity block within a page. To end the block use `<%= activity :end %>`
+  <dt>activity</dt>
+    <dd>Starts an activity block within a page. To end the block use `<%= activity :end %>`</dd>
 
-activity_body
-: Indicates where the body of the activity begins. The body is collapsed by default and expanded when the activity head is clicked.
+  <dt>activity_body</dt>
+    <dd>Indicates where the body of the activity begins. The body is collapsed by default and expanded when the activity head is clicked.</dd>
 
-support
-: Starts the block for supporting material. To end the block use `<%= support :end %>`
+  <dt>support</dt>
+    <dd>Starts the block for supporting material. To end the block use `<%= support :end %>`</dd>
 
-more_information
-: Starts the block for adding additional resources that add more information to this resource. To end the block use `<%= more_information :end %>`
+  <dt>more_information</dt>
+    <dd>Starts the block for adding additional resources that add more information to this resource. To end the block use `<%= more_information :end %>`</dd>
 
-related
-: Starts the block for adding activities that are related to an activity. To end the block use `<%= related :end %>`
+  <dt>related</dt>
+    <dd>Starts the block for adding activities that are related to an activity. To end the block use `<%= related :end %>`</dd>
 
-w3url
-: Creates a link to a W3C page so that when this resource is hosted on GitHub Pages, the links work as expected, but when it is deployed into w3.org, the links are all relative. Use this in combination with the `link_to` helper:
-: `<%= link_to "WAI Homepage", (w3url '/WAI/') %>`
-
+  <dt>w3url</dt>
+    <dd>Creates a link to a W3C page so that when this resource is hosted on GitHub Pages, the links work as expected, but when it is deployed into w3.org, the links are all relative. Use this in combination with the `link_to` helper:</dd>
+    <dd>`<%= link_to "WAI Homepage", (w3url '/WAI/') %>`</dd>
+</dl>
 
 ## Structure
 
@@ -78,4 +79,3 @@ This resource uses GitHub Pages to display the current draft version. If you wis
 The environment variable, `BUILD_FOR_GITHUB`, is used to configure URLs. So when the resource is deployed on GitHub Pages the URLs are absolute, and when built for production deployment in w3.org they are relative.
 
 [GHPage]: https://w3c.github.io/wai-dynamic-planning/
-*[IST]: Information Society Technologies
