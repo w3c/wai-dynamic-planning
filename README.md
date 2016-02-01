@@ -29,6 +29,7 @@ The resource also provides some additional convenience helpers that are used to 
 {::nomarkdown}
 <%= activity %>
 {:/}
+```
 
 The following elements are available:
 
