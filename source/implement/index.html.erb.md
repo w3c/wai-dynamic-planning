@@ -95,9 +95,9 @@ Ensure that everyone involved understands their assigned tasks, the delivery sch
 
 Ensure that any issues or knowledge gaps are flagged and responded to. This may require additional training or resources to ensure that everyone is able to meet their objectives.
 
-For those involved in delivering to specific standards, ensure that they have a clear definition of the applicable elements. For example, designers and developers need to know the specific success criteria they need to address and how to do this. Ensure that everyone has the resources to help them with their tasks.
+For those involved in delivering to specific standards, ensure that they have a clear definition of the applicable elements. For example, designers and developers need to know the specific success criteria they need to address and how to implement the appropriate techniques to complete the work. Ensure that everyone has the resources to help them with their tasks.
 
-Depending organization size, you may consider an accessibility task force that meets regularly to coordinate progress among departments. 
+Depending organization size, you may consider an accessibility task force that meets regularly to coordinate and verify progress among departments. 
 
 {::nomarkdown}
 <%= support %>
