@@ -43,4 +43,4 @@ layout: main
 
 ## Credits
 
-All other icons are from [Font Awesome](http://fontawesome.io) by Dave Gandy.
+All icons are from [Font Awesome](http://fontawesome.io) by Dave Gandy.
