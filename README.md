@@ -38,23 +38,23 @@ The following elements are available:
     <dd>Includes the markup for the expand all/collapse all controls, and adds in the markup to support expand/collapse within activities.</dd>
 
   <dt>activity</dt>
-    <dd>Starts an activity block within a page. To end the block use `<%= activity :end %>`</dd>
+    <dd>Starts an activity block within a page. To end the block use <code><%= activity :end %></code></dd>
 
   <dt>activity_body</dt>
     <dd>Indicates where the body of the activity begins. The body is collapsed by default and expanded when the activity head is clicked.</dd>
 
   <dt>support</dt>
-    <dd>Starts the block for supporting material. To end the block use `<%= support :end %>`</dd>
+    <dd>Starts the block for supporting material. To end the block use <code><%= support :end %></code></dd>
 
   <dt>more_information</dt>
-    <dd>Starts the block for adding additional resources that add more information to this resource. To end the block use `<%= more_information :end %>`</dd>
+    <dd>Starts the block for adding additional resources that add more information to this resource. To end the block use <code><%= more_information :end %></code></dd>
 
   <dt>related</dt>
-    <dd>Starts the block for adding activities that are related to an activity. To end the block use `<%= related :end %>`</dd>
+    <dd>Starts the block for adding activities that are related to an activity. To end the block use <code><%= related :end %></code></dd>
 
   <dt>w3url</dt>
-    <dd>Creates a link to a W3C page so that when this resource is hosted on GitHub Pages, the links work as expected, but when it is deployed into w3.org, the links are all relative. Use this in combination with the `link_to` helper:</dd>
-    <dd>`<%= link_to "WAI Homepage", (w3url '/WAI/') %>`</dd>
+    <dd>Creates a link to a W3C page so that when this resource is hosted on GitHub Pages, the links work as expected, but when it is deployed into w3.org, the links are all relative. Use this in combination with the <code>link_to</code> helper:</dd>
+    <dd><code><%= link_to "WAI Homepage", (w3url '/WAI/') %></code></dd>
 </dl>
 
 ## Structure
