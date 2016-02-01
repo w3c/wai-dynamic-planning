@@ -142,7 +142,7 @@ Upgrades to hardware are generally less frequent than software changes, but shou
 {:.attach_permalink}
 ## Incorporate user feedback
 
-Use user feedback to help guide improvement activities and identify areas in need of attention.
+Invite user feedback and use it to help guide improvement activities and identify areas in need of attention.
 
 {::nomarkdown}
 <%= activity_body %>
@@ -150,7 +150,7 @@ Use user feedback to help guide improvement activities and identify areas in nee
 
 Ensure that any on-going customer support is able to respond to user accessibility issues. This will include training for first line support and also clear escalation paths for issues that cannot be resolved immediately. Inform the user who raised the issue of any escalation that requires more involved changes and when improvements might be expected.
 
-Communicate accessibility improvements on your website in the Accessibility Statement. Provide mechanisms to gather feedback to be used to inform future improvements.
+Communicate accessibility improvements on your website in the Accessibility Statement. Make it easy for website users to submit feedback on accessibility and ensure that any feedback is used when considering future improvements.
 
 {::nomarkdown}
 <%= support %>
