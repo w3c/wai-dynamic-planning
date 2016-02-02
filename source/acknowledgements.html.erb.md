@@ -5,22 +5,22 @@ first_published: February 2016
 layout: main
 ---
 
-[Planning and Managing Web Accessibility](index.html) is developed by the [Education Outreach Working Group (EOWG)](/WAI/EO/). They were initially developed with support from the [WAI-DEV](/WAI/DEV/) project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+[Planning and Managing Web Accessibility](index.html) is developed by the {::nomarkdown}<%= link_to "Education Outreach Working Group (EOWG)", (w3url '/WAI/EO/') %>{:/}. They were initially developed with support from the {::nomarkdown}<%= link_to "WAI-DEV", (w3url '/WAI/DEV/') %>{:/} project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
 
 ## Project Leadership
 
 ### Lead editor
 
-* [Kevin White](/People/#kevin), W3C WAI
+* {::nomarkdown}<%= link_to "Kevin White", (w3url '/People/#kevin') %>{:/}, W3C WAI
 
 ### Supporting editors
 
-* [Shadi Abou-Zahra](/People/shadi), W3C WAI
-* [Shawn Lawton Henry](/People/shawn), W3C WAI
+* {::nomarkdown}<%= link_to "Shadi Abou-Zahra", (w3url '/People/shadi') %>{:/}, W3C WAI
+* {::nomarkdown}<%= link_to "Shawn Lawton Henry", (w3url '/People/shawn') %>{:/}, W3C WAI
 
 ### Project coordinator
 
-* [Shadi Abou-Zahra](/People/shadi), W3C WAI
+* {::nomarkdown}<%= link_to "Shadi Abou-Zahra", (w3url '/People/shadi') %>{:/}, W3C WAI
 
 ### EOWG chairs
 
@@ -33,7 +33,7 @@ layout: main
 * Anna Belle Leiserson
 * Brent Bakken, Pearson
 * David Berman
-* [Eric Eggert](/People/yatil), W3C WAI
+* {::nomarkdown}<%= link_to "Eric Eggert", (w3url '/People/yatil') %>{:/}, W3C WAI
 * George Heake
 * Howard Kramer
 * James Green
@@ -43,4 +43,4 @@ layout: main
 
 ## Credits
 
-All icons are from [Font Awesome](http://fontawesome.io) by Dave Gandy.
+All icons are from [Font Awesome](//fontawesome.io) by Dave Gandy.
