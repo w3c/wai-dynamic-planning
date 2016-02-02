@@ -155,6 +155,15 @@ The environment in which your websites are created and maintained have equally s
 Having clear understanding of the issues will help you better address them. For example, you may identify that without improving the content management system (CMS) or without training, there is no way to achieve your accessibility objectives.
 
 {::nomarkdown}
+<%= support %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "Selecting Web Accessibility Evaluation Tools", (w3url '/WAI/eval/selectingtools') %>{:/} &ndash; Provides guidance on choosing which  evaluation tools to use to help.
+
+{::nomarkdown}
+<%= more_information :end %>
+<%= support :end %>
 <%= activity :end %>
 <%= activity %>
 {:/}
