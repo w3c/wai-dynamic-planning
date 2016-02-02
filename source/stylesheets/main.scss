@@ -42,47 +42,6 @@ i {
   margin-right: 0.5em;
 }
 
-.grid {
-  list-style-type: none;
-  margin-left: 0;
-  >li {
-    p:first-of-type {
-      font-size: 150%;
-    }
-    
-    ul {
-      margin-left: 0;
-      padding-left: 1.5em;
-      list-style-type: disc;
-      li {
-        text-align: left;
-      }
-    }
-  }
-  
-  a {
-    text-decoration: none;
-    color: $wai-link;
-    &:hover, &:focus {
-      color: $wai_link_visited;
-      text-decoration: underline;
-      
-    }
-  }
-}
-@include mq($medium) {
-  .grid {
-    padding: 0 3em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    >li {
-      width: 45%;
-      margin-bottom: 2em;
-    }
-  }
-}
-
 .right-inset {
   background-color: $wai_bg;
   padding: 1em 0;
@@ -177,27 +136,46 @@ i {
   li {
     margin-bottom: 0.5em;
   }
-  .two-column {
-    div, aside {
-      margin-bottom: 1em;
+
+  .grid {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    >li {
+      margin-bottom: 2em;
+      p:first-of-type {
+        font-size: 150%;
+      }
+    
+      ul {
+        margin-left: 0;
+        padding-left: 1.5em;
+        list-style-type: disc;
+        li {
+          text-align: left;
+        }
+      }
     }
-    div:last-of-type, aside:last-of-type {
-      margin-bottom: 0;
+  
+    a {
+      text-decoration: none;
+      color: $wai-link;
+      &:hover, &:focus {
+        color: $wai_link_visited;
+        text-decoration: underline;
+      
+      }
     }
   }
   @include mq($medium) {
-    .two-column {
+    .grid {
+      padding: 0 3em;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
-      div, aside {
-        width: 49%;
+      justify-content: space-around;
+      >li {
+        width: 45%;
       }
-    }
-
-    .categories {
-      width: 90%;
-      margin: 0 auto;
     }
   }
 
@@ -223,9 +201,6 @@ i {
 
   .categories, .activities {
     position: relative;
-    article {
-      @extend .two-column;
-    }
     @include mq($medium) {
       h2 {
         width: 32%;
