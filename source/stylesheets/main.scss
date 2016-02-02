@@ -178,6 +178,14 @@ i {
       }
     }
   }
+  @include mq($large) {
+    .grid {
+      padding: 0;
+      >li {
+        width: 25%;
+      }
+    }
+  }
 
   .support-material {
     ul {
