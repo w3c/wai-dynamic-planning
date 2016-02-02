@@ -60,9 +60,9 @@ Web accessibility fulfills the basic promise of the web - making information and
 {:/}
 
 {:.attach_permalink}
-## Explore the situation
+## Explore the current environment
 
-Learn the organization's current state of accessibility to help determine scope of work ahead.
+Learn the organization's current state of accessibility and obligations to help determine scope of work ahead.
 
 {::nomarkdown}
 <%= activity_body %>
