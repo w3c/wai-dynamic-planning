@@ -91,11 +91,9 @@ Assign tasks according to the set objectives and identified responsibilities. Tr
 <%= activity_body %>
 {:/}
 
-Ensure that everyone involved understands their assigned tasks, the delivery schedules, where to go with questions, and that they have the necessary capabilities to undertake these tasks. This might involve assigning specific deliverables, such as a procurement policy that includes accessibility, or detailing criteria that must be met as part of other deliverables, such as outlining to developers the guidelines that code must meet.
+Communicate deliverables and assignments to assigned team members. Ensure staff know what is expected of them, that they have the necessary capabilities, and are clear on schedules. Ensure that everyone has the resources to help them with their tasks. Provide a clear process for people to flag issues and ensure that any issues raised are managed and responded to efficiently.
 
-Ensure that any issues or knowledge gaps are flagged and responded to. This may require additional training or resources to ensure that everyone is able to meet their objectives.
-
-For those involved in delivering to specific standards, ensure that they have a clear definition of the applicable elements. For example, designers and developers need to know the specific success criteria they need to address and how to implement the appropriate techniques to complete the work. Ensure that everyone has the resources to help them with their tasks.
+Individuals in multi-disciplinary teams are likely to have responsibility for meeting different parts of your accessibility standard. Be specific about each individuals responsibility. For example, visual designers may be responsible for success criteria concerned with the visual elements of content, and developers are concerned with those related to the underlying code. Similarly, a contracts team may be responsible for ensuring that the procurement process includes accessibility requirements for third-party content.
 
 Depending organization size, you may consider an accessibility task force that meets regularly to coordinate and verify progress among departments. 
 
