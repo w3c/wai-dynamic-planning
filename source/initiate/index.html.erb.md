@@ -5,7 +5,7 @@ status: editors-draft
 layout: category
 ---
 
-To succeed, a web accessibility effort must be well grounded in organizational culture, process, and practice. It is critical to promote common understanding of accessibility goals and objectives and the motivation for such an undertaking.
+To succeed, a web accessibility effort must be well grounded in organizational culture, process, and practice. To do this, align accessibility with existing organizational approaches; develop and communicate clear, measurable objectives; and engage stakeholders to secure understanding and broad support throughout the organization.
 
 {::nomarkdown}
 <%= expand_collapse %>
