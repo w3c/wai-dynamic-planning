@@ -93,9 +93,9 @@ Assign tasks according to the set objectives and identified responsibilities. Tr
 
 Communicate deliverables and assignments to assigned team members. Ensure staff know what is expected of them, that they have the necessary capabilities, and are clear on schedules. Ensure that everyone has the resources to help them with their tasks. Provide a clear process for people to flag issues and ensure that any issues raised are managed and responded to efficiently.
 
-Individuals in multi-disciplinary teams are likely to have responsibility for meeting different parts of your accessibility standard. Be specific about each individuals responsibility. For example, visual designers may be responsible for success criteria concerned with the visual elements of content, and developers are concerned with those related to the underlying code. Similarly, a contracts team may be responsible for ensuring that the procurement process includes accessibility requirements for third-party content.
+Individuals in multi-disciplinary teams are likely to have responsibility for meeting different parts of your accessibility standard. Be specific about each individual's responsibility. For example, visual designers may be responsible for success criteria concerned with the visual elements of content, and developers are concerned with those related to the underlying code. Similarly, a contracts team may be responsible for ensuring that the procurement process includes accessibility requirements for third-party content.
 
-Depending organization size, you may consider an accessibility task force that meets regularly to coordinate and verify progress among departments. 
+Depending on organization size, you may consider an accessibility task force that meets regularly to coordinate and verify progress among departments. 
 
 {::nomarkdown}
 <%= support %>
