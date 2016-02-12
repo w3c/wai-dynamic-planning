@@ -23,11 +23,10 @@ Find out what accessibility is and why it is important.
 
 The better you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
  
-*	Research introductory articles and videos;
-*	Talk with colleagues, friends, and family members with disabilities;
-*	Find training appropriate for your particular role;
-* Seek information or training from accessibility and disability organizations;
-* Set up assistive technology demonstrations.
+*	Research introductory articles and videos
+*	Talk with colleagues, friends, and family members with disabilities
+*	Find training appropriate for your particular role
+* Seek information or training from accessibility and disability organizations
 * Set up assistive technology demonstrations and let people try them out
 
 First-hand experience of how people with disabilities access web content can be enlightening and inspiring. This can help others understand the benefits and value of accessibility. 
