@@ -28,6 +28,7 @@ The better you understand accessibility, the more effectively it can be implemen
 *	Find training appropriate for your particular role;
 * Seek information or training from accessibility and disability organizations;
 * Set up assistive technology demonstrations.
+* Set up assistive technology demonstrations and let people try them out
 
 First-hand experience of how people with disabilities access web content can be enlightening and inspiring. This can help others understand the benefits and value of accessibility. 
 
