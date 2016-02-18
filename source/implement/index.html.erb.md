@@ -31,6 +31,8 @@ Develop the accessibility skills of your staff, including designers, developers,
 
 Document and share experience gathered throughout the processes to build expertise in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
 
+Training is an initial investment that pays off as understanding of accessibility increases and it becomes more common practice. Increase knowledge should result in more accessible implementations first time, helping to reduce evaluation and rework costs and limit risk.
+
 {::nomarkdown}
 <%= support %>
 <%= more_information %>
@@ -131,7 +133,7 @@ Find and fix issues early in the process to reduce risk and cost.
 <%= activity_body %>
 {:/}
 
-Evaluate accessibility throughout the design and development process, and particularly at key milestones and sprints. Evaluate key web pages, processes, and stand-alone components as they become available.
+Evaluate accessibility throughout the design and development process, and particularly at key milestones and sprints. Evaluate key web pages, processes, and stand-alone components as they become available. Avoid evaluating accessibility separately and integrate checks iteratively within any current testing and quality assurance processes.
 
 Early evaluations of designs help identify problems and potential problems before significant work takes place. Other design resources, such as personas and user stories, can also be reviewed to include accessibility considerations. This will help designers better understand how people with disabilities interact with your website. 
 

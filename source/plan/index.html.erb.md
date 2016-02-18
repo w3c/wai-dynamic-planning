@@ -50,7 +50,7 @@ Understand what roles are needed to ensure all tasks are covered.
 
 Responsibility for delivering accessibility needs to be assigned to specific individuals and incorporated into their job description. Formalizing the responsibility helps ensure that the individual has time for the work and can receive training. Clear identification also helps communicate who is responsible for accessibility and that it is being prioritized.
 
-Responsibilities can be spread throughout your organization increasing awareness and reducing the risk of the activities overwhelming an individual or team. Some example responsibilities include:
+It is important to recognize that implementing accessibility is not only a concern for developers, but for the whole team. Spreading responsibilities throughout your organization increases awareness and reduces the risk of the activities overwhelming an individual or team. Some example responsibilities include:
 
 * **Marketing** &ndash; Embed accessibility within brand or design guidelines.
 * **Quality assurance** &ndash; Test for and track accessibility issues within the code.
@@ -76,6 +76,7 @@ Ensure costs are clarified and budget is secured for accessibility activities su
 Your budget needs depend on your accessibility goals and the extent of the work required to achieve them. Some things that need to be considered when creating a budget include:
 
 * **Accessibility evaluations** &ndash; Consider how frequently they need to occur and how extensive they need to be.
+* **Evaluation with people** &ndash; Consider what opportunities exist to involve users with disabilities in evaluations.
 * **Reviews of policies and procedures** &ndash; Time required to determine which policies need to be change, time required to make the change, and time required to implement the changes.
 * **Staff training** &ndash; General awareness raising as well as specific training targeted on the needs of particular activities, such as website development or content writing.
 * **Tooling** &ndash; Adaptation or possible replacement of content authoring tools, such as the content management system (CMS), or acquiring accessibility evaluation tools.
@@ -96,6 +97,7 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 {:/}
 
 * {::nomarkdown}<%= link_to "Financial Factors in Developing a Web Accessibility Business Case : Cost Considerations", (w3url '/WAI/bcase/fin#invest') %>{:/} &ndash; Provides information on personnel costs, capital expenditure, and on-going costs to consider.
+* {::nomarkdown}<%= link_to "Involving Users in Web Projects for Better, Easier Accessibility", (w3url '/WAI/users/involving.html') %>{:/} &ndash; Provides information on the benefits of involving users and how to do it.
 
 {::nomarkdown}
 <%= more_information :end %>
@@ -149,7 +151,8 @@ The environment in which your websites are created and maintained have equally s
 
 * How well authoring tools support you in creating and maintaining accessible content; for example, does the content management system (CMS) support your accessibility commitments?
 * What is the level of accessibility knowledge and expertise of the staff creating and maintaining your websites? How well is training support provided to improve the situation?
-* Are there design and development guidelines, shared templates and coding libraries, common authoring practices, and other centralized resources that can be improved for accessibility?
+* Can accessibility be improved in design and development guidelines and specifications, shared templates and coding libraries, common authoring practices, and other centralized resources?
+* Does any quality assurance plan include specific accessibility checks?
 * How well do the existing policies and processes support your undertaking; for example, are there procurement policies to ensure purchasing of accessible tools and content?
 
 Having clear understanding of the issues will help you better address them. For example, you may identify that without improving the content management system (CMS) or without training, there is no way to achieve your accessibility objectives.
