@@ -118,7 +118,7 @@ i {
     }
   }
   article {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     .permalink-wrapper {
       .attach_permalink {
         padding-right: 2.8em;
@@ -130,6 +130,9 @@ i {
          font-size: 120%; 
         }
       }
+    }
+    .fs_expandedFully:last-of-type {
+      padding-bottom: 1em;
     }
   }
   
@@ -267,8 +270,7 @@ i {
       }
     }
     > p {
-      font-size: 120%;
-      margin: 0.5em 0 0 1.7em;
+      margin: 0 0 0 2em;
     }
     + * {
       margin-left: 1.1em;
