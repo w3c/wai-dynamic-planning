@@ -1,6 +1,6 @@
 ---
 title: Overview
-status: editors-draft
+status: draft
 layout: main
 ---
 
