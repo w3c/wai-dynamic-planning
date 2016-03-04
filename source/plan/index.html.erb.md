@@ -1,7 +1,7 @@
 ---
 title: Plan
 icon: map
-status: editors-draft
+status: draft
 layout: category
 ---
 

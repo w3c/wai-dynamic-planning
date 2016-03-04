@@ -1,7 +1,7 @@
 ---
 title: Initiate
 icon: rocket
-status: editors-draft
+status: draft
 layout: category
 ---
 

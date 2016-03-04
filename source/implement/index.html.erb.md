@@ -1,7 +1,7 @@
 ---
 title: Implement
 icon: cogs
-status: editors-draft
+status: draft
 layout: category
 ---
 

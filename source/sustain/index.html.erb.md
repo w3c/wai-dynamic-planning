@@ -1,7 +1,7 @@
 ---
 title: Sustain
 icon: pagelines
-status: editors-draft
+status: draft
 layout: category
 ---
 
