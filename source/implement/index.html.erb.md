@@ -5,7 +5,7 @@ status: draft
 layout: category
 ---
 
-There are key opportunities to incorporate accessibility in any web project, from personnel and training to evaluation and prioritization. Weave accessibility throughout the project to improve the overall quality of final outcome without significantly impacting on budget or timescales.
+Weave accessibility implementation throughout the process to minimize overhead and improve the overall quality of the final outcome. Prioritize quick wins and communicate progress to increase commitment and develop a sense of accomplishment.
 
 {::nomarkdown}
 <%= expand_collapse %>
@@ -21,7 +21,7 @@ Improve accessibility awareness and develop core skills for key staff.
 <%= activity_body %>
 {:/}
 
-Develop the accessibility skills of your staff, including designers, developers, and content creators. This includes providing training for existing staff, as well as including accessibility skills in staff recruitment criteria. Examples of training include:
+Develop the accessibility skills of everyone involved, including designers, developers, content creators, and managers. This includes providing training for existing staff, as well as including accessibility skills in staff recruitment criteria. Examples of training include:
 
 * **Introductions to accessibility** for everyone
 * **How accessibility benefits your business** for management and project managers
@@ -51,7 +51,7 @@ Training is an initial investment that pays off as understanding of accessibilit
 {:/}
 
 {:.attach_permalink}
-## Enhance policies
+## Integrate goals into policies
 
 Create a policy framework that builds accessibility throughout the organization.
 
@@ -59,7 +59,7 @@ Create a policy framework that builds accessibility throughout the organization.
 <%= activity_body %>
 {:/}
 
-Integrate the goals from your Accessibility Policy within other organizational procedures and policies. This will help spread the responsibility but also ensure that accessibility is considered as an integral part of day-to-day activities.
+Integrate the goals from your accessibility policy within other organizational procedures and policies. This will help spread the responsibility but also ensure that accessibility is considered as an integral part of day-to-day activities.
 
 The following are some examples of where incorporating accessibility can bring broad benefits.
 
@@ -167,7 +167,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 {:.attach_permalink}
 ## Prioritize issues
 
-Use resources effectively by addressing high impact, easy-to-fix issues first.
+Use resources effectively by addressing high impact, easy-to-resolve issues first.
 
 {::nomarkdown}
 <%= activity_body %>
@@ -175,7 +175,7 @@ Use resources effectively by addressing high impact, easy-to-fix issues first.
 
 While all accessibility objectives will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
 
-* Start with issues that are easier to address, to help build motivation in the team and demonstrate success.
+* Start with issues that are easier to fix, to help build motivation in the team and demonstrate success.
 * Prioritize the development of accessible templates and components to support the creating of accessible content.
 * Prioritize visual design to synchronize with an on-going re-branding activity within the organization.
 * Prioritize recruitment or procurement policies to support anticipated hiring and acquisitions.
