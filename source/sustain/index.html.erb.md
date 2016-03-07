@@ -15,21 +15,21 @@ Keeping momentum helps with the accessibility maintenance for completed projects
 {:.attach_permalink}
 ## Monitor websites
 
-Changing content can introduce accessibility issues. Review regularly to identify issues and solutions.
+Changing content can introduce accessibility issues, and provide opportunities for improvement. Monitor changes to identify issues and solutions.
 
 {::nomarkdown}
 <%= activity_body %>
 {:/}
 
-As your website content changes, ensure that regular accessibility reviews are performed. Include accessibility checks within the publishing process to help reduce the risk of issues occurring.
+Coordinate closely with website owners to identify opportunities for improvement. This includes daily content publishing and maintenance activities, as well as broader redesign and development efforts. For example, knowing when website updates are scheduled and their scope can help reprioritize accessibility tasks to minimize effort.
 
-Provide a consistent evaluation process and reporting template. This will help comparison of findings to identify trends across websites or teams and help in management reporting activities.
+As your website content changes, ensure that regular accessibility reviews are performed. Include accessibility checks within the publishing process to help reduce the risk of issues occurring. Also provide a consistent evaluation process and reporting template. This will help comparison of findings to identify trends across websites or teams and help in management reporting activities.
 
 Reviews should seek to identify issues and also identify why those issues are occurring. Some questions to consider:
 
-* Are issues caused by one member of staff who has not had any training?
-* Are they as a result of a change in the content management system?
-* Is the publishing process unclear in some areas?
+* Are issues caused by staff members who have not had sufficient training?
+* Are they as a result of a change in the content management system (CMS)?
+* Is the publishing process and the requirements unclear in some areas?
 
 Take action to correct the issues and also to remedy the reason for the issues occurring.
 
