@@ -229,6 +229,7 @@ Possible communication opportunities include:
 {:/}
 
 * {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Set objectives](../plan/#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
 
 {::nomarkdown}
 <%= related :end %>
