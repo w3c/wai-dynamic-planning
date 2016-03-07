@@ -4,7 +4,7 @@ status: draft
 layout: main
 ---
 
-This guide outlines activities to help you integrate accessibility throughout the web production process. These activities are not necessarily carried out in sequence, and are ideally repeated over time to continually raise the level of accessibility capability.
+This guide outlines activities to help you integrate accessibility throughout the web production process. This applies to individual projects and on an organizational level. These activities are not necessarily carried out in sequence, and are ideally repeated over time to continually raise the level of accessibility capability.
 
 A companion document, {::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/}, provides guidance on more immediate remediation of accessibility barriers in existing websites.
 
