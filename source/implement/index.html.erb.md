@@ -5,7 +5,7 @@ status: draft
 layout: category
 ---
 
-Weave in accessibility implementation throughout the process to minimize overhead and improve the overall quality of final outcome. Prioritize quick wins and communicate progress to elevate commitment and sense of accomplishment.
+Weave accessibility implementation throughout the process to minimize overhead and improve the overall quality of the final outcome. Prioritize quick wins and communicate progress to increase commitment and develop a sense of accomplishment.
 
 {::nomarkdown}
 <%= expand_collapse %>
@@ -51,7 +51,7 @@ Training is an initial investment that pays off as understanding of accessibilit
 {:/}
 
 {:.attach_permalink}
-## Apply policies
+## Enhance policies
 
 Create a policy framework that builds accessibility throughout the organization.
 
@@ -127,7 +127,7 @@ Depending on organization size, you may consider an accessibility task force tha
 {:.attach_permalink}
 ## Evaluate early and regularly
 
-Find and address issues early in the process to reduce risk and cost.
+Find and fix issues early in the process to reduce risk and cost.
 
 {::nomarkdown}
 <%= activity_body %>
@@ -160,7 +160,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 {:.attach_permalink}
 ## Prioritize issues
 
-Use resources effectively by addressing high impact, easy-to-address issues first.
+Use resources effectively by addressing high impact, easy-to-fix issues first.
 
 {::nomarkdown}
 <%= activity_body %>
@@ -168,7 +168,7 @@ Use resources effectively by addressing high impact, easy-to-address issues firs
 
 While all accessibility objectives will need to be met, prioritizing can help you achieve them more effectively. Examples of prioritization include:
 
-* Start with issues that are easier to address, to help build motivation in the team and demonstrate success.
+* Start with issues that are easier to fix, to help build motivation in the team and demonstrate success.
 * Prioritize the development of accessible templates and components to support the creating of accessible content.
 * Prioritize visual design to synchronize with an on-going re-branding activity within the organization.
 * Prioritize recruitment or procurement policies to support anticipated hiring and acquisitions.
