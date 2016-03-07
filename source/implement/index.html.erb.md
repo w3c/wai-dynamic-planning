@@ -198,22 +198,30 @@ Involve different perspectives, including internal and external stakeholders, in
 {:/}
 
 {:.attach_permalink}
-## Track progress
+## Track and communicate progress
 
-Monitor progress towards accessibility goals.
+Monitor progress towards accessibility goals and share the good and bad to maintain awareness and support.
 
 {::nomarkdown}
 <%= activity_body %>
 {:/}
 
-Track the progress made towards your accessibility objectives according to the assigned responsibilities and planned schedule. Report successes and failures according to established monitoring framework. This includes progress on:
+Track the progress made towards your accessibility objectives according to the assigned responsibilities and planned schedule. This includes progress on:
 
 * Web content accessibility
 * Implementation of procedures and policies
 * Staff training and knowledge sharing
 * Organizational awareness and attitude
 
-Regularly review successes and challenges, and promote exchange of good practice across the staff to support progress. For example, sharing successful training sessions, resources, and tools across departments could leverage knowledge and skills.
+Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challenges and focus management on the need for urgent attention.
+
+Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers. For example, sharing successful training sessions, resources, and tools across departments could leverage knowledge and skills.
+
+Possible communication opportunities include:
+
+* Reporting issue clearance rate to project management.
+* Share highlight videos from user experience sessions with accessibility champions.
+* Developer workshops to share good practice approaches.
 
 {::nomarkdown}
 <%= support %>
@@ -225,29 +233,5 @@ Regularly review successes and challenges, and promote exchange of good practice
 {::nomarkdown}
 <%= related :end %>
 <%= support :end %>
-<%= activity :end %>
-<%= activity %>
-{:/}
-
-{:.attach_permalink}
-## Communicate progress
-
-Share the good and the bad to maintain awareness and support.
-
-{::nomarkdown}
-<%= activity_body %>
-{:/}
-
-Share accessibility achievements, in particular with management, to help maintain and increase support for accessibility activities. Communicating lack of achievement can help highlight insufficient support or other systemic challenges and focus management on the need for urgent attention.
-
-Regular communication can help make the benefits of and challenges with accessibility implementation more transparent and easier to understand by your peers.
-
-Possible communication opportunities include:
-
-* Reporting issue clearance rate to project management.
-* Share highlight videos from user experience sessions with accessibility champions.
-* Developer workshops to share good practice approaches.
-
-{::nomarkdown}
 <%= activity :end %>
 {:/}
