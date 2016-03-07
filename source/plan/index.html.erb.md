@@ -67,7 +67,7 @@ It is important to recognize that implementing accessibility is not only a conce
 {:.attach_permalink}
 ## Determine budget and resources
 
-Ensure costs are clarified and budget and resources are secured for accessibility activities such as reviews, training, audits, and testing with users.
+Ensure resources, including budgets, are clarified and secured for accessibility activities. This includes necessary reviews, training, audits, and testing with users.
 
 {::nomarkdown}
 <%= activity_body %>
