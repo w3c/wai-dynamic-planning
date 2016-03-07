@@ -65,15 +65,15 @@ It is important to recognize that implementing accessibility is not only a conce
 {:/}
 
 {:.attach_permalink}
-## Determine budget
+## Determine budget and resources
 
-Ensure costs are clarified and budget is secured for accessibility activities such as reviews, training, audits, and testing with users.
+Ensure costs are clarified and budget and resources are secured for accessibility activities such as reviews, training, audits, and testing with users.
 
 {::nomarkdown}
 <%= activity_body %>
 {:/}
 
-Your budget needs depend on your accessibility goals and the extent of the work required to achieve them. Some things that need to be considered when creating a budget include:
+Your budget and resource needs depend on your accessibility goals and the extent of the work required to achieve them. For all activities consider what resources will be required and ensure that that they are available. Some things that need to be considered include:
 
 * **Accessibility evaluations** &ndash; Consider how frequently they need to occur and how extensive they need to be.
 * **Evaluation with people** &ndash; Consider what opportunities exist to involve users with disabilities in evaluations.

@@ -17,7 +17,7 @@ plan:
   activities:
     - create-accessibility-policy
     - assign-responsibilities
-    - determine-budget
+    - determine-budget-and-resources
     - review-websites
     - review-environment
     - establish-monitoring-framework
