@@ -51,7 +51,7 @@ Training is an initial investment that pays off as understanding of accessibilit
 {:/}
 
 {:.attach_permalink}
-## Integrate goals throughout policies
+## Integrate goals into policies
 
 Create a policy framework that builds accessibility throughout the organization.
 
