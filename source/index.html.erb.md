@@ -4,9 +4,9 @@ status: draft
 layout: main
 ---
 
-This resource explores activities that are important when planning for accessibility. Activities are grouped by when in a project or program they might be considered. Each activity provides information on what is required and points to related resources that explore the activity further.
+This guide outlines activities to help you integrate accessibility throughout the web production process. These activities are not necessarily carried out in sequence, and are ideally repeated over time to continually raise the level of accessibility capability.
 
-{::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/} provides more tactical guidance on fixing accessibility barriers in existing websites.
+A companion document, {::nomarkdown}<%= link_to "Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving') %>{:/}, provides guidance on more immediate remediation of accessibility barriers in existing websites.
 
 {::nomarkdown}
 <ul class="grid">
