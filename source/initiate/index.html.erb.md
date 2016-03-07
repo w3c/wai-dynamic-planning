@@ -21,7 +21,7 @@ Find out what accessibility is and why it is important.
 <%= activity_body %>
 {:/}
 
-The better you understand accessibility, the more effectively it can be implemented and promoted in your organization. If you want to deepen your own understanding of web accessibility issues in order to be a more effective advocate, here are some suggestions: 
+The better you and your colleagues understand accessibility, the more effectively it can be implemented and promoted in your organization. Deepening your understanding of web accessibility helps you to address issues more effectively. Some sources for learning the basics include:
  
 *	Research introductory articles and videos
 *	Talk with colleagues, friends, and family members with disabilities
@@ -29,7 +29,7 @@ The better you understand accessibility, the more effectively it can be implemen
 * Seek information or training from accessibility and disability organizations
 * Set up assistive technology demonstrations and let people try them out
 
-First-hand experience of how people with disabilities access web content can be enlightening and inspiring. This can help others understand the benefits and value of accessibility. 
+First-hand experience of how people with disabilities access web content is often enlightening and inspiring. This can help you and others to understand the benefits and value of accessibility.
 
 {:.no_toc}
 ### What is web accessibility?
@@ -68,7 +68,7 @@ Learn the organization's current state of accessibility and obligations to help 
 <%= activity_body %>
 {:/}
 
-Explore and learn the current state of accessibility in your organization to help when initiating discussions with stakeholders and management. Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
+Explore and learn the current state of accessibility in your organization to help when initiating discussions with stakeholders, such as management. Several aspects of web accessibility can be checked fairly easily, with little or no technical skills required. This includes cursory checks of:
 
 * Key websites and website user activities
 * Web content policies and processes, such as those related to editing and publishing
@@ -110,9 +110,7 @@ Clear objectives identify key deliverables, establish a timeline, and define how
 
 Create objectives in response to identified accessibility problems and organizational goals. Develop measurable objectives that address accessibility gaps within the organization's web content, processes, and policies. Objectives help to focus your team, clarify what activities need to be planned, define required deliverables, and ensure that successful delivery can be determined.
 
-Ensure that objectives have management agreement and support. This will help secure funding, align accessibility and business objectives, and reinforce your strategy. 
-
-The best outcomes for accessibility come when objectives are aligned and integrated with the broader project. So consider objectives that integrate accessibility into existing project frameworks, production workflows, or quality assurance processes.
+Ensure that objectives have management agreement and support. This will help secure the necessary resources, align accessibility and business objectives, and reinforce your strategy. Also ensure that objectives help integrate accessibility into existing project frameworks, production workflows, or quality assurance processes.
 
 Examples of objectives might include:
 
@@ -173,9 +171,7 @@ Communicate the goals, value-adds, and importance of accessibility throughout th
 <%= activity_body %>
 {:/}
 
-Communicate the importance and value of accessibility throughout your organization. Many people will know nothing about accessibility. Some may not appreciate that their role has an impact on website accessibility. Others may not be aware of the additional value that accessibility brings.
-
-A general introduction to accessibility, including organizational goals, will benefit everyone in the organization by improving awareness and building enthusiasm for the task.
+Lack of awareness is a frequent reason for lack of accessibility adoption. Many people may only know little or nothing about accessibility. Some may not appreciate that their role has an impact on website accessibility. Others may not be aware of the additional value that accessibility brings. A general introduction to accessibility, including organizational goals, will benefit everyone in the organization by improving awareness and building enthusiasm for the task.
 
 Consider audience needs and interests as you raise awareness of the benefits of web accessibility. Management will need to know about risk, budget, policy, and return on investment but designers may engage with understanding and solving the design challenges of accessibility. Developers may also enjoy the challenge of making modern designs accessible using new skills in HTML5, JavaScript, and ARIA. Marketing may be interested users stories and demonstrating corporate responsibility.
 
@@ -215,7 +211,7 @@ Create opportunities to exchange information and provide support. This could be 
 <%= more_information %>
 {:/}
 
-* {::nomarkdown}<%= link_to "How people with disabilities use the web", (w3url '/WAI/intro/people-use-web/Overview.html') %>{:/} &ndash; .
+* {::nomarkdown}<%= link_to "How people with disabilities use the web", (w3url '/WAI/intro/people-use-web/Overview.html') %>{:/} &ndash; Explores the impact of accessible design with real-life examples.
 
 {::nomarkdown}
 <%= more_information :end %>
