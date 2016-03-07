@@ -29,8 +29,7 @@ Reviews should seek to identify issues and also identify why those issues are oc
 
 * Are issues caused by staff members who have not had sufficient training?
 * Are they as a result of a change in the content management system (CMS)?
-* Is the publishing process unclear in some areas?
-* Are the accessibility requirements clear?
+* Are the requirements of the publishing process unclear?
 
 Take action to correct the issues and also to remedy the reason for the issues occurring.
 
