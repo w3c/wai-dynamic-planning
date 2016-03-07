@@ -51,7 +51,7 @@ Training is an initial investment that pays off as understanding of accessibilit
 {:/}
 
 {:.attach_permalink}
-## Enhance policies
+## Integrate goals throughout policies
 
 Create a policy framework that builds accessibility throughout the organization.
 
@@ -160,7 +160,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 {:.attach_permalink}
 ## Prioritize issues
 
-Use resources effectively by addressing high impact, easy-to-fix issues first.
+Use resources effectively by addressing high impact, easy-to-resolve issues first.
 
 {::nomarkdown}
 <%= activity_body %>
