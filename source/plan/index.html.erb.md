@@ -50,7 +50,7 @@ Understand what roles are needed to ensure all tasks are covered.
 
 Responsibility for delivering accessibility needs to be assigned to specific individuals and incorporated into their job description. Formalizing the responsibility helps ensure that the individual has time for the work and can receive training. Clear identification also helps communicate who is responsible for accessibility and that it is being prioritized.
 
-It is important to recognize that implementing accessibility is not only a concern for developers, but for the whole team. Spreading responsibilities throughout your organization increases awareness and reduces the risk of the activities overwhelming an individual or team. Some example responsibilities include:
+It is important to recognize that implementing accessibility is not only a concern for developers, but for the whole team. Spreading responsibilities throughout your project and organization increases awareness and reduces the risk of the activities overwhelming an individual or team. Some example responsibilities include:
 
 * **Marketing** &ndash; Embed accessibility within brand or design guidelines.
 * **Quality assurance** &ndash; Test for and track accessibility issues within the code.
@@ -117,9 +117,9 @@ Identify issues to be fixed or avoided in existing websites.
 
 Perform a detailed accessibility review of websites in the scope of your objectives. This can create a baseline for future work, identify where training or additional expertise is needed, and help clarify how big a problem exists. The review may highlight instances of good practice, which identifies staff or suppliers who have critical skills to build on.
 
-Review results are helpful to identify problems to be avoided in future work, even if the project involves completely replacing an existing website. Results are also helpful in stakeholder reporting activities. Highlight existing problems and their impact so that later in the project the impact of positive change can be put into context.
+Review results are helpful to identify problems to be avoided in future work, even if the objectives involve completely replacing an existing website. Results are also helpful in stakeholder reporting activities. Highlight existing problems and their impact so that later on, the impact of positive change can be put into context.
 
-Accessibility checks can be performed at all stages of a project, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later in the project. Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
+Accessibility checks can be performed at all stages of the process, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later on. Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
 
 {::nomarkdown}
 <%= support %>
@@ -155,7 +155,7 @@ The environment in which your websites are created and maintained have equally s
 * Does any quality assurance plan include specific accessibility checks?
 * How well do the existing policies and processes support your undertaking; for example, are there procurement policies to ensure purchasing of accessible tools and content?
 
-Having clear understanding of the issues will help you better address them. For example, you may identify that without improving the content management system (CMS) or without training, there is no way to achieve your accessibility objectives.
+Having clear understanding of the issues will help you better address them. For example, you may identify that by improving the content management system (CMS) or with training, you can achieve your accessibility objectives much more effectively.
 
 {::nomarkdown}
 <%= support %>
