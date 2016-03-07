@@ -202,6 +202,7 @@ For long-term or ongoing goals you need to plan regular monitoring to ensure tha
 {:/}
 
 * {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Set objectives](../initiate/#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.implement.icon) %>{:/} Implement: [Evaluate early and regularly](../implement/#evaluate-early-and-regularly)
 
 {::nomarkdown}
 <%= related :end %>

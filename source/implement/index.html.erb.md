@@ -143,6 +143,13 @@ Use a standard report structure to capture evaluation findings. This allows for 
 
 {::nomarkdown}
 <%= support %>
+<%= related %>
+{:/}
+
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
+
+{::nomarkdown}
+<%= related :end %>
 <%= more_information %>
 {:/}
 
