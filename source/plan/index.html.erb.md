@@ -82,7 +82,7 @@ Your budget and resource needs depend on your accessibility goals and the extent
 * **Tooling** &ndash; Adaptation or possible replacement of content authoring tools, such as the content management system (CMS), or acquiring accessibility evaluation tools.
 * **Experienced support** &ndash; Additional external support may be necessary while staff skills and knowledge improves.
 
-Once the budget is determined, ensure that you have sufficient approval. Your business case helps to secure budget, and you should ensure that the presentation of budget is supported by estimations on how changes might impact on previously set objectives and targets, and what return on investment could be expected. This might include better website performance, reduction in maintenance costs, higher sales, improved visitor statistics, or improved corporate social responsibility.
+Once the budget is determined, ensure that you have sufficient approval. Your business case helps to secure budget, and you should ensure that the final budget is supported by estimates of how changes impact on previously set objectives and targets, and what return on investment could be expected. This might include better website performance, reduction in maintenance costs, higher sales, improved visitor statistics, or improved corporate social responsibility.
 
 {::nomarkdown}
 <%= support %>
