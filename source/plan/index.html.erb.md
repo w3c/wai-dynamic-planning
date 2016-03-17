@@ -119,6 +119,7 @@ The environment in which your websites are created and maintained has an equally
 
 * How well authoring tools support you in creating and maintaining accessible content; for example, does the content management system (CMS) support your accessibility commitments?
 * What is the level of accessibility knowledge and expertise of the staff creating and maintaining your websites? How well is training support provided to improve the situation?
+* Do staff have access to appropriate tools to assist in testing accessibility?
 * Can accessibility be improved in design and development guidelines and specifications, shared templates and coding libraries, common authoring practices, and other centralized resources?
 * Does any quality assurance plan include specific accessibility checks?
 * How well do the existing policies and processes support your undertaking; for example, are there procurement policies to ensure purchasing of accessible tools and content?
@@ -132,6 +133,7 @@ Having clear understanding of the issues will help you better address them. For 
 
 * {::nomarkdown}<%= link_to "Selecting Web Accessibility Evaluation Tools", (w3url '/WAI/eval/selectingtools') %>{:/} &ndash; Provides guidance on choosing which  evaluation tools to use to help.
 * {::nomarkdown}<%= link_to "ATAG Overview", (w3url '/WAI/intro/atag.php') %>{:/} &ndash; Provides information on Authoring Tools Accessibility Guidelines (ATAG), how it is structured, and how best to use it. 
+* {::nomarkdown}<%= link_to "Web Accessibility Evaluation Tools List", (w3url '/WAI/ER/tools/') %>{:/} &ndash; List of vendor provided tools that help support accessibility evaluations. 
 
 
 {::nomarkdown}
