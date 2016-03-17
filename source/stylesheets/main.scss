@@ -131,7 +131,7 @@ i {
         }
       }
     }
-    .fs_expandedFully:last-of-type {
+    > div:last-of-type {
       padding-bottom: 1em;
     }
     h3 {
@@ -265,7 +265,6 @@ i {
     }
     h2 {
       border-bottom: 2px transparent solid;
-      margin-left: 1.5em;
     }
     &.fs_hover, &.fs_focus {
       h2 {
@@ -273,7 +272,7 @@ i {
       }
     }
     > p {
-      margin: 0 0 0 2em;
+      margin: 0;
     }
     + * {
       margin-left: 1.1em;
