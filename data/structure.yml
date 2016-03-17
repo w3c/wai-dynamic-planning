@@ -18,8 +18,8 @@ plan:
     - create-accessibility-policy
     - assign-responsibilities
     - determine-budget-and-resources
-    - review-websites
     - review-environment
+    - review-websites
     - establish-monitoring-framework
     - engage-with-stakeholders
 
