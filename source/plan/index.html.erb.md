@@ -131,6 +131,8 @@ Having clear understanding of the issues will help you better address them. For 
 {:/}
 
 * {::nomarkdown}<%= link_to "Selecting Web Accessibility Evaluation Tools", (w3url '/WAI/eval/selectingtools') %>{:/} &ndash; Provides guidance on choosing which  evaluation tools to use to help.
+* {::nomarkdown}<%= link_to "ATAG Overview", (w3url '/WAI/intro/atag.php') %>{:/} &ndash; Provides information on Authoring Tools Accessibility Guidelines (ATAG), how it is structured, and how best to use it. 
+
 
 {::nomarkdown}
 <%= more_information :end %>
