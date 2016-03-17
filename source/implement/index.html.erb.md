@@ -29,7 +29,7 @@ Develop the accessibility skills of everyone involved, including designers, deve
 * **Accessible coding solutions** for developers and testers
 * **Writing accessible content** for non-technical content authors
 
-Document and share experience gathered throughout the processes to build expertise in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work as well as what did to avoid time being spent on approaches known to have problems.
+Document and share experience gathered throughout the processes to build expertise in creating accessible websites. Consider how to capture and communicate lessons learned, successful approaches, and good techniques. Include what didn't work, as well as what did, to avoid time being spent on approaches known to have problems.
 
 Training is an initial investment that pays off as understanding of accessibility increases and it becomes more common practice. Increase knowledge should result in more accessible implementations first time, helping to reduce evaluation and rework costs and limit risk.
 
