@@ -107,38 +107,6 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 {:/}
 
 {:.attach_permalink}
-## Review websites
-
-Identify issues to be fixed or avoided in existing websites.
-
-{::nomarkdown}
-<%= activity_body %>
-{:/}
-
-Perform a detailed accessibility review of websites in the scope of your objectives. This can create a baseline for future work, identify where training or additional expertise is needed, and help clarify how big a problem exists. The review may highlight instances of good practice, which identifies staff or suppliers who have critical skills to build on.
-
-Review results are helpful to identify problems to be avoided in future work, even if the objectives involve completely replacing an existing website. Results are also helpful in stakeholder reporting activities. Highlight existing problems and their impact so that later on, the impact of positive change can be put into context.
-
-Accessibility checks can be performed at all stages of the process, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later on. Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
-
-{::nomarkdown}
-<%= support %>
-<%= more_information %>
-{:/}
-
-* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
-* {::nomarkdown}<%= link_to "Assess the Situation", (w3url '/WAI/impl/improving#assess') %>{:/} &ndash; Describes how you might approach evaluating your website.
-* {::nomarkdown}<%= link_to "Involving Users in Web Projects for Better, Easier Accessibility", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes the benefits of involving users in projects and how to go about it.
-
-{::nomarkdown}
-<%= more_information :end %>
-<%= support :end %>
-<%= activity :end %>
-<%= activity %>
-{:/}
-
-
-{:.attach_permalink}
 ## Review environment
 
 Consider resources, processes, and tools in your organization that may impact accessibility efforts.
@@ -170,6 +138,38 @@ Having clear understanding of the issues will help you better address them. For 
 <%= activity :end %>
 <%= activity %>
 {:/}
+
+{:.attach_permalink}
+## Review websites
+
+Identify issues to be fixed or avoided in existing websites.
+
+{::nomarkdown}
+<%= activity_body %>
+{:/}
+
+Perform a detailed accessibility review of websites in the scope of your objectives. This can create a baseline for future work, identify where training or additional expertise is needed, and help clarify how big a problem exists. The review may highlight instances of good practice, which identifies staff or suppliers who have critical skills to build on.
+
+Review results are helpful to identify problems to be avoided in future work, even if the objectives involve completely replacing an existing website. Results are also helpful in stakeholder reporting activities. Highlight existing problems and their impact so that later on, the impact of positive change can be put into context.
+
+Accessibility checks can be performed at all stages of the process, not only when the website is completed. For example, color choices can be checked on mocked-up website designs. By starting early and checking throughout the project you reduce the risk of being constrained by early design decisions that become expensive to change later on. Expert assistance may be required if your available resources do not have the skills and experience needed to undertake a thorough review.
+
+{::nomarkdown}
+<%= support %>
+<%= more_information %>
+{:/}
+
+* {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+* {::nomarkdown}<%= link_to "Assess the Situation", (w3url '/WAI/impl/improving#assess') %>{:/} &ndash; Describes how you might approach evaluating your website.
+* {::nomarkdown}<%= link_to "Involving Users in Web Projects for Better, Easier Accessibility", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes the benefits of involving users in projects and how to go about it.
+
+{::nomarkdown}
+<%= more_information :end %>
+<%= support :end %>
+<%= activity :end %>
+<%= activity %>
+{:/}
+
 
 {:.attach_permalink}
 ## Establish monitoring framework
