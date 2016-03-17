@@ -77,7 +77,8 @@ Your budget and resource needs depend on your accessibility goals and the extent
 
 * **Accessibility evaluations** &ndash; Consider how frequently they need to occur and how extensive they need to be.
 * **Evaluation with people** &ndash; Consider what opportunities exist to involve users with disabilities in evaluations.
-* **Reviews of policies and procedures** &ndash; Time required to determine which policies need to be change, time required to make the change, and time required to implement the changes.
+* **Reviews of policies and procedures** &ndash; Time required to determine which policies need to be change, time required to make the changes, and time required to implement the changes.
+* **Recruitment** &ndash; Organizations and teams may benefit from permanent accessibility specialists or coordinators.
 * **Staff training** &ndash; General awareness raising as well as specific training targeted on the needs of particular activities, such as website development or content writing.
 * **Tooling** &ndash; Adaptation or possible replacement of content authoring tools, such as the content management system (CMS), or acquiring accessibility evaluation tools.
 * **Experienced support** &ndash; Additional external support may be necessary while staff skills and knowledge improves.
