@@ -147,7 +147,7 @@ Consider resources, processes, and tools in your organization that may impact ac
 <%= activity_body %>
 {:/}
 
-The environment in which your websites are created and maintained have equally significant impact on their accessibility. Also review these surrounding aspects, including:
+The environment in which your websites are created and maintained has an equally significant impact on their accessibility. Also review these surrounding aspects, including:
 
 * How well authoring tools support you in creating and maintaining accessible content; for example, does the content management system (CMS) support your accessibility commitments?
 * What is the level of accessibility knowledge and expertise of the staff creating and maintaining your websites? How well is training support provided to improve the situation?
