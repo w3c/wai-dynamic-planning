@@ -90,7 +90,7 @@ Once the budget is determined, ensure that you have sufficient approval. Your bu
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Develop business case](../initiate/#develop-business-case)
+* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Develop business case](initiate.html#develop-business-case)
 
 {::nomarkdown}
 <%= related :end %>
@@ -205,8 +205,8 @@ For long-term or ongoing goals you need to plan regular monitoring to ensure tha
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Set objectives](../initiate/#set-objectives)
-* {::nomarkdown}<%= list_icon(data.structure.implement.icon) %>{:/} Implement: [Evaluate early and regularly](../implement/#evaluate-early-and-regularly)
+* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Set objectives](initiate.html#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.implement.icon) %>{:/} Implement: [Evaluate early and regularly](implement.html#evaluate-early-and-regularly)
 
 {::nomarkdown}
 <%= related :end %>

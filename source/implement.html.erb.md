@@ -75,7 +75,7 @@ Depending on your organization there may be several other relevant procedures or
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Create accessibility policy](../plan/#create-accessibility-policy)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Create accessibility policy](plan.html#create-accessibility-policy)
 
 {::nomarkdown}
 <%= related :end %>
@@ -104,8 +104,8 @@ Depending on organization size, you may consider an accessibility task force tha
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Assign responsibilities](../plan/#assign-responsibilities)
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review websites](../plan/#review-websites)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Assign responsibilities](plan.html#assign-responsibilities)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review websites](plan.html#review-websites)
 
 {::nomarkdown}
 <%= related :end %>
@@ -146,7 +146,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](plan.html#establish-monitoring-framework)
 
 {::nomarkdown}
 <%= related :end %>
@@ -228,8 +228,8 @@ Possible communication opportunities include:
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Set objectives](../plan/#set-objectives)
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Set objectives](plan.html#set-objectives)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](plan.html#establish-monitoring-framework)
 
 {::nomarkdown}
 <%= related :end %>

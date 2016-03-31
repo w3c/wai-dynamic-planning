@@ -38,7 +38,7 @@ Take action to correct the issues and also to remedy the reason for the issues o
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](../plan/#establish-monitoring-framework)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Establish monitoring framework](plan.html#establish-monitoring-framework)
 
 {::nomarkdown}
 <%= related :end %>
@@ -73,7 +73,7 @@ Changes in organizational structure may also be considered in the long-term and 
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Gather support](../initiate/#gather-support)
+* {::nomarkdown}<%= list_icon(data.structure.initiate.icon) %>{:/} Initiate: [Gather support](initiate.html#gather-support)
 
 {::nomarkdown}
 <%= related :end %>

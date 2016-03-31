@@ -41,7 +41,7 @@ Web accessibility fulfills the basic promise of the web - making information and
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.implement.icon) %>{:/} Implement: [Build skills and expertise](../implement/#build-skills-and-expertise)
+* {::nomarkdown}<%= list_icon(data.structure.implement.icon) %>{:/} Implement: [Build skills and expertise](implement.html#build-skills-and-expertise)
 
 {::nomarkdown}
 <%= related :end %>
@@ -82,8 +82,8 @@ You may not be in the position to explore all these aspects in a first attempt. 
 <%= related %>
 {:/}
 
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review websites](../plan/#review-websites)
-* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review environment](../plan/#review-environment)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review websites](plan.html#review-websites)
+* {::nomarkdown}<%= list_icon(data.structure.plan.icon) %>{:/} Plan: [Review environment](plan.html#review-environment)
 
 {::nomarkdown}
 <%= related :end %>
