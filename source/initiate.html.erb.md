@@ -1,7 +1,7 @@
 ---
 title: Initiate
 icon: rocket
-status: draft
+first_published: October 2002
 layout: category
 ---
 

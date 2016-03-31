@@ -17,23 +17,19 @@
 				</li>
 				<li class="current-nav nav-head">Managing Accessibility
           <ol>
-            <% if is_current?('/') %>
+            <% if is_current?('/Overview.html') %>
               <li id="current-node" class="current-nav"><span class="label">
 <span id="current-icon">»</span>Planning &amp; Managing</span>
             <% else %>
-              <li class="current-nav"><%= link_to "Planning &amp; Managing", "../" %>
+              <li class="current-nav"><%= link_to "Planning &amp; Managing", "Overview.html" %>
             <% end %>
               <ol>
                 <% data.structure.each do |tag, section| %>
-                  <% if is_current? "/#{tag}/" %>
+                  <% if is_current? "/#{tag}.html" %>
                     <li id="current-node" class="current-nav"><span class="label"><span id="current-icon">»</span><%= section.label %></span></li>
                   <% else %>
                     <li>
-                      <% if is_current?('/') %>
-                        <%= link_to section.label, "#{tag}/" %>
-                      <% else %>
-                        <%= link_to section.label, "../#{tag}/" %>
-                      <% end %>
+                      <%= link_to section.label, "#{tag}.html" %>
                     </li>
                   <% end %>
                 <% end %>
