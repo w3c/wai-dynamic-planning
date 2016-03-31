@@ -11,7 +11,7 @@ layout: main
 
 ### Lead editor
 
-* {::nomarkdown}<%= link_to "Kevin White", (w3url '/People/#kevin') %>{:/}, W3C WAI
+* {::nomarkdown}<%= link_to "Kevin White", (w3url '/People/kevin') %>{:/}, W3C WAI
 
 ### Supporting editors
 
