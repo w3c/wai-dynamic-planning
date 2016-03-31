@@ -12,7 +12,7 @@ layout: main
 ### Project Leadership
 
 * **Lead editor:** {::nomarkdown}<%= link_to "Kevin White", (w3url '/People/kevin') %>{:/}, W3C WAI
-* **SUpporting editor and project coordinator:** {::nomarkdown}<%= link_to "Shadi Abou-Zahra", (w3url '/People/shadi') %>{:/}, W3C WAI
+* **Supporting editor and project coordinator:** {::nomarkdown}<%= link_to "Shadi Abou-Zahra", (w3url '/People/shadi') %>{:/}, W3C WAI
 * **EOWG Co-Chairs:** Sharron Rush, Knowbility, Inc and Brent Bakken, Pearson
 * **EOWG Staff Contact:** {::nomarkdown}<%= link_to "Shawn Lawton Henry", (w3url '/People/shawn') %>{:/}, W3C WAI
 
