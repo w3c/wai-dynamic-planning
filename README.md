@@ -94,10 +94,10 @@ The following steps are required in order to deploy this to the live w3.org envi
 
     * index.html
     * acknowledgements.html
-    * implement/*
-    * initiate/*
-    * plan/*
-    * sustain/*
+    * implement.html
+    * initiate.html
+    * plan.html
+    * sustain.html
     * stylesheets/*
     * javascripts/*
 
