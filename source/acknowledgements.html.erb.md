@@ -39,7 +39,7 @@ All icons are from [Font Awesome](//fontawesome.io) by Dave Gandy.
 
 ### Support
 
-This iteration was developed with support from the {::nomarkdown}<%= link_to "WAI-DEV", (w3url '/WAI/DEV/') %>{:/} project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
+This version was developed with support from the {::nomarkdown}<%= link_to "WAI-DEV", (w3url '/WAI/DEV/') %>{:/} project, co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme.
 
 ## Previous Versions
 
