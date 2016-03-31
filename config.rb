@@ -50,8 +50,12 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def is_dev()
+    development? || ENV['BUILD_FOR_GITHUB']
+  end
+
   def w3url(uri)
-    if development? || ENV['BUILD_FOR_GITHUB']
+    if is_dev()
       'https://www.w3.org' + uri.to_s
     else
       uri
