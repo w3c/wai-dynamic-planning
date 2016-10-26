@@ -164,6 +164,7 @@ Accessibility checks can be performed at all stages of the process, not only whe
 {:/}
 
 * {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+* {::nomarkdown}<%= link_to "WCAG-EM Report Tool", (w3url '/WAI/eval/report-tool/') %>{:/} &ndash; Free online tool to help create evaluation reports following the WCAG-EM procedure.
 * {::nomarkdown}<%= link_to "Assess the Situation", (w3url '/WAI/impl/improving#assess') %>{:/} &ndash; Describes how you might approach evaluating your website.
 * {::nomarkdown}<%= link_to "Involving Users in Web Projects for Better, Easier Accessibility", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes the benefits of involving users in projects and how to go about it.
 
