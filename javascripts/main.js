@@ -1,0 +1,1 @@
+!function(){"use strict";var e=document.createElement("style");e.type="text/css",e.innerHTML="#main .inner .f_panelHead h2 {margin-left: 1.5em;} #main .inner .f_panelHead > p {margin-left: 2em;}",document.getElementsByTagName("head")[0].appendChild(e)}();
