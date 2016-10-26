@@ -155,6 +155,7 @@ Use a standard report structure to capture evaluation findings. This allows for 
 
 * {::nomarkdown}<%= link_to "Easy Checks - A First Review of Web Accessibility", (w3url '/WAI/eval/preliminary.html') %>{:/} &ndash; Provides simple steps to help assess if a web page addresses accessibility.
 * {::nomarkdown}<%= link_to "WCAG-EM Overview", (w3url '/WAI/eval/conformance') %>{:/} &ndash; Introduces a methodology for determining how well a website conforms to WCAG 2.0.
+* {::nomarkdown}<%= link_to "WCAG-EM Report Tool", (w3url '/WAI/eval/report-tool') %>{:/} &ndash; Free online tool to help create evaluation reports following the WCAG-EM procedure.
 * {::nomarkdown}<%= link_to "Involving Users with Disabilities", (w3url '/WAI/users/involving') %>{:/} &ndash; Describes how to involve users to help better understand accessibility issues.
   
 {::nomarkdown}
@@ -182,20 +183,6 @@ While all accessibility objectives will need to be met, prioritizing can help yo
 * De-prioritize issues that are related to tools or systems, such as a content management system (CMS), that are expected to be changed soon anyway.
 
 Involve different perspectives, including internal and external stakeholders, in the prioritization process. Review the situation regularly to benefit from arising opportunities.
-
-{::nomarkdown}
-<%= support %>
-<%= more_information %>
-{:/}
-
-* {::nomarkdown}<%= link_to "Prioritize Solutions section of Improving the Accessibility of Your Website", (w3url '/WAI/impl/improving#prioritize') %>{:/} &ndash; Describes further prioritization criteria.
-
-{::nomarkdown}
-<%= more_information :end %>
-<%= support :end %>
-<%= activity :end %>
-<%= activity %>
-{:/}
 
 {:.attach_permalink}
 ## Track and communicate progress
