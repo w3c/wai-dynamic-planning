@@ -49,7 +49,8 @@ Web accessibility fulfills the basic promise of the web - making information and
 {:/}
 
 * [Accessibility - W3C](/standards/webdesign/accessibility) &ndash; A short introduction to Web accessibility.
-* [Introduction to Web Accessibility](/WAI/intro/accessibility.php) &ndash; WAI introduces Web accessibility and links to additional resources.
+* [Introduction to Web Accessibility](/WAI/intro/accessibility.php) &ndash; Introduces Web accessibility and links to additional resources.
+* [Web Accessibility Perspectives](/WAI/perspectives) &ndash; Short non-technical videos that introduce accessibility features and their benefits for everyone.
 * [How People with Disabilities Use the Web](/WAI/intro/people-use-web) &ndash; Explores the impact of accessible design with real-life examples.
 
 {::nomarkdown}
