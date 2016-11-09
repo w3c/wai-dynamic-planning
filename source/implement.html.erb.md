@@ -184,6 +184,11 @@ While all accessibility objectives will need to be met, prioritizing can help yo
 
 Involve different perspectives, including internal and external stakeholders, in the prioritization process. Review the situation regularly to benefit from arising opportunities.
 
+{::nomarkdown}
+<%= activity :end %>
+<%= activity %>
+{:/}
+
 {:.attach_permalink}
 ## Track and communicate progress
 
