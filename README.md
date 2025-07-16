@@ -1,5 +1,10 @@
 # WAI Dynamic Planning
 
+> [!IMPORTANT]
+> This repository has been archived 17 July 2025.
+>
+> [Planning and Managing Web Accessibility](https://www.w3.org/WAI/planning-and-managing/) is now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
+
 This is the repository for the WAI dynamic planning resource. Developed by the
 [Education and Outreach Working Group (EOWG)](//w3.org/WAI/EO/) with support from the [WAI-DEV project](//w3.org/WAI/DEV/), co-funded by the European Commission <abbr title="Information Society Technologies">IST</abbr> Programme. 
 
